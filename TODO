@@ -1,0 +1,26 @@
+Stuff TODO on flexy
+
+
+- Subblock division...
+
+<div flexy:block="the question area">
+
+and do 
+$flexy->compile("the template.html", "the question area");
+
+which would compile sections of the html to 
+
+template.html.the question area.en.php
+
+- tag alternatives to {} methods for xml maniacs..
+
+{xxxxx(a,#b#,c)}
+<flexy:method="xxxxx"   flexy:arg0="a" flexy:arg1="#b#" />
+
+{include(#xxxxx#)}
+<flexy:method="include" flexy:arg0="#xxxxx#" />
+
+{xxxxx(a,#b#,c):h}
+<flexy:var="xxxxx" flexy:modifier="h" />
+
+

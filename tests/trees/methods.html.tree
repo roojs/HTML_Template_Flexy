@@ -1,0 +1,4233 @@
+html_template_flexy_token Object
+(
+    [token] => 
+    [value] => 
+    [line] => 
+    [charPos] => 
+    [close] => html_template_flexy_token Object
+        (
+            [token] => 
+            [value] => 
+            [line] => 
+            [charPos] => 
+            [close] => 
+            [children] => Array
+                (
+                )
+
+            [ignoreChildren] => 
+            [id] => 182
+        )
+
+    [children] => Array
+        (
+            [0] => 
+            [1] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 0
+                    [charPos] => 0
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 2
+                )
+
+            [2] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 1
+                    [charPos] => 4
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 1
+                            [charPos] => 16
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /H2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 5
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Methods
+                                    [line] => 1
+                                    [charPos] => 5
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 4
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => h2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 3
+                )
+
+            [3] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 1
+                    [charPos] => 17
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 6
+                )
+
+            [4] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 2
+                    [charPos] => 20
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 2
+                            [charPos] => 57
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /P
+                            [oTag] => /p
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 10
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Calling a method 
+                                    [line] => 2
+                                    [charPos] => 21
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 8
+                                )
+
+                            [1] => html_template_flexy_token_method Object
+                                (
+                                    [token] => Method
+                                    [value] => 
+                                    [line] => 2
+                                    [charPos] => 52
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [modifier] => 
+                                    [method] => a.helloWorld
+                                    [isConditional] => 
+                                    [isNegative] => 
+                                    [args] => Array
+                                        (
+                                        )
+
+                                    [id] => 9
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => P
+                    [oTag] => p
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 7
+                )
+
+            [5] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 2
+                    [charPos] => 58
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 11
+                )
+
+            [6] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 3
+                    [charPos] => 61
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 3
+                            [charPos] => 85
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /P
+                            [oTag] => /P
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 15
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => or 
+                                    [line] => 3
+                                    [charPos] => 62
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 13
+                                )
+
+                            [1] => html_template_flexy_token_method Object
+                                (
+                                    [token] => Method
+                                    [value] => 
+                                    [line] => 3
+                                    [charPos] => 78
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [modifier] => h
+                                    [method] => includeBody
+                                    [isConditional] => 
+                                    [isNegative] => 
+                                    [args] => Array
+                                        (
+                                        )
+
+                                    [id] => 14
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => P
+                    [oTag] => p
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 12
+                )
+
+            [7] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 3
+                    [charPos] => 86
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 16
+                )
+
+            [8] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 4
+                    [charPos] => 131
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => IMG
+                    [oTag] => img
+                    [attributes] => Array
+                        (
+                            [src] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 4
+                                            [charPos] => 112
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [SRC] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 4
+                                            [charPos] => 112
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 17
+                )
+
+            [9] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 4
+                    [charPos] => 132
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 18
+                )
+
+            [10] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 5
+                    [charPos] => 179
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => IMG
+                    [oTag] => img
+                    [attributes] => Array
+                        (
+                            [src] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 5
+                                            [charPos] => 158
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => h
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [SRC] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 5
+                                            [charPos] => 158
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => h
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 19
+                )
+
+            [11] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 5
+                    [charPos] => 180
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 20
+                )
+
+            [12] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 6
+                    [charPos] => 227
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => IMG
+                    [oTag] => img
+                    [attributes] => Array
+                        (
+                            [src] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 6
+                                            [charPos] => 206
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => u
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [SRC] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 6
+                                            [charPos] => 206
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => u
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 21
+                )
+
+            [13] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 6
+                    [charPos] => 228
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 22
+                )
+
+            [14] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 8
+                    [charPos] => 272
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => IMG
+                    [oTag] => img
+                    [attributes] => Array
+                        (
+                            [src] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 8
+                                            [charPos] => 255
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [SRC] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 8
+                                            [charPos] => 255
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 23
+                )
+
+            [15] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 8
+                    [charPos] => 273
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 24
+                )
+
+            [16] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 9
+                    [charPos] => 316
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => IMG
+                    [oTag] => img
+                    [attributes] => Array
+                        (
+                            [src] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 9
+                                            [charPos] => 297
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [SRC] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 9
+                                            [charPos] => 297
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => getImageDir
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => /someimage.jpg
+                                    [3] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 25
+                )
+
+            [17] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+
+                    [line] => 9
+                    [charPos] => 317
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 26
+                )
+
+            [18] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 13
+                    [charPos] => 372
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 13
+                            [charPos] => 379
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SPAN
+                            [oTag] => /span
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 28
+                        )
+
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SPAN
+                    [oTag] => span
+                    [attributes] => Array
+                        (
+                            [class] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 13
+                                            [charPos] => 369
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => t.getBgnd
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                    [0] => valueArr[isConfigurable]
+                                                )
+
+                                        )
+
+                                    [2] => "
+                                )
+
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [CLASS] => Array
+                                (
+                                    [0] => "
+                                    [1] => html_template_flexy_token_method Object
+                                        (
+                                            [token] => Method
+                                            [value] => 
+                                            [line] => 13
+                                            [charPos] => 369
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [modifier] => 
+                                            [method] => t.getBgnd
+                                            [isConditional] => 
+                                            [isNegative] => 
+                                            [args] => Array
+                                                (
+                                                    [0] => valueArr[isConfigurable]
+                                                )
+
+                                        )
+
+                                    [2] => "
+                                )
+
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 27
+                )
+
+            [19] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+
+                    [line] => 13
+                    [charPos] => 380
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 29
+                )
+
+            [20] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 17
+                    [charPos] => 387
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 17
+                            [charPos] => 411
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /h2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 32
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Full Method testing
+                                    [line] => 17
+                                    [charPos] => 388
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 31
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => h2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 30
+                )
+
+            [21] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 17
+                    [charPos] => 412
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 33
+                )
+
+            [22] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 19
+                    [charPos] => 427
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 34
+                )
+
+            [23] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 19
+                    [charPos] => 432
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 35
+                )
+
+            [24] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 20
+                    [charPos] => 453
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => #def#
+                            [2] => #hij#
+                        )
+
+                    [id] => 36
+                )
+
+            [25] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 20
+                    [charPos] => 455
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 37
+                )
+
+            [26] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 22
+                    [charPos] => 475
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => #hij#
+                        )
+
+                    [id] => 38
+                )
+
+            [27] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 22
+                    [charPos] => 477
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 39
+                )
+
+            [28] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 23
+                    [charPos] => 493
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #abc#
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 40
+                )
+
+            [29] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 23
+                    [charPos] => 498
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 41
+                )
+
+            [30] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 25
+                    [charPos] => 513
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => h
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 42
+                )
+
+            [31] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 25
+                    [charPos] => 520
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 43
+                )
+
+            [32] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 26
+                    [charPos] => 541
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => h
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => #def#
+                            [2] => #hij#
+                        )
+
+                    [id] => 44
+                )
+
+            [33] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 26
+                    [charPos] => 545
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 45
+                )
+
+            [34] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 27
+                    [charPos] => 564
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => h
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => #hij#
+                        )
+
+                    [id] => 46
+                )
+
+            [35] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 27
+                    [charPos] => 568
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 47
+                )
+
+            [36] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 28
+                    [charPos] => 584
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => h
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #abc#
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 48
+                )
+
+            [37] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+                    [line] => 28
+                    [charPos] => 591
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 49
+                )
+
+            [38] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 31
+                    [charPos] => 607
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 50
+                )
+
+            [39] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 31
+                    [charPos] => 614
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 51
+                )
+
+            [40] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 32
+                    [charPos] => 635
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => #def#
+                            [2] => #hij#
+                        )
+
+                    [id] => 52
+                )
+
+            [41] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 32
+                    [charPos] => 639
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 53
+                )
+
+            [42] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 33
+                    [charPos] => 658
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => #hij#
+                        )
+
+                    [id] => 54
+                )
+
+            [43] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 33
+                    [charPos] => 662
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 55
+                )
+
+            [44] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 34
+                    [charPos] => 678
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #abc#
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 56
+                )
+
+            [45] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 34
+                    [charPos] => 685
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 57
+                )
+
+            [46] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 36
+                    [charPos] => 700
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #123#
+                            [1] => def
+                            [2] => hij
+                        )
+
+                    [id] => 58
+                )
+
+            [47] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 36
+                    [charPos] => 705
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 59
+                )
+
+            [48] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 37
+                    [charPos] => 721
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => #123#
+                            [2] => #123#
+                        )
+
+                    [id] => 60
+                )
+
+            [49] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 37
+                    [charPos] => 728
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 61
+                )
+
+            [50] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 38
+                    [charPos] => 742
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => abc
+                            [1] => def
+                            [2] => #123#
+                        )
+
+                    [id] => 62
+                )
+
+            [51] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 38
+                    [charPos] => 747
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 63
+                )
+
+            [52] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 39
+                    [charPos] => 763
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => u
+                    [method] => abc
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #abc#
+                            [1] => #123#
+                            [2] => hij
+                        )
+
+                    [id] => 64
+                )
+
+            [53] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+                    [line] => 39
+                    [charPos] => 770
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 65
+                )
+
+            [54] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 42
+                    [charPos] => 776
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 42
+                            [charPos] => 806
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /h2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 68
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Real life method testing 
+                                    [line] => 42
+                                    [charPos] => 777
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 67
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => h2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 66
+                )
+
+            [55] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+Invoice number: 
+                    [line] => 42
+                    [charPos] => 807
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 69
+                )
+
+            [56] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 43
+                    [charPos] => 853
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.invoice
+                            [1] => #number#
+                        )
+
+                    [id] => 70
+                )
+
+            [57] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Place: 
+
+                    [line] => 43
+                    [charPos] => 855
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 71
+                )
+
+            [58] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 44
+                    [charPos] => 892
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.invoice
+                            [1] => #place#
+                        )
+
+                    [id] => 72
+                )
+
+            [59] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Date: 
+                    [line] => 44
+                    [charPos] => 894
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 73
+                )
+
+            [60] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 44
+                    [charPos] => 928
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.invoice
+                            [1] => #date#
+                        )
+
+                    [id] => 74
+                )
+
+            [61] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Payment: 
+
+                    [line] => 44
+                    [charPos] => 930
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 75
+                )
+
+            [62] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 45
+                    [charPos] => 971
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.invoice
+                            [1] => #payment#
+                        )
+
+                    [id] => 76
+                )
+
+            [63] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Payment date: 
+
+                    [line] => 45
+                    [charPos] => 973
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 77
+                )
+
+            [64] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 46
+                    [charPos] => 1024
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.invoice
+                            [1] => #payment_date#
+                        )
+
+                    [id] => 78
+                )
+
+            [65] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Seller: Name 1: 
+
+                    [line] => 46
+                    [charPos] => 1026
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 79
+                )
+
+            [66] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 47
+                    [charPos] => 1071
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #name1#
+                        )
+
+                    [id] => 80
+                )
+
+            [67] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Name 2: 
+                    [line] => 47
+                    [charPos] => 1073
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 81
+                )
+
+            [68] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 47
+                    [charPos] => 1109
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #name2#
+                        )
+
+                    [id] => 82
+                )
+
+            [69] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  NIP: 
+
+                    [line] => 47
+                    [charPos] => 1111
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 83
+                )
+
+            [70] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 48
+                    [charPos] => 1143
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #nip#
+                        )
+
+                    [id] => 84
+                )
+
+            [71] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Street: 
+                    [line] => 48
+                    [charPos] => 1145
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 85
+                )
+
+            [72] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 48
+                    [charPos] => 1182
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #street#
+                        )
+
+                    [id] => 86
+                )
+
+            [73] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  City: 
+
+                    [line] => 48
+                    [charPos] => 1184
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 87
+                )
+
+            [74] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 49
+                    [charPos] => 1218
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #code#
+                        )
+
+                    [id] => 88
+                )
+
+            [75] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 49
+                    [charPos] => 1220
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 89
+                )
+
+            [76] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 49
+                    [charPos] => 1247
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.seller
+                            [1] => #city#
+                        )
+
+                    [id] => 90
+                )
+
+            [77] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Buyer: Name 1: 
+
+                    [line] => 49
+                    [charPos] => 1249
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 91
+                )
+
+            [78] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 50
+                    [charPos] => 1292
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #name1#
+                        )
+
+                    [id] => 92
+                )
+
+            [79] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Name 2: 
+                    [line] => 50
+                    [charPos] => 1294
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 93
+                )
+
+            [80] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 50
+                    [charPos] => 1329
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #name2#
+                        )
+
+                    [id] => 94
+                )
+
+            [81] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  NIP: 
+
+                    [line] => 50
+                    [charPos] => 1331
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 95
+                )
+
+            [82] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 51
+                    [charPos] => 1362
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #nip#
+                        )
+
+                    [id] => 96
+                )
+
+            [83] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  Street: 
+                    [line] => 51
+                    [charPos] => 1364
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 97
+                )
+
+            [84] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 51
+                    [charPos] => 1400
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #street#
+                        )
+
+                    [id] => 98
+                )
+
+            [85] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  City: 
+
+                    [line] => 51
+                    [charPos] => 1402
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 99
+                )
+
+            [86] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 52
+                    [charPos] => 1435
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #code#
+                        )
+
+                    [id] => 100
+                )
+
+            [87] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 52
+                    [charPos] => 1437
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 101
+                )
+
+            [88] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 52
+                    [charPos] => 1463
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => t.buyer
+                            [1] => #city#
+                        )
+
+                    [id] => 102
+                )
+
+            [89] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+# 	Name 
+                    [line] => 52
+                    [charPos] => 1465
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 103
+                )
+
+            [90] => html_template_flexy_token_if Object
+                (
+                    [token] => If
+                    [value] => 
+                    [line] => 53
+                    [charPos] => 1474
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [condition] => t.show_pkwiu
+                    [isNegative] => 
+                    [id] => 104
+                )
+
+            [91] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	PKWIU
+                    [line] => 53
+                    [charPos] => 1491
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 105
+                )
+
+            [92] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 53
+                    [charPos] => 1497
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 106
+                )
+
+            [93] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	Count 	Netto 	VAT 	Brutto
+
+                    [line] => 53
+                    [charPos] => 1503
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 107
+                )
+
+            [94] => html_template_flexy_token_foreach Object
+                (
+                    [token] => Foreach
+                    [value] => 
+                    [line] => 54
+                    [charPos] => 1531
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [loopOn] => t.positions
+                    [key] => position
+                    [id] => 108
+                )
+
+            [95] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 54
+                    [charPos] => 1561
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 109
+                )
+
+            [96] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 54
+                    [charPos] => 1586
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #nr#
+                        )
+
+                    [id] => 110
+                )
+
+            [97] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 54
+                    [charPos] => 1588
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 111
+                )
+
+            [98] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 55
+                    [charPos] => 1616
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #name#
+                        )
+
+                    [id] => 112
+                )
+
+            [99] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 55
+                    [charPos] => 1618
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 113
+                )
+
+            [100] => html_template_flexy_token_if Object
+                (
+                    [token] => If
+                    [value] => 
+                    [line] => 55
+                    [charPos] => 1619
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [condition] => t.show_pkwiu
+                    [isNegative] => 
+                    [id] => 114
+                )
+
+            [101] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 55
+                    [charPos] => 1636
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 115
+                )
+
+            [102] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 56
+                    [charPos] => 1665
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #pkwiu#
+                        )
+
+                    [id] => 116
+                )
+
+            [103] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 56
+                    [charPos] => 1667
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 117
+                )
+
+            [104] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 56
+                    [charPos] => 1673
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 118
+                )
+
+            [105] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 56
+                    [charPos] => 1702
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #count#
+                        )
+
+                    [id] => 119
+                )
+
+            [106] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 56
+                    [charPos] => 1704
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 120
+                )
+
+            [107] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 57
+                    [charPos] => 1733
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #netto#
+                        )
+
+                    [id] => 121
+                )
+
+            [108] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 57
+                    [charPos] => 1735
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 122
+                )
+
+            [109] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 57
+                    [charPos] => 1762
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #vat#
+                        )
+
+                    [id] => 123
+                )
+
+            [110] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 57
+                    [charPos] => 1764
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 124
+                )
+
+            [111] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 58
+                    [charPos] => 1794
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #brutto#
+                        )
+
+                    [id] => 125
+                )
+
+            [112] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 58
+                    [charPos] => 1796
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 126
+                )
+
+            [113] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 59
+                    [charPos] => 1797
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 127
+                )
+
+            [114] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 59
+                    [charPos] => 1803
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 128
+                )
+
+            [115] => html_template_flexy_token_if Object
+                (
+                    [token] => If
+                    [value] => 
+                    [line] => 59
+                    [charPos] => 1804
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [condition] => t.edit_positions
+                    [isNegative] => 
+                    [id] => 129
+                )
+
+            [116] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  # 	Name 
+                    [line] => 59
+                    [charPos] => 1825
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 130
+                )
+
+            [117] => html_template_flexy_token_if Object
+                (
+                    [token] => If
+                    [value] => 
+                    [line] => 59
+                    [charPos] => 1834
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [condition] => t.show_pkwiu
+                    [isNegative] => 
+                    [id] => 131
+                )
+
+            [118] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	PKWIU
+                    [line] => 59
+                    [charPos] => 1851
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 132
+                )
+
+            [119] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 59
+                    [charPos] => 1857
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 133
+                )
+
+            [120] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	Count 
+
+                    [line] => 59
+                    [charPos] => 1863
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 134
+                )
+
+            [121] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 60
+                    [charPos] => 1907
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #netto_mode#
+                        )
+
+                    [id] => 135
+                )
+
+            [122] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	Netto
+                    [line] => 60
+                    [charPos] => 1909
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 136
+                )
+
+            [123] => html_template_flexy_token_else Object
+                (
+                    [token] => Else
+                    [value] => 
+                    [line] => 60
+                    [charPos] => 1915
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 137
+                )
+
+            [124] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	
+                    [line] => 60
+                    [charPos] => 1922
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 138
+                )
+
+            [125] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 60
+                    [charPos] => 1923
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 139
+                )
+
+            [126] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	VAT 
+
+                    [line] => 60
+                    [charPos] => 1929
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 140
+                )
+
+            [127] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 61
+                    [charPos] => 1971
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #netto_mode#
+                        )
+
+                    [id] => 141
+                )
+
+            [128] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	
+                    [line] => 61
+                    [charPos] => 1973
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 142
+                )
+
+            [129] => html_template_flexy_token_else Object
+                (
+                    [token] => Else
+                    [value] => 
+                    [line] => 61
+                    [charPos] => 1974
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 143
+                )
+
+            [130] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	Brutto
+                    [line] => 61
+                    [charPos] => 1981
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 144
+                )
+
+            [131] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 61
+                    [charPos] => 1988
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 145
+                )
+
+            [132] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 61
+                    [charPos] => 1994
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 146
+                )
+
+            [133] => html_template_flexy_token_foreach Object
+                (
+                    [token] => Foreach
+                    [value] => position
+                    [line] => 62
+                    [charPos] => 1995
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [loopOn] => t.edit_positions
+                    [key] => k
+                    [id] => 147
+                )
+
+            [134] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 62
+                    [charPos] => 2032
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 148
+                )
+
+            [135] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 62
+                    [charPos] => 2057
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #nr#
+                        )
+
+                    [id] => 149
+                )
+
+            [136] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 62
+                    [charPos] => 2059
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 150
+                )
+
+            [137] => html_template_flexy_token_if Object
+                (
+                    [token] => If
+                    [value] => 
+                    [line] => 63
+                    [charPos] => 2061
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [condition] => t.show_pkwiu
+                    [isNegative] => 
+                    [id] => 151
+                )
+
+            [138] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 63
+                    [charPos] => 2078
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 152
+                )
+
+            [139] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 63
+                    [charPos] => 2080
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 153
+                )
+
+            [140] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 63
+                    [charPos] => 2086
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 154
+                )
+
+            [141] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 63
+                    [charPos] => 2123
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #netto_mode#
+                        )
+
+                    [id] => 155
+                )
+
+            [142] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 63
+                    [charPos] => 2125
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 156
+                )
+
+            [143] => html_template_flexy_token_else Object
+                (
+                    [token] => Else
+                    [value] => 
+                    [line] => 63
+                    [charPos] => 2127
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 157
+                )
+
+            [144] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 63
+                    [charPos] => 2134
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 158
+                )
+
+            [145] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 64
+                    [charPos] => 2136
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 159
+                )
+
+            [146] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 64
+                    [charPos] => 2142
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 160
+                )
+
+            [147] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 64
+                    [charPos] => 2179
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => position
+                            [1] => #netto_mode#
+                        )
+
+                    [id] => 161
+                )
+
+            [148] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 64
+                    [charPos] => 2181
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 162
+                )
+
+            [149] => html_template_flexy_token_else Object
+                (
+                    [token] => Else
+                    [value] => 
+                    [line] => 64
+                    [charPos] => 2183
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 163
+                )
+
+            [150] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 	
+                    [line] => 64
+                    [charPos] => 2190
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 164
+                )
+
+            [151] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 64
+                    [charPos] => 2191
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 165
+                )
+
+            [152] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 64
+                    [charPos] => 2197
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 166
+                )
+
+            [153] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 65
+                    [charPos] => 2198
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 167
+                )
+
+            [154] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 65
+                    [charPos] => 2204
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 168
+                )
+
+            [155] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 65
+                    [charPos] => 2205
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 169
+                )
+
+            [156] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  # 	
+
+                    [line] => 65
+                    [charPos] => 2211
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 170
+                )
+
+            [157] => html_template_flexy_token_foreach Object
+                (
+                    [token] => Foreach
+                    [value] => 
+                    [line] => 66
+                    [charPos] => 2216
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [loopOn] => t.sum
+                    [key] => sum
+                    [id] => 171
+                )
+
+            [158] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 66
+                    [charPos] => 2235
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 172
+                )
+
+            [159] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 66
+                    [charPos] => 2255
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => sum
+                            [1] => #nr#
+                        )
+
+                    [id] => 173
+                )
+
+            [160] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  		
+                    [line] => 66
+                    [charPos] => 2257
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 174
+                )
+
+            [161] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 66
+                    [charPos] => 2282
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => sum
+                            [1] => #netto#
+                        )
+
+                    [id] => 175
+                )
+
+            [162] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 66
+                    [charPos] => 2284
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 176
+                )
+
+            [163] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 67
+                    [charPos] => 2306
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => sum
+                            [1] => #vat#
+                        )
+
+                    [id] => 177
+                )
+
+            [164] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  	
+                    [line] => 67
+                    [charPos] => 2308
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 178
+                )
+
+            [165] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 67
+                    [charPos] => 2333
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => t.getelem
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => sum
+                            [1] => #brutto#
+                        )
+
+                    [id] => 179
+                )
+
+            [166] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 67
+                    [charPos] => 2335
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 180
+                )
+
+            [167] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 68
+                    [charPos] => 2336
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 181
+                )
+
+        )
+
+    [ignoreChildren] => 
+    [id] => 0
+)

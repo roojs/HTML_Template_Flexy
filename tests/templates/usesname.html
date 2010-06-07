@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>test for PEAR bug#4683</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <form name="formtest">
+{foreach:data,key,row}
+      {key}: <input name="data%s" flexy:nameuses="key" type="hidden" size="10"><br>
+{end:}
+    </form>
+  </body>
+</html>

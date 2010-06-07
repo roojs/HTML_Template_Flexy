@@ -1,0 +1,1171 @@
+html_template_flexy_token Object
+(
+    [token] => 
+    [value] => 
+    [line] => 
+    [charPos] => 
+    [close] => html_template_flexy_token Object
+        (
+            [token] => 
+            [value] => 
+            [line] => 
+            [charPos] => 
+            [close] => 
+            [children] => Array
+                (
+                )
+
+            [ignoreChildren] => 
+            [id] => 48
+        )
+
+    [children] => Array
+        (
+            [0] => 
+            [1] => html_template_flexy_token Object
+                (
+                    [token] => Doctype
+                    [value] => <!DOCTYPE 
+                    [line] => 0
+                    [charPos] => 0
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 2
+                )
+
+            [2] => html_template_flexy_token Object
+                (
+                    [token] => Name
+                    [value] => HTML 
+                    [line] => 0
+                    [charPos] => 10
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 3
+                )
+
+            [3] => html_template_flexy_token Object
+                (
+                    [token] => Name
+                    [value] => PUBLIC 
+                    [line] => 0
+                    [charPos] => 15
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 4
+                )
+
+            [4] => html_template_flexy_token Object
+                (
+                    [token] => Literal
+                    [value] => "-//W3C//DTD HTML 4.01 Transitional//EN"
+                    [line] => 0
+                    [charPos] => 22
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 5
+                )
+
+            [5] => html_template_flexy_token Object
+                (
+                    [token] => CloseTag
+                    [value] => >
+                    [line] => 0
+                    [charPos] => 62
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 6
+                )
+
+            [6] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 0
+                    [charPos] => 63
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 7
+                )
+
+            [7] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 1
+                    [charPos] => 69
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => HTML
+                    [oTag] => html
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 8
+                )
+
+            [8] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 1
+                    [charPos] => 70
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 9
+                )
+
+            [9] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 2
+                    [charPos] => 76
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 9
+                            [charPos] => 236
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /HEAD
+                            [oTag] => /head
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 21
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+
+                                    [line] => 2
+                                    [charPos] => 77
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 11
+                                )
+
+                            [1] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 3
+                                    [charPos] => 84
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 3
+                                            [charPos] => 109
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /TITLE
+                                            [oTag] => /title
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 14
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => Untitled Document
+                                                    [line] => 3
+                                                    [charPos] => 85
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 13
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => TITLE
+                                    [oTag] => title
+                                    [attributes] => Array
+                                        (
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 12
+                                )
+
+                            [2] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+
+                                    [line] => 3
+                                    [charPos] => 110
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 15
+                                )
+
+                            [3] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 4
+                                    [charPos] => 182
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => META
+                                    [oTag] => meta
+                                    [attributes] => Array
+                                        (
+                                            [http-equiv] => "Content-Type"
+                                            [content] => "text/html; charset=iso-8859-1"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [HTTP-EQUIV] => "Content-Type"
+                                            [CONTENT] => "text/html; charset=iso-8859-1"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 16
+                                )
+
+                            [4] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+
+                                    [line] => 4
+                                    [charPos] => 183
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 17
+                                )
+
+                            [5] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 5
+                                    [charPos] => 216
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 5
+                                            [charPos] => 217
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /SCRIPT
+                                            [oTag] => /script
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 19
+                                        )
+
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => SCRIPT
+                                    [oTag] => script
+                                    [attributes] => Array
+                                        (
+                                            [src] => Array
+                                                (
+                                                    [0] => '
+                                                    [1] => somefile/
+                                                    [2] => html_template_flexy_token_var Object
+                                                        (
+                                                            [token] => Var
+                                                            [value] => js_file
+                                                            [line] => 5
+                                                            [charPos] => 206
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [modifier] => 
+                                                        )
+
+                                                    [3] => '
+                                                )
+
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [SRC] => Array
+                                                (
+                                                    [0] => '
+                                                    [1] => somefile/
+                                                    [2] => html_template_flexy_token_var Object
+                                                        (
+                                                            [token] => Var
+                                                            [value] => js_file
+                                                            [line] => 5
+                                                            [charPos] => 206
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [modifier] => 
+                                                        )
+
+                                                    [3] => '
+                                                )
+
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 18
+                                )
+
+                            [6] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+
+
+
+
+                                    [line] => 5
+                                    [charPos] => 226
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 20
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => HEAD
+                    [oTag] => head
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 10
+                )
+
+            [10] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 9
+                    [charPos] => 237
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 22
+                )
+
+            [11] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 11
+                    [charPos] => 268
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 40
+                            [charPos] => 1164
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SCRIPT
+                            [oTag] => /script
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 27
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+
+// some sample javascript that might cause problemss
+
+function CheckDuplicates (AddListContainer, RemoveListContainer) { 
+    var AddList = eval('document.main_form.'+AddListContainer); 
+    var RemoveList = eval('document.main_form.'+RemoveListContainer); 
+    var TempAddList = AddList.value; 
+    var TempRemoveList = RemoveList.value; 
+    if (TempAddList>''&&TempRemoveList>'') { 
+        TempAddList = TempAddList.substring(0,TempAddList.length-1); 
+    }
+}
+
+//<!-- 
+
+function CheckDuplicates2 (AddListContainer, RemoveListContainer) { 
+    var AddList = eval('document.main_form.'+AddListContainer); 
+    var RemoveList = eval('document.main_form.'+RemoveListContainer); 
+    var TempAddList = AddList.value; 
+    var TempRemoveList = RemoveList.value; 
+    if (TempAddList>''&&TempRemoveList>'') { 
+        TempAddList = TempAddList.substring(0,TempAddList.length-1); 
+    }
+}
+
+
+-->
+ 
+
+                                    [line] => 11
+                                    [charPos] => 269
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 24
+                                )
+
+                            [1] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+                                    [line] => 25
+                                    [charPos] => 738
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 25
+                                )
+
+                            [2] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+                                    [line] => 25
+                                    [charPos] => 739
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 26
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SCRIPT
+                    [oTag] => script
+                    [attributes] => Array
+                        (
+                            [language] => "javascript"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [LANGUAGE] => "javascript"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 23
+                )
+
+            [12] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 40
+                    [charPos] => 1173
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 28
+                )
+
+            [13] => html_template_flexy_token Object
+                (
+                    [token] => Comment
+                    [value] => <!--
+
+// and now just commented out stuff.. that may cause problems
+
+function CheckDuplicates (AddListContainer, RemoveListContainer) { 
+    var AddList = eval('document.main_form.'+AddListContainer); 
+    var RemoveList = eval('document.main_form.'+RemoveListContainer); 
+    var TempAddList = AddList.value; 
+    var TempRemoveList = RemoveList.value; 
+    if (TempAddList>''&&TempRemoveList>'') { 
+        TempAddList = TempAddList.substring(0,TempAddList.length-1); 
+    }
+}
+ 
+-->
+                    [line] => 56
+                    [charPos] => 1179
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 29
+                )
+
+            [14] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+
+                    [line] => 56
+                    [charPos] => 1659
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 30
+                )
+
+            [15] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 57
+                    [charPos] => 1719
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 57
+                            [charPos] => 1720
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SCRIPT
+                            [oTag] => /script
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 32
+                        )
+
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SCRIPT
+                    [oTag] => script
+                    [attributes] => Array
+                        (
+                            [type] => "application/x-javascript"
+                            [src] => "js/common.js"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [TYPE] => "application/x-javascript"
+                            [SRC] => "js/common.js"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 31
+                )
+
+            [16] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 57
+                    [charPos] => 1729
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 33
+                )
+
+            [17] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 58
+                    [charPos] => 1791
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 58
+                            [charPos] => 1792
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SCRIPT
+                            [oTag] => /script
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 35
+                        )
+
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SCRIPT
+                    [oTag] => script
+                    [attributes] => Array
+                        (
+                            [type] => "application/x-javascript"
+                            [src] => "../searchjs.php"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [TYPE] => "application/x-javascript"
+                            [SRC] => "../searchjs.php"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 34
+                )
+
+            [18] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 58
+                    [charPos] => 1801
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 36
+                )
+
+            [19] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 59
+                    [charPos] => 1861
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 59
+                            [charPos] => 1862
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SCRIPT
+                            [oTag] => /script
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 38
+                        )
+
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SCRIPT
+                    [oTag] => script
+                    [attributes] => Array
+                        (
+                            [type] => "application/x-javascript"
+                            [src] => "js/catctrl.js"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [TYPE] => "application/x-javascript"
+                            [SRC] => "js/catctrl.js"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 37
+                )
+
+            [20] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 59
+                    [charPos] => 1871
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 39
+                )
+
+            [21] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 60
+                    [charPos] => 1911
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 72
+                            [charPos] => 2654
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SCRIPT
+                            [oTag] => /script
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 42
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+                function productAddApply() {
+                        req = new phpRequest(URI_CONTROL + "/New/product");
+                        req.add("product_category", get_value("listProdCat"));
+                        req.add("item_category", get_value("listItemCat"));
+                        req.add("item_subcategory", get_value("listItemSubCat"));
+                        req.add("supplier_id", get_value("listSupplier"));
+                        req.add("supplier_model_numb", get_value("txtSupModelNo"));
+                        req.add("article", get_value("txtArtDescr"));
+                        req.add("material", get_value("txtMaterial"));
+                        req.add("color", get_value("txtColor"));
+                }
+
+                                    [line] => 60
+                                    [charPos] => 1912
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 41
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SCRIPT
+                    [oTag] => script
+                    [attributes] => Array
+                        (
+                            [type] => "application/x-javascript"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [TYPE] => "application/x-javascript"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 40
+                )
+
+            [22] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 72
+                    [charPos] => 2663
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 43
+                )
+
+            [23] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 73
+                    [charPos] => 2669
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 76
+                            [charPos] => 2680
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /BODY
+                            [oTag] => /body
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 46
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] =>  
+
+
+
+                                    [line] => 73
+                                    [charPos] => 2670
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 45
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BODY
+                    [oTag] => body
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 44
+                )
+
+            [24] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 76
+                    [charPos] => 2681
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 47
+                )
+
+        )
+
+    [ignoreChildren] => 
+    [id] => 0
+)

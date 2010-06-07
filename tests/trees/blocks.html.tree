@@ -1,0 +1,202 @@
+html_template_flexy_token Object
+(
+    [token] => 
+    [value] => 
+    [line] => 
+    [charPos] => 
+    [close] => html_template_flexy_token Object
+        (
+            [token] => 
+            [value] => 
+            [line] => 
+            [charPos] => 
+            [close] => 
+            [children] => Array
+                (
+                )
+
+            [ignoreChildren] => 
+            [id] => 9
+        )
+
+    [children] => Array
+        (
+            [0] => 
+            [1] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 0
+                    [charPos] => 17
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 2
+                            [charPos] => 41
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SPAN
+                            [oTag] => /span
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 4
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+This is block 1
+
+                                    [line] => 0
+                                    [charPos] => 18
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 3
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SPAN
+                    [oTag] => span
+                    [attributes] => Array
+                        (
+                            [id] => "block1"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [ID] => "block1"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 2
+                )
+
+            [2] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 2
+                    [charPos] => 42
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 5
+                )
+
+            [3] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 4
+                    [charPos] => 61
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 6
+                            [charPos] => 85
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /SPAN
+                            [oTag] => /span
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 8
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+This is block 2
+
+                                    [line] => 4
+                                    [charPos] => 62
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 7
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => SPAN
+                    [oTag] => span
+                    [attributes] => Array
+                        (
+                            [id] => "block2"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [ID] => "block2"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 6
+                )
+
+        )
+
+    [ignoreChildren] => 
+    [id] => 0
+)

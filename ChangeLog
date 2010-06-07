@@ -1,0 +1,2923 @@
+2009-03-06 16:45  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: fix include to only pass
+	  variables created by template, rather than flood the subtemplate
+	  - fixes various segfaults.
+
+2009-03-06 16:41  alan_k
+
+	* Flexy/Token.php: Add scopeVars fetch for better include
+
+2009-03-05 13:37  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: add some extra checks for writing
+	  merging elements
+
+2009-03-05 13:10  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: remove reduntant code in Element
+	  tag generation (added in last commit)
+
+2009-03-02 16:26  alan_k
+
+	* Flexy/Compiler/Flexy/CustomFlexyAttributes.php: fix bug #14105 -
+	  Empty element tag ending with /> and flexy:replace
+
+2009-03-02 16:23  alan_k
+
+	* Flexy/Compiler/Flexy/CustomFlexyAttributes.php: fix bug #15961 -
+	  customflexyattributes  ignores multiple flexy attributes.
+
+2009-03-02 16:15  alan_k
+
+	* Flexy/Compiler/: Flexy.php, Flexy/Tag.php: fix bug #14984 - PHP5
+	  class_exists compat
+
+2009-03-02 16:09  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix bug #15272 - inherrited
+	  namesues checkboxes get wrong names - patch by Heikki Uusitalo
+
+2009-03-02 15:58  alan_k
+
+	* Flexy/Element.php: fix bug #15279 - early return from checkbox
+	  code with [] in name. - may have knock on effects
+
+2009-03-02 15:50  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix bug #15874 - single API for
+	  error reporting in Compiler/Flexy/Tag.php - to show
+	  filename/line/tag etc.
+
+2008-12-08 10:49  alan_k
+
+	* Flexy.php: fix bug #15263 - php5 merge elements needs to clone
+	  objects
+
+2008-11-04 12:46  alan_k
+
+	* Flexy/Element.php: fix bug #14899 - flexy:xhtml honored by
+	  element - fix by Geoff Beaumon
+
+2008-10-28 23:13  clockwerx
+
+	* tests/: test_conditions.html.phpt, test_forms.html.phpt,
+	  test_looping.html.phpt, test_methods.html.phpt,
+	  test_namespaces.html.phpt, test_plugin_modifiers.html.phpt,
+	  test_usesname.html.phpt: Request #14893 - improve PHPCS (with
+	  aknowles OK)
+
+2008-10-28 18:41  alan_k
+
+	* Flexy/Element.php: Fix bug #14897 - xhtml not honored by element
+	  input etc.
+
+2008-05-15 14:30  alan_k
+
+	* Flexy/Plugin.php: fix bug #13887 - use is_callable on plugins
+
+2008-05-05 11:20  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: fix php4 compat parse error
+
+2008-04-29 10:36  alan_k
+
+	* Flexy/Compiler/Flexy.php: fix bug #13419 - switch to using LC_ALL
+	  for setlocale (as LC_MESSAGES did not make sense, and was missing
+	  on some platforms
+
+2008-03-07 19:36  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: fix flexy:toJSON to correctly
+	  create var (always) and variable name (for json_encode)
+
+2008-02-27 14:12  alan_k
+
+	* package2.xml: update package2.xml for release
+
+2008-02-27 13:56  alan_k
+
+	* Flexy.php: Yet another workaround for the stupid decision to
+	  depreciate is_a
+
+2008-02-01 10:53  alan_k
+
+	* Flexy.php: fix bug #13022 - E_STRICT not available on php4
+
+2008-01-31 19:19  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix bug #10248 - re-enable
+	  CustomFlexyTags  - never read the last comment on that patch
+
+2008-01-31 19:12  alan_k
+
+	* package2.xml: release 1.3.2
+
+2008-01-31 19:03  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: revert changes for
+	  CustomFlexyAttributes - they broke the whole thing!
+
+2008-01-31 15:52  alan_k
+
+	* package2.xml: fix bug #13010 - missing file in package
+
+2008-01-30 11:42  alan_k
+
+	* ChangeLog, package.xml, package2.xml: prep for release
+
+2008-01-30 11:12  alan_k
+
+	* Flexy.php: fix bug #7609 - user defined compilers causing
+	  warnings
+
+2007-10-22 10:01  alan_k
+
+	* Flexy/Compiler/Flexy/CustomFlexyAttributes.php: fix bug #11751 -
+	  E_NOTICE in CustomFlexyAttributes, fix WS/TAB issue.
+
+2007-10-18 14:49  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: oops wrong logic on the use of
+	  json_encode
+
+2007-10-18 14:47  alan_k
+
+	* Flexy/Compiler.php: fix PHP5/4 warning issues with is_a
+
+2007-10-18 11:41  alan_k
+
+	* Flexy/Compiler.php: fix req #7609 - support user defined
+	  compilers as compiler object
+
+2007-10-18 11:33  alan_k
+
+	* Flexy/Compiler/Flexy.php: fix bug #10830 - support title= on most
+	  tags, and alt= on input tags.
+
+2007-10-18 11:26  alan_k
+
+	* Flexy/Element.php: feature request #11741 - getOptions /
+	  clearOptions - thx to justdev
+
+2007-10-18 11:21  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: add experimental toJSON feature.
+
+2007-10-18 11:08  alan_k
+
+	* Flexy/Element.php: fix feature request #12036 - prevent
+	  generation of closing tags for link, meta, hr, br
+
+2007-10-18 11:05  alan_k
+
+	* Flexy/Element.php: fix feature request #12265 - support label in
+	  Element
+
+2007-08-10 11:54  alan_k
+
+	* Flexy/Compiler/Flexy.php: change setlocale to use LC_MESSAGES to
+	  prevent bugs with strtoupper
+
+2007-08-03 15:05  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix feature req / bug #9591 and
+	  #11740 - radio buttons can auto generate ID if none given
+
+2007-03-10 13:16  alan_k
+
+	* Flexy/Compiler/Flexy/: CustomFlexyAttributes.php, Tag.php:
+	  feature request #10248 - attributes: flexy:content,
+	  flexy:replace, flexy:omittag
+
+2007-02-20 11:06  alan_k
+
+	* Flexy/Assign.php: fix bug #10002 - setData with array/object
+
+2007-02-20 11:01  alan_k
+
+	* Flexy/Assign.php: remove strange char in file ^M?
+
+2007-01-09 13:39  alan_k
+
+	* Flexy/Compiler/Flexy.php: fix bug #9157 - native language regex
+	  support
+
+2006-11-30 13:51  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: feature request #8008 -
+	  flexy:include src= allow variables { }
+
+2006-11-28 13:43  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: Feature Request #9436 - support
+	  background for url rewriting
+
+2006-11-24 15:03  alan_k
+
+	* Flexy/Translator.php: minor CS fix, fix bug with wrong variable
+	  name in translator tool
+
+2006-11-16 12:31  alan_k
+
+	* Flexy.php: bug #9336 - nasty kludge fix to workaround stupidest
+	  decision in PHP history ;)
+
+2006-11-10 15:08  alan_k
+
+	* ChangeLog, package.xml: prep for release
+
+2006-10-25 15:44  alan_k
+
+	* Flexy/Token/Text.php: fix bug #9157 regex testing allowing
+	  multilanguage text
+
+2006-09-11 11:52  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: minor tidy up to last patch
+
+2006-09-11 11:51  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: Feature Request #7483 - implement
+	  subtemplating with variable passing support Thanks to anil at m3
+
+2006-06-26 08:59  alan_k
+
+	* Flexy/Translator.php: remove loadtranslations that should not be
+	  there for gettext translation to work
+
+2006-01-20 16:00  alan_k
+
+	* ChangeLog, package.xml: prep for release
+
+2006-01-09 11:05  alan_k
+
+	* Flexy/: Translator.php, templates/translator.html: add ability to
+	  remove unused translations, tidy up javascript a little
+
+2006-01-04 15:04  alan_k
+
+	* Flexy/Translator.php: small typo in last commit, and it missed a
+	  bit..
+
+2006-01-04 14:45  alan_k
+
+	* Flexy/Translator.php: add support for gettext Translation2
+	  backend - which needs patches too...
+
+2005-12-20 09:45  alan_k
+
+	* Flexy.php, Flexy/Element.php: use correct name for config options
+
+2005-12-20 09:42  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: remove warning from compiled
+	  template, when trying to merge possibly non-existant elements
+
+2005-12-14 12:52  alan_k
+
+	* Flexy/Compiler/Regex/SimpleTags.php: Fix by Demian Turner -
+	  remove short tags output from Simpletags compiler backend. + lots
+	  of whitespace changes, for some reason...
+
+2005-12-08 17:30  alan_k
+
+	* Flexy.php, Flexy/Element.php: basic charset support in
+	  HTML_Template_Flexy_Element ... this is a todo for the rendering
+	  layer though...
+
+2005-12-05 19:55  alan_k
+
+	* Flexy/Element.php: fix bug #6152 - default to using key in
+	  optgroup when novalue not set
+
+2005-11-28 15:03  alan_k
+
+	* Flexy.php: variable declared as wrong case
+
+2005-11-25 14:28  alan_k
+
+	* tests/: test_forms.html.phpt, templates/forms.html: tests for
+	  bugs #6058 and #5267
+
+2005-11-25 14:12  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: hopefully fix bug #5267 -
+	  checkboxes using [] , with ids
+
+2005-11-10 12:17  alan_k
+
+	* Flexy/Element.php: the de-escaping is only really needed for
+	  select option elements that want to use spaces, everything else
+	  is handled ok...
+
+2005-11-10 12:14  alan_k
+
+	* Flexy/Element.php: no need to de-escape & signs in textboxes -
+	  this may apply to other xul stuff...
+
+2005-11-09 16:31  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: rationalize xul element support in
+	  compiler
+
+2005-11-09 16:31  alan_k
+
+	* Flexy/Element.php: rationalize xul support in element.
+
+2005-11-09 16:29  alan_k
+
+	* Flexy/Element/Xul.php: add XUL checkbox support.
+
+2005-11-09 16:10  alan_k
+
+	* Flexy/Element.php: correctly replace linefeeds on XUL textboxs
+
+2005-11-09 14:54  alan_k
+
+	* Flexy/Element/Xul.php: better handling of XUL textbox and
+	  menulist elements converted to Flexy XUL Elements
+
+2005-11-09 14:51  alan_k
+
+	* Flexy/: Compiler/Flexy/Tag.php, Element.php: better handling of
+	  XUL textbox and menulist elements converted to Flexy XUL Elements
+
+2005-11-01 17:00  alan_k
+
+	* Flexy/Element.php: fix warning when name not defined on setting
+	  value
+
+2005-10-29 12:01  alan_k
+
+	* ChangeLog, package.xml: prep for release
+
+2005-10-25 10:21  alan_k
+
+	* Flexy/Compiler/Flexy.php: fix bug #5752 - add support for :e
+	  modifier == htmlentities() call.
+
+2005-10-10 13:36  alan_k
+
+	* Flexy/Element.php: dont bork with error if value is not set when
+	  setValue() on a radio button is called.
+
+2005-10-10 13:01  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix up nameuses with radio buttons.
+
+2005-10-08 16:11  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: id replacement fix (last commit
+	  didnt quite work correctly)
+
+2005-09-23 13:07  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: php4.4 compatibility issues
+
+2005-08-16 12:48  alan_k
+
+	* Flexy/Compiler/Regex/SimpleTags.php: oops message typo
+
+2005-08-16 12:23  alan_k
+
+	* Flexy/Compiler/Regex/SimpleTags.php: summarize security issues
+	  with SimpleTags
+
+2005-08-16 12:09  alan_k
+
+	* Flexy/Compiler/: Xipe.php, Xipe/Basic.php, Xipe/Internal.php,
+	  Xipe/Modifier.php, Xipe/QuickForm.php, Xipe/SimpleTag.php,
+	  Xipe/TagLib.php, Xipe/Translate.php: removing old Xipe backend -
+	  its not supported or security checked correctly, so off it
+	  goes...
+
+2005-07-23 12:42  alan_k
+
+	* ChangeLog, package.xml: prep for release
+
+2005-07-14 08:30  alan_k
+
+	* Flexy/Compiler/Flexy.php: few CS fixes (thanks martin) - Im sure
+	  theres more
+
+2005-07-13 18:05  alan_k
+
+	* Flexy/Compiler/Flexy.php: set privaliges on other generated files
+
+2005-07-05 09:43  alan_k
+
+	* Flexy/Compiler/Flexy.php: remove debugging code, support <a
+	  title= translation
+
+2005-06-29 11:19  alan_k
+
+	* tests/: test_usesname.html.phpt,
+	  templates/flexy_raw_with_element.html, templates/usesname.html:
+	  bug #4687 - usesname test (unable to reproduce)
+
+2005-05-25 12:31  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: make error message more sensible
+
+2005-05-18 14:05  alan_k
+
+	* Flexy/Element.php: support for non-valued select options, not
+	  sure if this is actually needed.. or just an old BC hack
+
+2005-05-14 12:18  alan_k
+
+	* tests/: test_plugin_modifiers.html.phpt,
+	  templates/plugin_modifiers.html: fix bug #3946 - flexy:raw with
+	  plugin modifiers, and mixing flexy:raw with dynamic elements
+	  produces error now (use flexy:ignore to turn of parsing here..
+
+2005-05-14 12:01  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Compiler/Flexy.php: fix
+	  chopping of modifier in attribute method calls
+
+2005-05-14 11:44  alan_k
+
+	* Flexy/Plugin.php, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php, Flexy/Compiler/Flexy.php,
+	  Flexy/Compiler/Flexy/Tag.php,
+	  tests/templates/plugin_modifiers.html: simplify tokenizer syntax,
+	  and a few minor changes, synced from local repo (mostly debugging
+	  comments)
+
+2005-05-14 11:39  alan_k
+
+	* Flexy/Plugin/Savant.php, tests/test_forms.html.phpt,
+	  tests/test_globals.html.phpt, tests/templates/forms.html: fix
+	  test suite failures (including numberformat bug)
+
+2005-05-14 11:06  alan_k
+
+	* Flexy/Factory.php: Fix bug #3885 - setRequired doesnt reset
+	  return values.
+
+2005-05-05 11:34  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: remove warning, improve error
+	  message
+
+2005-04-13 16:30  alan_k
+
+	* Flexy/: Element.php, Compiler/Flexy/Tag.php: fix bug #4103 &
+	  replaced with &amp; in attribute values.
+
+2005-02-15 10:35  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: only allow variables in
+	  attributes.. - still needs more testing (basically methods would
+	  be a nightmare to support here)
+
+2005-02-08 13:35  alan_k
+
+	* Flexy/Compiler/Standard.php: oops missed a .
+
+2005-02-08 10:14  alan_k
+
+	* Flexy/Compiler/Standard.php: add warning to Old Standard Compiler
+
+2005-01-31 14:57  alan_k
+
+	* Flexy/Tree.php: remove sprintf code from tree - was made
+	  redundant by removing old gettext merging
+
+2005-01-27 21:46  alan_k
+
+	* package.xml: prep for another release
+
+2005-01-27 21:45  alan_k
+
+	* Flexy/: Plugin.php, Compiler/Flexy/Tag.php: oops left print_r in
+	  there
+
+2005-01-25 17:45  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: another one of them (pass by
+	  reference)
+
+2005-01-25 17:38  alan_k
+
+	* package.xml, Flexy/Compiler/Flexy/Tag.php: oops how did that one
+	  creep in.. - pass by reference
+
+2005-01-25 15:41  alan_k
+
+	* package.xml: fix a few typos - post release..
+
+2005-01-25 15:34  alan_k
+
+	* ChangeLog: adding Changelog as its normally quite informative
+
+2005-01-25 15:32  alan_k
+
+	* package.xml: prep for release
+
+2005-01-25 14:11  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  tests/test_looping.html.phpt, tests/templates/looping.html: fix
+	  cdata with variables/looping
+
+2005-01-25 12:49  alan_k
+
+	* tests/test_forms.html.phpt: passes all tests atm
+
+2005-01-25 12:39  alan_k
+
+	* Flexy.php, Flexy/Plugin.php, Flexy/Token.php,
+	  Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Flexy.php, Flexy/Compiler/Flexy/Tag.php,
+	  tests/test_forms.html.phpt,
+	  tests/test_plugin_modifiers.html.phpt,
+	  tests/test_raw_php.html.phpt,
+	  tests/templates/plugin_modifiers.html: adding allowPHP=>delete to
+	  remove php code from a template., allow variables in cdata blocks
+	  fix renderer for cdata blocks fix tests (including plugin,
+	  raw_php etc.)
+
+2005-01-23 12:07  alan_k
+
+	* tests/test_includes.html.phpt: remove redundant/empty test.
+
+2005-01-23 11:57  alan_k
+
+	* tests/: test_include.html.phpt, templates/include.html,
+	  templates/include_block.html: adding include tests
+
+2005-01-22 22:15  alan_k
+
+	* Flexy/Element.php, tests/test_forms.html.phpt: fix warnings
+
+2005-01-22 22:02  alan_k
+
+	* Flexy/Element.php, tests/test_forms.html.phpt: form test case
+	  passing
+
+2005-01-22 20:55  alan_k
+
+	* tests/results1/: add_product.xul.en.php, conditions.html.en.php,
+	  error_foreach.html.en.php, flexy_tojavascript.html.en.php,
+	  forms.html.en.php, function.html.en.php, image_view.html.en.php,
+	  includes.html.en.php, javascript.html.en.php,
+	  looping.html.en.php, methods.html.en.php, namespaces.html.en.php,
+	  plugin_modifiers.html.en.php, raw_text.html.en.php,
+	  style.html.en.php, variables.html.en.php,
+	  add_product.xul.elements.serial, conditions.html.gettext.serial,
+	  flexy_tojavascript.html.gettext.serial,
+	  forms.html.elements.serial, forms.html.gettext.serial,
+	  function.html.gettext.serial, javascript.html.gettext.serial,
+	  looping.html.gettext.serial, methods.html.gettext.serial,
+	  namespaces.html.elements.serial,
+	  plugin_modifiers.html.gettext.serial,
+	  raw_text.html.gettext.serial, variables.html.gettext.serial:
+	  removing old test stuff
+
+2005-01-22 20:48  alan_k
+
+	* tests/: test_forms.html.phpt, testsuite.php,
+	  results1/forms.html.elements.serial: still working on the form
+	  tests - (eg it fails at present.)
+
+2005-01-22 14:32  alan_k
+
+	* Flexy/Token.php, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Tree.php, Flexy/Compiler/Flexy.php,
+	  Flexy/Compiler/Flexy/Flexy.php, Flexy/Compiler/Flexy/Tag.php,
+	  tests/test_raw_php.html.phpt, tests/testsuite.php,
+	  tests/templates/raw_php.html: fix php code detection
+
+2005-01-22 13:25  alan_k
+
+	* tests/: make_tests.php, test_blocks.html.phpt,
+	  test_bug_2959.html.phpt, test_conditions.html.phpt,
+	  test_error_foreach.html.phpt, test_flexy_tojavascript.html.phpt,
+	  test_forms.html.phpt, test_function.html.phpt,
+	  test_globals.html.phpt, test_image_view.html.phpt,
+	  test_includes.html.phpt, test_javascript.html.phpt,
+	  test_looping.html.phpt, test_methods.html.phpt,
+	  test_namespaces.html.phpt, test_plugin_modifiers.html.phpt,
+	  test_raw_php.html.phpt, test_raw_text.html.phpt,
+	  test_style.html.phpt, test_variables.html.phpt, testsuite.php,
+	  results1/looping.html.en.php,
+	  results1/variables.html.gettext.serial, templates/looping.html:
+	  add new testsuite
+
+2005-01-21 09:47  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: another go at making scope in
+	  included templates work
+
+2005-01-20 19:26  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: oops typo
+
+2005-01-20 09:45  alan_k
+
+	* Flexy/Compiler/Flexy/Flexy.php: make flexy:include work nicely
+	  with nested templates.
+
+2005-01-10 13:59  alan_k
+
+	* Flexy/Factory.php: fix bug #3129 and indicate that the
+	  setRequired/setError/freeze methods are all depreciated
+
+2005-01-10 13:51  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: fix bug #3145 - missing ; in error
+
+2004-12-28 09:40  alan_k
+
+	* package.xml, Flexy/Token.php: fix bug #3041 - warning shown
+	  during compilation
+
+2004-12-22 11:18  alan_k
+
+	* package.xml: update package file
+
+2004-12-22 11:16  alan_k
+
+	* Flexy/Token.php: still need to do some concatination for it to
+	  make sense..
+
+2004-12-22 10:22  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php,
+	  Compiler/Flexy.php, Compiler/Flexy/Tag.php, Token/Text.php:
+	  Drop auto concatinating strings together for translations - the
+	  only way to do this now is via explicit {_( translation markers
+	  )_} Support translation markers in attributes - allows things
+	  like a href="{_(http://example.com)_}" - TODO support urlencoded
+	  translation markers..
+
+2004-12-18 12:17  alan_k
+
+	* package.xml: have another go at releasing
+
+2004-12-18 12:15  alan_k
+
+	* Flexy/Compiler/Flexy.php: make alt tag on img translateable
+
+2004-12-17 22:17  alan_k
+
+	* Flexy/Compiler/Flexy.php: fix {_(... translatable  explicit
+	  strings ...)_} - which got broken when i refactored it last
+
+2004-12-17 14:29  alan_k
+
+	* Flexy/Token.php: remove old tree building code, use array_splice,
+	  rather than nasty hack. (that didnt work!)
+
+2004-12-16 17:26  alan_k
+
+	* Flexy/Compiler/Flexy.php: translation2 compatibility fixes
+
+2004-12-15 13:40  alan_k
+
+	* Flexy/Token.php, Flexy/Compiler/Flexy.php,
+	  Flexy/Plugin/Savant.php, Flexy/Token/Text.php,
+	  tests/results2/blocks.html.en.php#block1,
+	  tests/results2/blocks.html.en.php#block2: fix bug #2959 - empty
+	  strings messing up gettext blocks
+
+2004-12-10 14:41  alan_k
+
+	* package.xml, Flexy/Tokenizer.lex: prep for release
+
+2004-11-16 16:51  alan_k
+
+	* Flexy/Token.php: simplified tree building process, more tolerant
+	  of missing closers now.
+
+2004-10-26 10:00  alan_k
+
+	* tests/: results1/style.html.en.php, templates/style.html: add
+	  test for { problems
+
+2004-10-26 09:56  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: fix { and -xxx inside of
+	  styles
+
+2004-10-26 09:43  alan_k
+
+	* Flexy/Token.php: fix error reporting on template
+
+2004-10-13 15:59  alan_k
+
+	* tests/trees/: blocks.html.tree, conditions.html.tree,
+	  error_foreach.html.tree, flexy_tojavascript.html.tree,
+	  forms.html.tree, function.html.tree, globals.html.tree,
+	  image_view.html.tree, includes.html.tree, javascript.html.tree,
+	  looping.html.tree, methods.html.tree, namespaces.html.tree,
+	  plugin_modifiers.html.tree, raw_php.html.tree,
+	  raw_text.html.tree, variables.html.tree: simplify createToken
+	  code, add support for character Pos in tokens. - example results
+
+2004-10-13 15:56  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php: simplify
+	  createToken code, add support for character Pos in tokens.
+
+2004-10-11 10:29  alan_k
+
+	* package.xml: prep for release (probably with wrong date)
+
+2004-10-08 16:29  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Flexy.php, tests/results1/methods.html.en.php,
+	  tests/templates/methods.html: fix bug #2074 - allow literal
+	  numbers in methods
+
+2004-10-08 16:14  alan_k
+
+	* package.xml, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php, tests/results1/namespaces.html.en.php,
+	  tests/results1/style.html.en.php,
+	  tests/results1/variables.html.en.php,
+	  tests/results1/variables.html.gettext.serial,
+	  tests/results2/forms.result.html,
+	  tests/results2/namespaces.html.en.php,
+	  tests/templates/style.html, tests/templates/variables.html,
+	  tests/trees/forms.html.tree, tests/trees/namespaces.html.tree:
+	  - support for -ve numbers in {arrays[-1]} - support for variable
+	  replacements in commented out blocks of styles
+
+2004-09-01 16:32  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: make forms without names, just
+	  render as native html
+
+2004-08-21 10:55  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php, tests/results1/forms.html.en.php,
+	  tests/results2/forms.html.en.php: fix usage of mixed
+	  dynamic/inline elements in loops
+
+2004-08-20 15:58  alan_k
+
+	* Flexy.php: fix bug #2170 - spelling mistake
+
+2004-08-20 13:23  alan_k
+
+	* Flexy/Compiler/Flexy.php, Flexy/Compiler/Flexy/Tag.php,
+	  tests/results1/forms.html.elements.serial,
+	  tests/results1/forms.html.en.php,
+	  tests/results2/forms.html.elements.serial,
+	  tests/results2/forms.html.en.php, tests/templates/forms.html:
+	  feature request #2097 - support mixing of html elements and flexy
+	  vars. ** This still needs some testing, it removes the default
+	  tagname form for forms without names.. (which was silly anyway)
+	  (thanks to Jamie Wall for persisting, and trying to get this to
+	  work)
+
+2004-08-18 18:25  alan_k
+
+	* Flexy/Compiler/: Flexy.php, Flexy/Tag.php: fixes to XUL renderer
+
+2004-08-18 18:22  alan_k
+
+	* tests/: test.php, results1/function.html.en.php,
+	  results1/namespaces.html.elements.serial,
+	  results1/namespaces.html.en.php, results2/namespaces.html.en.php,
+	  templates/namespaces.html: fix test suite
+
+2004-08-18 15:40  alan_k
+
+	* Flexy/Compiler/Flexy/Tag.php: add a generic Token search for
+	  dynamic elements
+
+2004-08-17 11:50  alan_k
+
+	* Flexy/: Element.php, Element/Xul.php: menulists partially working
+	  (needs to preserver menupopup args really.
+
+2004-08-16 17:35  alan_k
+
+	* Flexy/Element.php: fix problem with optgroup usage
+
+2004-08-16 17:15  alan_k
+
+	* Flexy/Element/Xul.php: fix some docbook comments
+
+2004-08-16 17:13  alan_k
+
+	* Flexy/Element/Xul.php: fix typo
+
+2004-08-16 17:12  alan_k
+
+	* Flexy/: Element.php, Element/Xul.php, Token/Tag.php,
+	  Token/Text.php: phase II - XUL support for menulist
+
+2004-08-16 16:37  alan_k
+
+	* package.xml, Flexy/Element.php, Flexy/Compiler/Flexy/Tag.php:
+	  phase I - XUL support for element
+
+2004-08-09 10:36  alan_k
+
+	* Flexy/Compiler/: Flexy.php, Standard.php: fix failed loading of
+	  Tokens
+
+2004-08-07 10:47  alan_k
+
+	* package.xml: prep for gold release
+
+2004-07-29 18:00  alan_k
+
+	* Flexy/Element.php: enable override to work on form tags
+
+2004-07-29 12:26  alan_k
+
+	* Flexy.php, Flexy/Token.php, Flexy/Tree.php,
+	  Flexy/Compiler/Flexy/Tag.php, Flexy/Compiler/Standard/Tag.php,
+	  tests/trees/blocks.html.tree, tests/trees/conditions.html.tree,
+	  tests/trees/flexy_tojavascript.html.tree,
+	  tests/trees/forms.html.tree, tests/trees/function.html.tree,
+	  tests/trees/globals.html.tree, tests/trees/image_view.html.tree,
+	  tests/trees/javascript.html.tree, tests/trees/looping.html.tree,
+	  tests/trees/methods.html.tree, tests/trees/namespaces.html.tree,
+	  tests/trees/plugin_modifiers.html.tree,
+	  tests/trees/raw_php.html.tree, tests/trees/raw_text.html.tree,
+	  tests/trees/variables.html.tree: reduce size of tree / main token
+	  slightly.
+
+2004-07-29 12:01  alan_k
+
+	* tests/: treeTest.php, results2/function.html.en.php,
+	  results2/raw_php.html.en.php, templates/raw_php.html,
+	  trees/blocks.html.tree, trees/conditions.html.tree,
+	  trees/error_foreach.html.tree,
+	  trees/flexy_tojavascript.html.tree, trees/forms.html.tree,
+	  trees/function.html.tree, trees/globals.html.tree,
+	  trees/image_view.html.tree, trees/includes.html.tree,
+	  trees/javascript.html.tree, trees/looping.html.tree,
+	  trees/methods.html.tree, trees/namespaces.html.tree,
+	  trees/plugin_modifiers.html.tree, trees/raw_php.html.tree,
+	  trees/raw_text.html.tree, trees/variables.html.tree: update test
+	  results, add tree test suite
+
+2004-07-29 11:15  alan_k
+
+	* Flexy/Tree.php: cs fixes
+
+2004-07-29 10:56  alan_k
+
+	* Flexy/Tokenizer.lex: cs fixes
+
+2004-07-29 10:53  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Tree.php,
+	  Compiler/Flexy.php, Compiler/Standard.php,
+	  Compiler/Flexy/Flexy.php: stage 1 of issolating tree parsing
+	  code, for easier re-use
+
+2004-07-26 12:51  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: make error message more
+	  informative
+
+2004-07-26 12:39  alan_k
+
+	* Flexy/Translator.php: remove debugger in translator
+
+2004-07-24 12:42  alan_k
+
+	* package.xml: add translator to package
+
+2004-07-24 12:36  alan_k
+
+	* Flexy/Translator.php: make translator instatatable for other
+	  purposes
+
+2004-07-08 13:11  alan_k
+
+	* Flexy/Compiler/Flexy.php: cleaning up compilation stage
+
+2004-07-08 12:56  alan_k
+
+	* Flexy/Compiler.php: Renaming Standard Compiler to Flexy, in long
+	  term prep for Template
+
+2004-07-08 12:53  alan_k
+
+	* Flexy/Compiler/: Flexy.php, Flexy/Flexy.php, Flexy/Tag.php:
+	  Renaming Standard Compiler to Flexy, in long term prep for
+	  Template
+
+2004-07-06 14:47  alan_k
+
+	* Flexy/Element.php: fix Element with matching key=value
+
+2004-07-03 11:55  alan_k
+
+	* Flexy/Compiler/Regex/Mail.php: fix bug #1675 - crlf on windows
+
+2004-07-03 11:51  alan_k
+
+	* tests/smarty/index.tpl.html: update smart converter example
+
+2004-07-03 11:46  alan_k
+
+	* Flexy/Compiler/SmartyConvertor.php: some rather redundant fixes
+	  on smartyconvertor
+
+2004-06-24 18:21  alan_k
+
+	* tests/templates/image_view.html: add missing file to cvs
+
+2004-06-24 18:20  alan_k
+
+	* package.xml: prep for another release
+
+2004-06-24 16:39  alan_k
+
+	* Flexy/Compiler/Standard.php: fix caching so it works with
+	  translations, and raw strings
+
+2004-06-24 16:35  alan_k
+
+	* Flexy/Compiler/Standard.php: add tokenizing caching support to
+	  speed up compilation on blocks
+
+2004-06-24 14:21  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php: timestamp blocks just
+	  like main template
+
+2004-06-24 14:12  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Flexy.php,
+	  Flexy/Compiler/Standard/Tag.php: add support for
+	  compile("templatename.html#block") / outputObject()  which
+	  outputs the tag, and contents of <span id="block">
+
+2004-06-24 14:10  alan_k
+
+	* tests/: test.php, results2/blocks.html.en.php,
+	  results2/blocks.html.en.php#block1,
+	  results2/blocks.html.en.php#block2,
+	  results2/blocks.html.gettext.serial, templates/blocks.html: tests
+	  for new block support
+
+2004-06-17 16:02  alan_k
+
+	* package.xml: someone finally fixed the html escaping on package
+	  releases...
+
+2004-06-17 15:59  alan_k
+
+	* package.xml: prep for another release - its probably not a good
+	  idea heading to stable on this.. - it will be phased out if
+	  Template gets approved
+
+2004-06-17 15:21  alan_k
+
+	* Flexy/Compiler/Standard.php, Flexy/Compiler/Standard/Flexy.php,
+	  tests/test.php, tests/results1/function.html.en.php,
+	  tests/results1/function.html.gettext.serial,
+	  tests/results2/function.html.en.php,
+	  tests/results2/function.html.gettext.serial,
+	  tests/results2/function.result.html,
+	  tests/templates/function.html: add block like function support
+	  <flexy:function name="", <flexy:function call="xxxx" and
+	  <flexy:function call="{xxxxx}"
+
+2004-06-14 12:31  alan_k
+
+	* Flexy/Translator.php: 1000% speed increase on translator
+
+2004-06-12 15:22  alan_k
+
+	* Flexy/Plugin/Savant.php: number format and date format = options
+	  stuff needs checking..
+
+2004-06-12 15:06  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php, tests/test.php,
+	  tests/results1/plugin_modifiers.html.en.php,
+	  tests/results1/plugin_modifiers.html.gettext.serial,
+	  tests/templates/plugin_modifiers.html: unknown modifiers call
+	  plugins
+
+2004-06-12 13:58  alan_k
+
+	* Flexy/Element.php: closer fix introduced yet another bug.. -
+	  ignoreing element suffix
+
+2004-06-10 12:27  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: fix bug #1458 underscore is
+	  a valid xml character in the name part of an attribute acording
+	  to the w3c specs I read..
+
+2004-06-10 12:12  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fix bug #1409 - foreach on xhtml
+	  elements
+
+2004-06-10 12:07  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fix bug #1381 - dont mix and
+	  match dynamic elements and conditionals/loops
+
+2004-06-10 11:43  alan_k
+
+	* Flexy/Compiler/: Xipe.php, Xipe/Basic.php, Xipe/Internal.php,
+	  Xipe/Modifier.php, Xipe/QuickForm.php, Xipe/SimpleTag.php,
+	  Xipe/TagLib.php, Xipe/Translate.php: import the Xipe compiler -
+	  totally untested - proof of concept...
+
+2004-06-04 14:24  alan_k
+
+	* Flexy.php: change assign to setData* - implement universal
+	  template API?
+
+2004-06-04 11:04  alan_k
+
+	* Flexy.php: fix compileing uptodate rules, debug tidy up (debug
+	  errors), tidy up options
+
+2004-06-03 11:45  alan_k
+
+	* Flexy.php: whitespace tidyups
+
+2004-06-03 11:25  alan_k
+
+	* Flexy.php, Flexy/Assign.php, Flexy/Compiler.php: move compileall
+	  into compiler. - reorder methods
+
+2004-06-03 10:55  alan_k
+
+	* Flexy.php: use privates to prevent reduce risk of over extraction
+	  into global namespace..
+
+2004-06-03 10:51  alan_k
+
+	* Flexy.php, Flexy/Assign.php: fix references ending up as
+	  references in the final template.
+
+2004-06-03 09:53  alan_k
+
+	* Flexy.php: allow assign API to work with flexy and regex
+	  templates.
+
+2004-06-02 21:28  alan_k
+
+	* Flexy/Plugin.php: make sure plugin instances are ok
+
+2004-06-02 20:41  alan_k
+
+	* Flexy/: Plugin.php, Plugin/Savant.php: fix modify,  improve error
+	  message
+
+2004-06-02 20:21  alan_k
+
+	* Flexy.php: add toString() which should replace
+	  BufferedOutputObject() really
+
+2004-06-02 20:15  alan_k
+
+	* Flexy.php: typos
+
+2004-06-02 20:09  alan_k
+
+	* Flexy.php, Flexy/Assign.php: add missing error constant
+
+2004-06-02 19:58  alan_k
+
+	* Flexy/: Plugin.php, Plugin/Savant.php: make the name correct for
+	  the plugin loader.
+
+2004-06-02 19:56  alan_k
+
+	* Flexy/Plugin.php, Flexy.php: make the options sensible for
+	  loading plugins
+
+2004-06-02 19:51  alan_k
+
+	* Flexy/Plugin.php: look in the correct place in the options
+
+2004-06-02 19:51  alan_k
+
+	* Flexy/Plugin.php: fix the plugin class loader
+
+2004-06-02 19:33  alan_k
+
+	* Flexy/Plugin/Savant.php: /me slaps paul round with a tab deleter
+
+2004-06-02 19:31  alan_k
+
+	* Flexy/Plugin/Savant.php: add rationalized Savant Plugins ** at
+	  present Im not sure about releasing this with flexy due to the
+	  fact they have different licences..
+
+2004-06-02 14:29  alan_k
+
+	* Flexy.php: pear.php not required - it is lazy loaded now
+
+2004-06-02 13:03  alan_k
+
+	* Flexy.php, Flexy/Assign.php, Flexy/Plugin.php: theoretical plugin
+	  support
+
+2004-06-02 12:39  alan_k
+
+	* Flexy/Assign.php: add Assign Provider
+
+2004-06-02 12:29  alan_k
+
+	* Flexy.php: assign API loaders
+
+2004-06-02 12:04  alan_k
+
+	* Flexy.php, Flexy/Factory.php, Flexy/Token.php,
+	  Flexy/Compiler/Regex.php, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Flexy.php,
+	  Flexy/Compiler/Standard/Tag.php,
+	  tests/results1/flexy_tojavascript.html.en.php: stage 2 converting
+	  to lazy loading of PEAR
+
+2004-06-02 11:52  alan_k
+
+	* Flexy.php: phase 1 add lazy loading of PEAR
+
+2004-06-02 11:30  alan_k
+
+	* Flexy.php: Savant compatible compiler=Raw
+
+2004-06-02 11:04  alan_k
+
+	* Flexy/Translator.php: tidy up translator - phpdoc comments and
+	  correct example
+
+2004-06-02 10:52  alan_k
+
+	* Flexy/: Translator.php, templates/translator.html: add first
+	  version of translator tool
+
+2004-06-02 10:50  alan_k
+
+	* Flexy/Compiler/: Standard.php, Standard/Tag.php: make speculative
+	  compilation (for reading loading gettext strings) work, nested
+	  directories work ok with translation2 backend.
+
+2004-05-26 09:51  alan_k
+
+	* Flexy.php: make sure mkdir uses array syntax so spaces in
+	  directory names work Ok.
+
+2004-05-07 14:04  alan_k
+
+	* package.xml, Flexy/Element.php,
+	  tests/results1/namespaces.html.elements.serial,
+	  tests/results1/namespaces.html.en.php,
+	  tests/templates/namespaces.html: example of select overridden on
+	  namespaced code
+
+2004-05-06 16:09  alan_k
+
+	* package.xml: add note about extra gettext features.
+
+2004-05-06 16:05  alan_k
+
+	* package.xml, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Tag.php,
+	  tests/results1/forms.html.gettext.serial,
+	  tests/results1/methods.html.gettext.serial,
+	  tests/results1/raw_text.html.gettext.serial,
+	  tests/results1/variables.html.gettext.serial,
+	  tests/results2/forms.html.gettext.serial: minor BC break on
+	  storage of gettext strings.
+
+2004-05-05 20:33  alan_k
+
+	* package.xml: oops put the release in the right order
+
+2004-05-05 20:30  alan_k
+
+	* package.xml: prep for release
+
+2004-05-05 18:04  alan_k
+
+	* Flexy/Compiler/Standard.php, Flexy/Compiler/Standard/Tag.php,
+	  tests/results1/namespaces.html.en.php,
+	  tests/templates/namespaces.html: fix closers on namespaced tags
+
+2004-05-05 17:37  alan_k
+
+	* Flexy.php, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard/Tag.php, tests/test.php,
+	  tests/results1/namespaces.html.en.php,
+	  tests/templates/namespaces.html: support for url rewriting on n
+	  xml preprocessor instructions - fixed missing option
+	  url_rewrite.. must have dissappeared last time i tidied up the
+	  array..
+
+2004-05-02 11:49  alan_k
+
+	* Flexy/Element.php, Flexy/Compiler/Standard/Tag.php,
+	  tests/test.php, tests/results1/forms.html.elements.serial,
+	  tests/results1/forms.html.en.php,
+	  tests/results1/forms.html.gettext.serial,
+	  tests/results2/forms.html.elements.serial,
+	  tests/results2/forms.html.en.php,
+	  tests/results2/forms.html.gettext.serial,
+	  tests/results2/forms.result.html, tests/templates/forms.html: fix
+	  for element 0, and bug 1275
+
+2004-05-01 11:28  alan_k
+
+	* tests/: results1/conditions.html.en.php,
+	  results1/methods.html.en.php, results1/namespaces.html.en.php,
+	  results2/globals.html.en.php: have to touch the tests as flexy is
+	  messing around with the mod times..
+
+2004-05-01 11:24  alan_k
+
+	* Flexy/Compiler/Standard.php, tests/results1/CVS.en.php,
+	  tests/results1/image_view.html.en.php,
+	  tests/results1/looping.html.en.php: fix for bug #1274
+
+2004-05-01 11:13  alan_k
+
+	* tests/: results2/globals.html.en.php,
+	  results2/globals.html.gettext.serial, templates/globals.html:
+	  test for Bug #1310 added
+
+2004-04-29 23:20  alan_k
+
+	* Flexy/Element.php: xhtml closing fix - make sure theres a space
+	  there..
+
+2004-04-29 23:18  alan_k
+
+	* Flexy/: Element.php, Token.php: xhtml closing fix
+
+2004-04-24 10:32  alan_k
+
+	* package.xml: update for bugfix release
+
+2004-04-24 10:24  alan_k
+
+	* examples/: EMPTY_FOLDERS_NOTHING_IN_HERE, SEE_TESTS_FOLDER:
+	  improving moved message
+
+2004-04-24 10:19  alan_k
+
+	* examples/: SEE_TESTS_FOLDER, test.php, smarty/index.tpl,
+	  smarty/index.tpl.html, smarty/smartytest.php,
+	  tests/conditions.html, tests/error_foreach.html,
+	  tests/flexy_tojavascript.html, tests/forms.html,
+	  tests/globals.html, tests/includes.html, tests/javascript.html,
+	  tests/looping.html, tests/methods.html, tests/namespaces.html,
+	  tests/raw_php.html, tests/raw_text.html, tests/variables.html,
+	  tests/results1/conditions.html.en.php,
+	  tests/results1/conditions.html.gettext.serial,
+	  tests/results1/error_foreach.html.en.php,
+	  tests/results1/flexy_tojavascript.html.en.php,
+	  tests/results1/flexy_tojavascript.html.gettext.serial,
+	  tests/results1/forms.html.elements.serial,
+	  tests/results1/forms.html.en.php,
+	  tests/results1/forms.html.gettext.serial,
+	  tests/results1/includes.html.en.php,
+	  tests/results1/javascript.html.en.php,
+	  tests/results1/javascript.html.gettext.serial,
+	  tests/results1/looping.html.en.php,
+	  tests/results1/looping.html.gettext.serial,
+	  tests/results1/methods.html.en.php,
+	  tests/results1/methods.html.gettext.serial,
+	  tests/results1/namespaces.html.elements.serial,
+	  tests/results1/namespaces.html.en.php,
+	  tests/results1/raw_text.html.en.php,
+	  tests/results1/raw_text.html.gettext.serial,
+	  tests/results1/variables.html.en.php,
+	  tests/results1/variables.html.gettext.serial,
+	  tests/results2/forms.html.elements.serial,
+	  tests/results2/forms.html.en.php,
+	  tests/results2/forms.html.gettext.serial,
+	  tests/results2/forms.result.html,
+	  tests/results2/globals.html.en.php,
+	  tests/results2/globals.html.gettext.serial,
+	  tests/results2/raw_php.html.en.php: removing old examples folder
+	  - leaving placeholder so cvsweb users dont get lost.
+
+2004-04-24 10:18  alan_k
+
+	* package.xml, tests/test.php,
+	  tests/results1/add_product.xul.elements.serial,
+	  tests/results1/add_product.xul.en.php,
+	  tests/results1/conditions.html.en.php,
+	  tests/results1/conditions.html.gettext.serial,
+	  tests/results1/error_foreach.html.en.php,
+	  tests/results1/flexy_tojavascript.html.en.php,
+	  tests/results1/flexy_tojavascript.html.gettext.serial,
+	  tests/results1/forms.html.elements.serial,
+	  tests/results1/forms.html.en.php,
+	  tests/results1/forms.html.gettext.serial,
+	  tests/results1/includes.html.en.php,
+	  tests/results1/javascript.html.en.php,
+	  tests/results1/javascript.html.gettext.serial,
+	  tests/results1/looping.html.en.php,
+	  tests/results1/looping.html.gettext.serial,
+	  tests/results1/methods.html.en.php,
+	  tests/results1/methods.html.gettext.serial,
+	  tests/results1/namespaces.html.elements.serial,
+	  tests/results1/namespaces.html.en.php,
+	  tests/results1/raw_text.html.en.php,
+	  tests/results1/raw_text.html.gettext.serial,
+	  tests/results1/variables.html.en.php,
+	  tests/results1/variables.html.gettext.serial,
+	  tests/results2/forms.html.elements.serial,
+	  tests/results2/forms.html.en.php,
+	  tests/results2/forms.html.gettext.serial,
+	  tests/results2/forms.result.html,
+	  tests/results2/globals.html.en.php,
+	  tests/results2/globals.html.gettext.serial,
+	  tests/results2/raw_php.html.en.php, tests/smarty/index.tpl,
+	  tests/smarty/index.tpl.html, tests/smarty/smartytest.php,
+	  tests/templates/conditions.html,
+	  tests/templates/error_foreach.html,
+	  tests/templates/flexy_tojavascript.html,
+	  tests/templates/forms.html, tests/templates/globals.html,
+	  tests/templates/includes.html, tests/templates/javascript.html,
+	  tests/templates/looping.html, tests/templates/methods.html,
+	  tests/templates/namespaces.html, tests/templates/raw_php.html,
+	  tests/templates/raw_text.html, tests/templates/variables.html:
+	  moving tests to correct folder - as per standard
+
+2004-04-24 10:05  alan_k
+
+	* Flexy/Token.php, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Tag.php, examples/tests/javascript.html,
+	  examples/tests/results1/javascript.html.en.php: fix bug where
+	  language not used in script type
+
+2004-04-23 15:59  alan_k
+
+	* Flexy/: Element.php, Compiler/Standard/Tag.php: php5
+	  compatibility fixes
+
+2004-04-23 15:34  alan_k
+
+	* examples/tests/results2/raw_php.html.gettext.serial: no text
+	  generated for this text now - correct
+
+2004-04-23 15:33  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard.php, Flexy/Compiler/Standard/Tag.php,
+	  examples/test.php,
+	  examples/tests/results1/javascript.html.gettext.serial: remove
+	  javascript and php code from gettext strings
+
+2004-04-22 18:44  alan_k
+
+	* package.xml: add optional dependancy on Translation2
+
+2004-04-22 18:38  alan_k
+
+	* package.xml: update package, prior to release
+
+2004-04-22 16:45  alan_k
+
+	* examples/tests/results1/namespaces.html.en.php: fix namespaces
+	  test
+
+2004-04-22 16:43  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php,
+	  examples/tests/results2/forms.result.html: simple unit testing +
+	  cvs saves the day again.. - fixing addition of wrong tag
+
+2004-04-22 16:39  alan_k
+
+	* examples/tests/results2/forms.result.html: this simple unit  +
+	  cvs test is very handy.. - fixed closing tag on namespaced form
+
+2004-04-22 16:34  alan_k
+
+	* examples/tests/: namespaces.html,
+	  results1/namespaces.html.elements.serial,
+	  results1/namespaces.html.en.php:  add tests for namespaces
+
+2004-04-22 16:23  alan_k
+
+	* Flexy/: Element.php, Compiler/Standard/Tag.php: dont error out on
+	  unknown namespaces, assume they are html...
+
+2004-04-22 11:51  alan_k
+
+	* examples/tests/: looping.html, results1/looping.html.en.php,
+	  results1/looping.html.gettext.serial: add more tests
+
+2004-04-22 11:48  alan_k
+
+	* Flexy/Compiler/Standard.php: fix bugs introduced by refactoring
+
+2004-04-21 19:27  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard/Tag.php, examples/example.html,
+	  examples/example.html.elements.serial,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html, examples/test.php,
+	  examples/tests/conditions.html,
+	  examples/tests/error_foreach.html,
+	  examples/tests/flexy_tojavascript.html,
+	  examples/tests/forms.html, examples/tests/globals.html,
+	  examples/tests/includes.html, examples/tests/javascript.html,
+	  examples/tests/looping.html, examples/tests/methods.html,
+	  examples/tests/raw_php.html, examples/tests/raw_text.html,
+	  examples/tests/variables.html,
+	  examples/tests/results1/conditions.html.en.php,
+	  examples/tests/results1/conditions.html.gettext.serial,
+	  examples/tests/results1/error_foreach.html.en.php,
+	  examples/tests/results1/flexy_tojavascript.html.en.php,
+	  examples/tests/results1/flexy_tojavascript.html.gettext.serial,
+	  examples/tests/results1/forms.html.elements.serial,
+	  examples/tests/results1/forms.html.en.php,
+	  examples/tests/results1/forms.html.gettext.serial,
+	  examples/tests/results1/includes.html.en.php,
+	  examples/tests/results1/javascript.html.en.php,
+	  examples/tests/results1/javascript.html.gettext.serial,
+	  examples/tests/results1/looping.html.en.php,
+	  examples/tests/results1/looping.html.gettext.serial,
+	  examples/tests/results1/methods.html.en.php,
+	  examples/tests/results1/methods.html.gettext.serial,
+	  examples/tests/results1/raw_text.html.en.php,
+	  examples/tests/results1/raw_text.html.gettext.serial,
+	  examples/tests/results1/variables.html.en.php,
+	  examples/tests/results1/variables.html.gettext.serial,
+	  examples/tests/results2/forms.html.elements.serial,
+	  examples/tests/results2/forms.html.en.php,
+	  examples/tests/results2/forms.html.gettext.serial,
+	  examples/tests/results2/forms.result.html,
+	  examples/tests/results2/globals.html.en.php,
+	  examples/tests/results2/globals.html.gettext.serial,
+	  examples/tests/results2/raw_php.html.en.php,
+	  examples/tests/results2/raw_php.html.gettext.serial: revamping
+	  test infrastructure - fixing php code striping
+
+2004-04-21 17:02  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php: make
+	  GLOBALS.anyphpfunction() work, if you enable globalfunctions
+
+2004-04-21 16:45  alan_k
+
+	* Flexy.php: missing return value
+
+2004-04-21 16:40  alan_k
+
+	* Flexy/Tokenizer.php: oops forgot to compile the tokenizer
+
+2004-04-21 16:39  alan_k
+
+	* Flexy.php, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Compiler/Standard.php, Flexy/Compiler/Standard/Tag.php,
+	  examples/example.html, examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html, examples/test.php: major error
+	  handling overhall - you can now parse without error messages
+
+2004-04-21 15:26  alan_k
+
+	* Flexy.php, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php: provisional private access support
+
+2004-04-21 11:06  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard.php, examples/example.html,
+	  examples/example.html.en.php, examples/example.result.html: fix
+	  flexy vars inside single quoted arguments
+
+2004-04-19 11:12  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fix recursive bug on <s>, by
+	  making parseTags private.
+
+2004-04-16 22:34  alan_k
+
+	* Flexy/Compiler/Standard.php: ooowww - I hate regexes... - replace
+	  it with good ole reliable strpos+explode
+
+2004-04-16 20:23  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php: reduce overhead of
+	  translation - so it's only loaded on demand
+
+2004-04-15 14:54  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php: provisional Translation2
+	  support
+
+2004-04-15 11:18  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Compiler/Standard.php: more
+	  work on explicit translation strings - engine now correctly
+	  doesnt add contents of {_( ... )_} twice... - clearing done by
+	  toString, rather than double regex.
+
+2004-04-15 10:42  alan_k
+
+	* Flexy/Compiler/Standard.php: add explicit gettext/language
+	  translation  support for strings (including HTML, and flexy tags)
+	  encased in  {_( ... some text <B>{flexynumber}</B> ..... )_}
+
+2004-04-14 23:33  alan_k
+
+	* Flexy/Compiler/Standard.php: try filename prefixes for gettext
+	  strings.  - having 1 po file for a large number of templates
+	  leads to bad context translations.
+
+2004-04-14 00:24  alan_k
+
+	* Flexy/Compiler/Standard.php:	add debugging to show success in
+	  translation
+
+2004-04-13 15:20  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: ignore empty rules for rewrite
+	  url - use good ole strlen(trim, rather than empty
+
+2004-04-13 15:18  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: ignore empty rules for rewrite
+	  url
+
+2004-04-13 10:59  alan_k
+
+	* package.xml, Flexy/Element.php, Flexy/Compiler/Standard/Tag.php,
+	  Flexy/Token/Tag.php, examples/example.html,
+	  examples/example.html.elements.serial,
+	  examples/example.html.en.php, examples/example.result.html: fix
+	  overzealous closing on certain tags, fix double
+	  htmlspecialcharing of dynamic attributes
+
+2004-04-07 14:51  alan_k
+
+	* package.xml: prep security release
+
+2004-04-07 14:36  alan_k
+
+	* Flexy/Element.php: fine tune htmlspecialchars on elements -
+	  option bodys only need escapeing, as attributes are done at
+	  toHTML stage anyway..
+
+2004-04-07 14:22  alan_k
+
+	* Flexy/Element.php: set Options and setValue should escape the
+	  values..
+
+2004-04-07 14:21  alan_k
+
+	* Flexy/Element.php: set Options should escape the values..
+
+2004-04-06 12:41  alan_k
+
+	* Flexy/: Element.php, Compiler/Standard/Tag.php: assing element to
+	  false, to flag it as found, but not really an element..
+
+2004-04-06 12:21  alan_k
+
+	* Flexy/: Element.php, Compiler/Standard/Tag.php: fix overlap of
+	  hidden fields and radio buttons. fix toHTML($merge), which would
+	  never have worked...
+
+2004-04-04 21:57  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fail and warn if url_rewrite is
+	  invalid.
+
+2004-04-03 20:46  alan_k
+
+	* Flexy.php: mmh.. why does this always happen after you release..
+	  - adding auto create for compile directory..
+
+2004-04-03 20:21  alan_k
+
+	* package.xml: add a few more sales points ;)
+
+2004-04-03 20:11  alan_k
+
+	* package.xml: fix typo in package.xml
+
+2004-04-03 20:11  alan_k
+
+	* package.xml: fix package xml so files are correctly named.
+
+2004-04-03 20:08  alan_k
+
+	* Flexy/: SmartyAPI.php, Compiler/SmartyConvertor.php: tidy up
+	  phpdoc comments
+
+2004-04-03 19:59  alan_k
+
+	* Flexy/Compiler/: SmartyConvertor.php, SmartyEmulator.php:
+	  changing name of emulator to convertor
+
+2004-04-03 19:58  alan_k
+
+	* Flexy/SmartyAPI.php: adding replacement SmartyAPI.php
+
+2004-04-03 19:57  alan_k
+
+	* Flexy/SmartyEmulator.php, examples/smarty/index.tpl.html,
+	  examples/smarty/smartytest.php: renaming of smarty files to
+	  relate more specifically to their tasks.
+
+2004-04-03 12:55  alan_k
+
+	* package.xml: prep for release
+
+2004-04-03 12:32  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php, examples/example.html,
+	  examples/example.html.elements.serial,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: fix bug 1120: remove necessity to
+	  use flexy:ignoreonly so much...
+
+2004-04-03 12:14  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php, examples/example.html,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: fix bug #809 - extra minuses in
+	  comments
+
+2004-04-03 12:04  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php, examples/example.html,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: fix bug #874 (literals in flexy:if)
+
+2004-04-03 11:44  alan_k
+
+	* examples/example.html, examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html, Flexy/Token.php,
+	  Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard/Tag.php, Flexy/Token/Foreach.php: fix bug
+	  739 - syntax checking on foreach
+
+2004-04-03 11:13  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php, examples/example.html,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: negative conditionals {if:!somevar}
+	  and {if:somemethod()} support added.
+
+2004-04-03 11:02  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php: fix bug #1115 - add
+	  option to use first found template : templateDirOrder=reverse
+
+2004-04-02 14:37  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Flexy.php: gettext emulation with
+	  File_Gettext mostly working
+
+2004-04-01 12:53  alan_k
+
+	* Flexy/SmartyEmulator.php, Flexy/Compiler/SmartyEmulator.php,
+	  Flexy/Compiler/Standard.php, examples/smarty/smartytest.php: more
+	  work on smarty->flexy template convertor, fix bug that comments
+	  are put into the gettext translation file.
+
+2004-03-26 11:04  alan_k
+
+	* Flexy/Compiler/Standard.php: mozilla destroys XHTML tags -
+	  <sometag:xxxx .... /> - so you need a real closer. - this caused
+	  the compiler to bork on closing namespaced tags - this fixes it
+	  by ignoring the closers
+
+2004-03-24 23:12  alan_k
+
+	* Flexy/Compiler.php, Flexy/Compiler/SmartyEmulator.php,
+	  examples/test.php, examples/smarty/index.tpl,
+	  examples/smarty/smartytest.php: more work on the smarty converter
+
+2004-03-22 23:31  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: some debugging stuff.. -
+	  HTML_Javascript is seriously borked if you send it null....
+
+2004-03-22 18:55  alan_k
+
+	* Flexy/: SmartyEmulator.php, Compiler/Regex.php,
+	  Compiler/SmartyEmulator.php: first version of Smarty emulator
+	  backend for flexy = requires the Smarty Compiler
+
+2004-03-08 12:09  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php, examples/example.html,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: support object with mulitple array
+	  children
+
+2004-02-26 22:20  alan_k
+
+	* Flexy/: Token.php, Compiler/Standard/Tag.php, Token/Text.php: fix
+	  bug #875 PHP5 strtolower get_class
+
+2004-02-21 18:36  alan_k
+
+	* Flexy.php, Flexy/Token.php: fix bug with too many close tags
+	  zero-ing stack and overwriting correct closer
+
+2004-02-11 14:38  alan_k
+
+	* Flexy.php: oops typo
+
+2004-02-11 14:20  alan_k
+
+	* Flexy.php: add notes and suggestions by Russell Jones, strict
+	  option so templates emit errors if you dont define the variables
+	  multiSource option to allow user themed templates to override
+	  defaults
+
+2004-02-04 11:32  alan_k
+
+	* Flexy.php, package.xml: oops left debug code in
+
+2004-01-31 16:06  alan_k
+
+	* Flexy.php, package.xml: fix bug #643 - compile tests, and fix
+	  multi compile directory code
+
+2004-01-24 16:50  alan_k
+
+	* Flexy.php, package.xml: fix bug #615 - constructor can not return
+	  errors
+
+2004-01-21 17:13  alan_k
+
+	* examples/: example.html, example.html.elements.serial,
+	  example.html.en.php, example.result.html, test.php: mailing list
+	  question test
+
+2004-01-21 16:57  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard.php, examples/example.html,
+	  examples/example.html.en.php, examples/example.result.html: fix
+	  flexy method argument bug - spotted by demian
+
+2004-01-20 16:24  alan_k
+
+	* package.xml: prep for release
+
+2004-01-20 15:15  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php, examples/example.html,
+	  examples/example.html.en.php,
+	  examples/example.html.gettext.serial,
+	  examples/example.result.html: fix
+	  flexy:if="somemethod(#with#,some,#args#)"
+
+2004-01-10 18:07  alan_k
+
+	* Flexy/Compiler/Standard.php: add foreach on object (Fabien
+	  Franzen)
+
+2003-12-21 11:09  alan_k
+
+	* package.xml, Flexy/Compiler/Standard/Flexy.php: oops bugfix
+	  release
+
+2003-12-20 10:52  alan_k
+
+	* package.xml: package.xml prep for release
+
+2003-12-20 10:18  alan_k
+
+	* examples/: example.html.elements.serial, example.result.html:
+	  remove rule stuff - not supported any more - rebuild
+
+2003-12-20 10:18  alan_k
+
+	* examples/example.html: remove rule stuff - not supported any more
+
+2003-12-20 10:13  alan_k
+
+	* examples/: example.html, example.html.elements.serial,
+	  example.html.en.php, example.html.gettext.serial,
+	  example.result.html, test.php: add a real test script
+
+2003-12-20 10:12  alan_k
+
+	* Flexy/Element.php: store value always (bug #460)
+
+2003-12-19 22:10  alan_k
+
+	* Flexy/Element.php: use false to remove attributes (as merging
+	  will re-instate them..)
+
+2003-12-18 10:07  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: send out correct javascript
+	  type (John Dell)
+
+2003-12-16 17:06  alan_k
+
+	* Flexy.php: use array_unique (demian)
+
+2003-12-13 13:11  alan_k
+
+	* Flexy/Token.php: fix loading of tokens again, hopefully
+
+2003-12-10 23:13  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: more validity checks..
+
+2003-12-10 23:12  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: get the flexy:raw to work.
+
+2003-12-10 21:23  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: oop missed continue
+
+2003-12-10 21:21  alan_k
+
+	* Flexy.php, Flexy/Compiler/Standard/Tag.php: add support for
+	  flexy:raw="{checked}" which expands into the value of checked
+
+2003-12-10 10:36  alan_k
+
+	* Flexy/Token/: Else.php, End.php, EndTag.php, If.php, Method.php,
+	  Processing.php, Tag.php, Text.php, Var.php: fix EndTag not
+	  including Tag
+
+2003-12-10 10:33  alan_k
+
+	* package.xml, Flexy/Token.php, Flexy/example.ini,
+	  examples/example.html: make flexyIgnore a global/per template
+	  option
+
+2003-12-10 10:26  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: fix -- inside comments (its
+	  invalid XHTML, but worth ignoring)
+
+2003-12-04 18:01  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: allow <img flexy:if="img.size"
+	  src="xxxx" /> - eg. if with a / closed tag
+
+2003-12-03 10:50  alan_k
+
+	* Flexy/Compiler/Standard.php, examples/example.html: add :b
+	  modifier for	NL2BR + HTMLSPECIALCHARS
+
+2003-11-25 15:01  alan_k
+
+	* Flexy/Element.php: prevent assignment of arrays to most element
+	  types
+
+2003-11-25 14:39  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: only generate IDs when they are
+	  not manually added..
+
+2003-11-25 14:35  alan_k
+
+	* Flexy.php, Flexy/Element.php, Flexy/Factory.php,
+	  Flexy/Compiler/Standard/Tag.php: add support for [] type checkbox
+	  arrays.
+
+2003-11-24 16:40  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: auto generate IDS for checkbox
+	  tags
+
+2003-11-19 19:34  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: fix CDATA recognision
+
+2003-11-17 22:13  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: make comment a single
+	  element (for docbook parser)
+
+2003-11-17 20:20  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Token/Cdata.php: CDATA
+	  support - needed for docbook editor
+
+2003-11-13 22:23  alan_k
+
+	* Flexy.php, Flexy/Factory.php: fix for radio buttons
+
+2003-11-11 10:23  alan_k
+
+	* Flexy.php: make sure it works with xdebug....
+
+2003-11-11 10:06  alan_k
+
+	* package.xml: nuke reference to Compiler functions - this should
+	  use the <flexy: tags now
+
+2003-11-09 10:52  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fixes spotted by poons
+
+2003-10-16 09:28  alan_k
+
+	* Flexy/Compiler/: Standard.php, Standard/Functions.php: revert
+	  {include(#xxx.html#)} code - use <flexy:include src="xxxx.html">
+	  instead
+
+2003-10-16 08:43  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: refix the fix I unfixed
+
+2003-10-15 09:46  alan_k
+
+	* Flexy.php: oops typo
+
+2003-10-15 09:41  alan_k
+
+	* Flexy.php: fix support for auto compiling other language
+	  templates
+
+2003-10-15 09:34  alan_k
+
+	* Flexy.php, Flexy/example.ini: support multiple directories for
+	  templateDir (Demian Turner)
+
+2003-10-13 16:51  alan_k
+
+	* package.xml: nuke Include.php reference, and add in comments
+	  about new syntaxs for include and toJavascript
+
+2003-10-12 10:20  alan_k
+
+	* examples/: example.html, example.html.en.php: fix examples, show
+	  a few more cool features..
+
+2003-10-12 10:14  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: add pear header..
+
+2003-10-12 09:52  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: fix typo in comment
+
+2003-10-12 09:47  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php, examples/example.html,
+	  examples/example.html.en.php: redo include logic <flexy:include
+	  src="xxxx.html"> rather than {include...}
+
+2003-10-11 18:05  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: get order right for convertVar
+
+2003-10-11 17:21  alan_k
+
+	* Flexy/Compiler/Standard/Flexy.php: typo
+
+2003-10-11 16:44  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Compiler/Standard/Flexy.php, examples/example.html.en.php:
+	  removed short tag in toJavascript and closing for scripts works
+	  now.
+
+2003-10-11 12:17  alan_k
+
+	* package.xml, Flexy/Compiler/Standard/Flexy.php,
+	  Flexy/Compiler/Standard/Functions.php,
+	  Flexy/Compiler/Standard/Tag.php, examples/example.html,
+	  examples/example.html.en.php: adding <flexy:toJavascript
+	  flexy:prefix="xxxx_xxxx_" jsvarname="php_varname" ... > support
+
+2003-10-11 10:58  alan_k
+
+	* examples/: example.html, example.html.en.php: update
+	  examples/test to show script handling ability..
+
+2003-10-11 10:57  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: improve <script> handling
+	  ablility with new IN_SCRIPT state
+
+2003-10-10 17:30  alan_k
+
+	* examples/example.html.en.php: update example to illustrate the
+	  include code
+
+2003-10-10 17:29  alan_k
+
+	* Flexy/Compiler/Standard/Functions.php: include inherits parent
+	  options, rather than just globals..
+
+2003-10-10 17:27  alan_k
+
+	* Flexy/Test.php, Flexy/Compiler/Standard/Functions.php,
+	  examples/example.html, examples/example.html.en.php: try and get
+	  include working again..
+
+2003-10-10 17:07  alan_k
+
+	* examples/example.html.en.php: confirm bug #84 is already fixed ..
+	  oops output borked
+
+2003-10-10 17:05  alan_k
+
+	* examples/: example.html, example.html.en.php: confirm bug #84 is
+	  already fixed
+
+2003-10-09 09:51  alan_k
+
+	* TODO: a TODO list......
+
+2003-10-09 09:38  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Token/Include.php: remove
+	  support for old style Include in the tokenizer
+
+2003-10-09 09:31  alan_k
+
+	* Flexy/example.ini: add a little documentation about this in the
+	  example.ini
+
+2003-10-09 09:26  alan_k
+
+	* Flexy/Compiler/: Regex.php, Standard.php, Standard/Functions.php,
+	  Standard/Tag.php: Regex Fixes by Damein Turner Introduction of
+	  hook concept for global function handling - and in theory
+	  include(#xxxxx.html#); should work..
+
+2003-09-08 15:32  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: more support for arrays..
+
+2003-09-08 15:00  alan_k
+
+	* package.xml: changelog update
+
+2003-09-08 14:33  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php: support URL
+	  encoded array elements
+
+2003-09-04 09:29  alan_k
+
+	* package.xml: update pacakge.xml
+
+2003-09-04 09:26  alan_k
+
+	* Flexy.php: fix buffered output and elements (Stephan Wentz)
+
+2003-09-03 21:47  alan_k
+
+	* package.xml: make the notes a bit clearer
+
+2003-09-03 21:43  alan_k
+
+	* package.xml: prep for release
+
+2003-09-03 21:18  alan_k
+
+	* Flexy/Token.php: typo in regex.. - spotted by Daniel Garcia
+
+2003-09-03 17:25  alan_k
+
+	* Flexy/Element.php: fix select option list
+
+2003-09-03 16:20  alan_k
+
+	* Flexy/Token.php: support {foreach:a,b} {b[cccc]} {end:} -
+	  basically local vars derived from foreach loops with arrays.
+
+2003-09-02 16:19  alan_k
+
+	* Flexy/Token.php, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  examples/example.html, examples/example.html.en.php: support
+	  arrays with string keys and multidimensional arrays..
+
+2003-08-27 11:32  alan_k
+
+	* Flexy.php, Flexy/Element.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php, Flexy/Compiler/Standard.php: beginnings of
+	  user defined modifiers.. - n=number_format
+
+2003-08-25 15:29  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: new tag flexy:ignoreOnly -
+	  prevents building of dynamic tag on a single element (usually the
+	  form)
+
+2003-08-25 14:58  alan_k
+
+	* Flexy.php: do some type checking on outputObject
+
+2003-08-21 22:26  alan_k
+
+	* Flexy.php: remove email trick - reduce the magic in the engine..
+	  - outputObject should use instance options, rather than global
+	  options
+
+2003-08-21 17:48  alan_k
+
+	* Flexy/Element.php: more fixes to setvalue
+
+2003-08-18 19:27  alan_k
+
+	* Flexy.php, Flexy/Element.php, Flexy/Compiler/Standard/Tag.php:
+	  make checkboxes work again.. - they have to be merged at
+	  runtime...
+
+2003-08-13 12:31  alan_k
+
+	* Flexy/Element.php: fix typos in comments - someone reads these Im
+	  sure...
+
+2003-08-13 12:28  alan_k
+
+	* Flexy/Element.php, examples/example.html: prevent errors when you
+	  set attributes to something strange..
+
+2003-08-13 10:41  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: fix flexy:dynamic atrribute
+	  (Andy Crain)
+
+2003-08-12 14:45  alan_k
+
+	* examples/: example.html, example.html.en.php: update example.html
+	  a bit.
+
+2003-08-08 15:46  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: wrong check for flexy:ignore
+
+2003-08-07 17:17  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: allow flexy:ignore="" to work
+
+2003-08-07 15:11  alan_k
+
+	* Flexy.php, package.xml: add note about removed support for non
+	  prefixed flexy attributes
+
+2003-08-05 15:03  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Compiler/Regex.php: wron
+	  constant (Mitchell Perilstein), fix phpdocu return without a
+	  value.
+
+2003-08-02 19:24  alan_k
+
+	* Flexy.php, Flexy/Compiler.php, Flexy/Test.php,
+	  Flexy/Compiler/Standard.php: initial implementation of compile
+	  from and to string. - fix test script
+
+2003-08-01 18:03  alan_k
+
+	* Flexy.php, Flexy/Token.php: remove legacy code, update comments a
+	  bit
+
+2003-08-01 17:46  alan_k
+
+	* package.xml, Flexy/Compiler/Regex.php,
+	  Flexy/Compiler/Regex/BodyOnly.php, Flexy/Compiler/Regex/Mail.php,
+	  Flexy/Compiler/Regex/Math.php, Flexy/Compiler/Regex/Php.php,
+	  Flexy/Compiler/Regex/RtfSimpleTags.php,
+	  Flexy/Compiler/Regex/SimpleTags.php,
+	  Flexy/Compiler/Regex/Xml.php: Prepping for a test release
+
+2003-08-01 17:28  alan_k
+
+	* quickform_integration_notes.txt: removing quickform notes - not
+	  relivant any more
+
+2003-08-01 17:26  alan_k
+
+	* Flexy/: Compiler/Regex/BodyOnly.php, Compiler/Regex/Mail.php,
+	  Compiler/Regex/Math.php, Compiler/Regex/Php.php,
+	  Compiler/Regex/RtfSimpleTags.php, Compiler/Regex/SimpleTags.php,
+	  Compiler/Regex/Xml.php, Filter/BodyOnly.php, Filter/Mail.php,
+	  Filter/Math.php, Filter/Php.php, Filter/RtfSimpleTags.php,
+	  Filter/SimpleTags.php, Filter/Xml.php: moving old Regex Filters
+	  to the Filter compiler
+
+2003-08-01 17:15  alan_k
+
+	* Flexy/Token.php: remove last toString from token
+
+2003-08-01 17:11  alan_k
+
+	* Flexy/Element.php: remove element merge and check setOptions, in
+	  Flexy_Element
+
+2003-08-01 17:09  alan_k
+
+	* Flexy/Token/: Else.php, End.php, Foreach.php, If.php,
+	  Include.php, Method.php, Processing.php, Tag.php, Text.php,
+	  Var.php: removing output layer from tokens
+
+2003-08-01 17:05  alan_k
+
+	* Flexy.php: remove compiling code from main engine.
+
+2003-08-01 16:51  alan_k
+
+	* Flexy/Compiler/Regex.php: adding old regex compiler as example -
+	  not tested yet
+
+2003-08-01 16:50  alan_k
+
+	* Flexy.php, Flexy/Compiler.php, Flexy/Token.php,
+	  Flexy/compileAll.php, Flexy/Compiler/Standard.php,
+	  Flexy/Compiler/Standard/Tag.php, Flexy/Token/Tag.php: New
+	  Compiler code incorporated, working and tested
+
+2003-07-30 17:54  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php: fix attributes
+	  quoted with single quotes getting borked.
+
+2003-07-26 17:07  alan_k
+
+	* Flexy/Compiler/Standard.php: Standard compiler relaying into
+	  Namespace handler
+
+2003-07-26 12:55  alan_k
+
+	* Flexy/Compiler/Standard/Tag.php: add Tag handling to compiler
+
+2003-07-26 10:51  alan_k
+
+	* Flexy/: Compiler.php, Compiler/Standard.php,
+	  Compiler/Standard/Tag.php: moving around the code to its correct
+	  locations. - Standard is the default compiler
+
+2003-07-26 10:31  alan_k
+
+	* Flexy/: Compiler.php, Factory.php, Token.php: Adding Compile
+	  Class, first step in abstracting away the token toString methods.
+
+2003-07-16 14:58  alan_k
+
+	* Flexy/Factory.php: oops broke multi- multidimensional array
+	  flattening in form elements
+
+2003-07-16 14:53  alan_k
+
+	* Flexy/Factory.php: adding support for multidimensional array
+	  flattening into form elements
+
+2003-07-16 11:39  alan_k
+
+	* Flexy.php, Flexy/Token/Text.php: add checks for gettext and
+	  require pear
+
+2003-07-12 16:01  mj
+
+	* package.xml: * Updating DTD paths
+
+	  # find . -name package.xml | xargs perl -pi -e
+	  's/..\/package.dtd/http:\/\/pear.php.net\/dtd\/package-1.0/'
+
+2003-07-12 09:09  alan_k
+
+	* Flexy/: Tokenizer.lex, Token/Method.php, Token/Tag.php,
+	  Token/Var.php: fix mysterious bug that one of the children is not
+	  an object
+
+2003-07-05 14:47  alan_k
+
+	* Flexy/: Tokenizer.lex, Token/Method.php, Token/Var.php: tabs to
+	  spaces in lexer code, adding support for :r modifier to do
+	  print_r
+
+2003-07-05 14:19  alan_k
+
+	* Flexy.php, package.xml: improve security slightly by using
+	  matching compile times (Yuri Dyakonov), remove Quickforms file
+	  from package
+
+2003-06-26 13:40  alan_k
+
+	* Flexy.php: tidy up unlinks, add a bit more debugging code in
+	  there
+
+2003-06-25 14:24  alan_k
+
+	* Flexy/Token/Tag.php: improve error reporting for tag overlaps
+
+2003-06-25 10:09  alan_k
+
+	* Flexy/Token/Tag.php, examples/example.html: ignore tags without
+	  names, add a few more tests.
+
+2003-06-17 16:15  alan_k
+
+	* Flexy.php: file unlink tests showing errors? in 4.3? (Grzegorz
+	  Godlewski)
+
+2003-06-17 16:05  alan_k
+
+	* Flexy/QuickForm.php: correct javascript type (Grzegorz Godlewski)
+
+2003-06-17 09:45  alan_k
+
+	* package.xml: update package.xml for bugfix release
+
+2003-06-17 09:40  alan_k
+
+	* Flexy/QuickForm.php: stop death on catching empty forms.
+
+2003-06-14 10:41  alan_k
+
+	* Flexy/: Element.php, Test.php, Token.php: tidy up error message
+
+2003-06-11 20:44  alan_k
+
+	* package.xml: first draft of updated package.xml
+
+2003-06-11 20:04  alan_k
+
+	* Flexy.php: autoload Element when needed.
+
+2003-06-11 19:09  alan_k
+
+	* examples/example.html.en.php: update example output
+
+2003-06-11 19:04  alan_k
+
+	* Flexy.php, examples/example.html: part 2 of mega update
+
+2003-06-11 19:03  alan_k
+
+	* Flexy/: Element.php, Factory.php, QuickForm.php, Test.php,
+	  Token/Tag.php, Token/Text.php: Major overhall - new Forms API
+	  using HTML_Template_Flexy_Element and Factory. - removal of
+	  quickforms support
+
+2003-06-11 19:00  alan_k
+
+	* package.xml: last quickform supported release - future support
+	  can be done on the 0_4_1 release branch
+
+2003-05-22 14:06  alan_k
+
+	* Flexy.php: at least comment the current API - before it gets
+	  overhalled..
+
+2003-05-17 12:36  alan_k
+
+	* Flexy.php: fix by Marcin Galczynski enabling BC getOptions call
+	  to work.
+
+2003-05-17 12:06  alan_k
+
+	* quickform_integration_notes.txt: update quickform integration
+	  notes
+
+2003-05-08 10:47  alan_k
+
+	* Flexy/QuickForm.php: oops remove the last remaining debug code
+
+2003-05-08 10:45  alan_k
+
+	* Flexy/QuickForm.php: at least show a warning on empty forms
+
+2003-05-02 19:19  alan_k
+
+	* Flexy/Token/Text.php: fix warning - xavier
+
+2003-04-29 11:32  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php: make parse
+	  errors alot clearer
+
+2003-04-24 15:24  alan_k
+
+	* Flexy/Token/Tag.php: support file input tags
+
+2003-04-22 11:56  alan_k
+
+	* Flexy/Token/Tag.php: attempt to strip flexy tags again
+
+2003-04-17 15:04  alan_k
+
+	* package.xml, Flexy/QuickForm.php, Flexy/Test.php,
+	  Flexy/Tokenizer.lex, Flexy/Tokenizer.php, Flexy/Token/Method.php,
+	  Flexy/Token/Tag.php, examples/example.html,
+	  examples/example.html.en.php: how come you always get bug reports
+	  after you release a package:) - literal fix and based on bug
+	  report by Yuri Dyakonov
+
+2003-04-17 12:12  alan_k
+
+	* package.xml: prep for a release more details
+
+2003-04-17 12:08  alan_k
+
+	* package.xml: prep for a release
+
+2003-04-17 12:05  alan_k
+
+	* Flexy.php, Flexy/QuickForm.php, Flexy/Token/Tag.php: QF3 update -
+	  mainly by adding in the removed methods, fix radio, multielements
+	  with same name
+
+2003-04-16 15:54  alan_k
+
+	* Flexy/: QuickForm.php, Token.php, Tokenizer.lex, Tokenizer.php,
+	  Token/Tag.php: XHTML compatible - eg. it doesnt modify attribute
+	  case anymore
+
+2003-04-15 17:37  alan_k
+
+	* Flexy/QuickForm.php: attempting to deal with false constructor
+	  call blanking out name value
+
+2003-04-15 11:25  alan_k
+
+	* Flexy/Token/Tag.php: would be a good idea to check for radio..
+
+2003-04-15 11:22  alan_k
+
+	* Flexy/Token/Tag.php: add the much requested radio button support
+
+2003-04-15 10:31  alan_k
+
+	* package.xml: update changelog and description
+
+2003-04-15 10:25  alan_k
+
+	* Flexy/: QuickForm.php, Token.php, Tokenizer.lex, Tokenizer.php:
+	  restore object argument support - Xavier, fix literal chop bug -
+	  Yuri Dyakonov
+
+2003-04-10 22:56  alan_k
+
+	* Flexy/: QuickForm.php, Tokenizer.lex, Tokenizer.php,
+	  Token/Method.php: fix stripping too many characters on methods
+	  with modifiers
+
+2003-04-10 16:27  alan_k
+
+	* Flexy/: QuickForm.php, Token/Tag.php: oops broke element method
+	  calls with the other commit
+
+2003-04-10 13:30  alan_k
+
+	* Flexy/QuickForm.php: fix quickforms elements array - no need to
+	  get it, its available as template->quickform->elements[name]->...
+
+2003-04-10 11:47  alan_k
+
+	* Flexy/QuickForm.php: get that name right
+
+2003-04-10 11:32  alan_k
+
+	* Flexy/QuickForm.php: missed another bug
+
+2003-04-09 20:44  alan_k
+
+	* Flexy.php: mmh didnt know you cant use func_get_args() as a
+	  parameter..
+
+2003-04-09 19:59  alan_k
+
+	* Flexy.php: oops missed that one - thx to Xavier
+
+2003-04-07 23:49  alan_k
+
+	* Flexy.php, Flexy/QuickForm.php, Flexy/Token.php,
+	  Flexy/Token/Tag.php: hopefully thats got multiple forms nailed
+
+2003-04-07 23:15  alan_k
+
+	* Flexy.php, Flexy/QuickForm.php, Flexy/Token.php,
+	  Flexy/Token/Tag.php: update notes and start thinking about
+	  solving the multiple form issue.
+
+2003-04-07 22:55  alan_k
+
+	* quickform_integration_notes.txt, Flexy/QuickForm.php,
+	  Flexy/Token/Tag.php: update notes and start thinking about
+	  solving the multiple form issue.
+
+2003-04-07 21:25  alan_k
+
+	* Flexy/Token/Tag.php: make sure flexy foreach and if have matching
+	  closing tags.
+
+2003-04-03 19:08  alan_k
+
+	* Flexy/QuickForm.php: prevent errors on hiding elements
+
+2003-04-03 16:56  alan_k
+
+	* Flexy.php, Flexy/QuickForm.php, Flexy/Token/Tag.php: major
+	  overhall of flexy to quickforms handling - now stores arguments
+	  to generate html_quickforms, rather than serialized view of
+	  quickforms
+
+2003-04-03 10:18  alan_k
+
+	* Flexy/Token/Tag.php: fix textarea bug
+
+2003-03-15 19:08  alan_k
+
+	* Flexy/Tokenizer.lex, Flexy/Tokenizer.php, Flexy/Token/Tag.php,
+	  examples/example.html, examples/example.html.en.php: add the
+	  flexy: namespace - thanks to tal template/zope for that idea,
+	  refactor the tag class
+
+2003-03-14 17:57  alan_k
+
+	* Flexy/Token/: Tag.php, Text.php: fixing gettext and button stuff
+
+2003-03-14 17:13  alan_k
+
+	* Flexy.php: fix file permission warnings
+
+2003-03-14 16:09  alan_k
+
+	* Flexy.php, Flexy/QuickForm.php: 1 bug and ewarning fixes
+
+2003-03-13 13:30  alan_k
+
+	* Flexy/Token/Tag.php: last one was to fix submit etc - this one
+	  forgot the commas..
+
+2003-03-13 13:27  alan_k
+
+	* Flexy/Token/Tag.php: beginning testing - fixes
+
+2003-03-13 13:02  alan_k
+
+	* Flexy.php, package.xml, Flexy/QuickForm.php: beginning testing -
+	  fixes
+
+2003-03-13 11:31  alan_k
+
+	* Flexy.php, Flexy/Token/Tag.php, examples/example.html,
+	  examples/example.html.en.php: all basic quickform generation
+	  hooks in now - including template side loader/saver
+
+2003-03-13 00:50  alan_k
+
+	* Flexy/Token/: Tag.php, Text.php: most of flexys current elements
+	  translated to quickforms
+
+2003-03-13 00:27  alan_k
+
+	* Flexy/Token/Text.php: oops forgot to add the text element with
+	  all the gettext stuff in
+
+2003-03-13 00:26  alan_k
+
+	* Flexy.php, Flexy/Test.php, Flexy/Token/Tag.php,
+	  examples/example.html: first steps on making the engine generate
+	  a quickform object
+
+2003-03-12 22:20  alan_k
+
+	* examples/example.html.en.php: fix word finding selection to
+	  ignore a few more
+
+2003-03-12 22:14  alan_k
+
+	* Flexy/Token/Method.php, examples/example.html.en.php: fix example
+	  output - gettext is not embeded in the output template any more
+
+2003-03-12 22:10  alan_k
+
+	* Flexy.php, quickform_integration_notes.txt, Flexy/Test.php,
+	  Flexy/Token.php, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Token/Method.php, Flexy/Token/Tag.php, Flexy/Token/Var.php,
+	  examples/example.html, examples/example.html.en.php: Provisional
+	  Support for gettext to translate templates - should be quite easy
+	  to embed alternative translators..
+
+2003-03-10 07:25  alan_k
+
+	* Flexy/QuickForm.php: first go at QuickForm wrapper for Flexy
+
+2003-03-08 22:49  alan_k
+
+	* quickform_integration_notes.txt: alter the design for setting
+	  quickform defaults
+
+2003-03-08 22:22  alan_k
+
+	* quickform_integration_notes.txt: adding quick forms integration
+	  notes
+
+2003-03-01 18:18  alan_k
+
+	* Flexy/: Token.php, Tokenizer.php, Token/If.php, Token/Method.php,
+	  Token/Tag.php: allow if="!somvar.method()" etc.
+
+2003-03-01 17:42  alan_k
+
+	* Flexy.php, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php: better error messages from parsing template
+	  (eg. filename is shown)
+
+2003-02-22 21:37  alan_k
+
+	* package.xml, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Token/Processing.php: fix support for xml templates.
+
+2003-02-22 13:13  alan_k
+
+	* Flexy/: Token.php, Tokenizer.lex, Tokenizer.php: fix extra
+	  whitespace in doctype element
+
+2003-02-21 00:08  alan_k
+
+	* Flexy/Token/Tag.php: fix textarea and change error handling
+	  method to have a matching error object to the form object for
+	  flexyform generation
+
+2003-02-19 23:45  alan_k
+
+	* package.xml, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Token/Method.php: fix literal support for method calls
+
+2003-02-15 00:17  alan_k
+
+	* package.xml, Flexy/Tokenizer.lex, Flexy/Token/Tag.php: add
+	  support for if atributes eg. <sometag if="xxxx">
+
+2003-02-14 17:44  alan_k
+
+	* Flexy.php, package.xml, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php: enable email template generation and disable
+	  PHP code in template by default
+
+2003-02-13 23:27  alan_k
+
+	* Flexy.php: move write check down the sequence so read only
+	  compile directories work
+
+2003-02-13 23:15  alan_k
+
+	* Flexy.php, package.xml, Flexy/compileAll.php,
+	  Flexy/Token/Tag.php: fix the bugs in compileAll script
+
+2003-02-13 23:03  alan_k
+
+	* Flexy.php, package.xml, Flexy/compileAll.php,
+	  Flexy/Token/Tag.php: adding compileAll script and method for
+	  offline compilation
+
+2003-02-13 17:20  alan_k
+
+	* package.xml, Flexy/example.ini, Flexy/Token/Tag.php: added
+	  url_rewrite for HREF and SRC tags
+
+2003-02-13 14:38  alan_k
+
+	* package.xml, Flexy/Token.php, Flexy/Token/Method.php: fixed
+	  {outputBody()} - non prefixed method calls
+
+2003-02-12 20:51  alan_k
+
+	* Flexy/Token/Tag.php: better handling of html form names
+
+2003-02-12 19:21  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: fine tuning valid method an
+	  variable names
+
+2003-02-12 19:07  alan_k
+
+	* package.xml, Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Token/Tag.php: add support for variable[19] numeric arrays
+	  only
+
+2003-02-08 14:33  alan_k
+
+	* package.xml, Flexy/Token/Tag.php: handle reset and blank name
+	  fields correctly
+
+2003-02-06 16:04  alan_k
+
+	* package.xml: add fuller description to package
+
+2003-02-06 15:51  alan_k
+
+	* Flexy.php, package.xml: update for another release, make the
+	  tokenizer the default now.
+
+2003-02-06 14:55  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Token/Tag.php: allow cdata
+	  tags so I can generate the example for the docs, fix flexyobject,
+	  add note where you can get phpLex
+
+2003-02-06 14:22  alan_k
+
+	* Flexy/: Token.php, Token/Tag.php: add support for FLEXYSTART,
+	  FLEXYSTARTCHILDREN (normally on BODY) and FLEXYOBJECT (in forms)
+
+2003-02-05 22:35  alan_k
+
+	* package.xml, Flexy/Tokenizer.php, Flexy/Token/Method.php,
+	  Flexy/Token/Tag.php: prepping for next release, fix urlencoding
+	  of form fields, fix method exist checks on method calls
+
+2003-02-04 15:11  alan_k
+
+	* Flexy.php: make flexy work with no ini file
+
+2003-02-03 01:20  alan_k
+
+	* package.xml: change to package desc.
+
+2003-02-03 01:17  alan_k
+
+	* package.xml: prepping for release
+
+2003-02-03 01:05  alan_k
+
+	* examples/example.html.en.php: example output seems to work
+
+2003-02-03 01:04  alan_k
+
+	* Flexy/Test.php, Flexy/Token.php, Flexy/Tokenizer.lex,
+	  Flexy/Tokenizer.php, Flexy/Token/If.php, Flexy/Token/Method.php,
+	  Flexy/Token/Tag.php, Flexy/Token/Var.php, examples/example.html:
+	  mostly matching with documentation now
+
+2003-02-02 17:33  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Token/Tag.php: typo fix to
+	  engine - amazing how documenting it uncovers some of the bugs :)
+
+2003-02-01 12:15  alan_k
+
+	* Flexy/Token/Tag.php: change all tags to be stored uppercase, add
+	  support for static selects mapping to form values
+
+2003-02-01 12:09  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php, Token/Tag.php: change all
+	  tags to be stored uppercase, add support for static selects
+	  mapping to form values
+
+2003-02-01 01:28  alan_k
+
+	* Flexy/: Token.php, Tokenizer.php, Token/Tag.php: provisional
+	  select support - looks like the whole form replacement stuff
+	  should depend on tags being added to form eg.  <form
+	  name="_object" useflexy="true"> , select replacement can be
+	  turned off using <select name="xxxx" static="true">
+
+2003-02-01 00:22  alan_k
+
+	* Flexy.php, package.xml, Flexy/Test.php, Flexy/Token.php,
+	  Flexy/Tokenizer.lex, Flexy/Tokenizer.php, Flexy/Token/Else.php,
+	  Flexy/Token/End.php, Flexy/Token/EndTag.php,
+	  Flexy/Token/Foreach.php, Flexy/Token/If.php,
+	  Flexy/Token/Include.php, Flexy/Token/Method.php,
+	  Flexy/Token/Tag.php, Flexy/Token/Var.php: Broken up Token,
+	  standardized method names - toString, factory etc. - broken up
+	  Tags into their own methods. taken all token manipulation logic
+	  away from compile, cache management class
+
+2003-01-31 01:34  alan_k
+
+	* examples/example.html.en.php: add example output of template
+	  engine
+
+2003-01-31 01:30  alan_k
+
+	* examples/example.html: start of examples folder
+
+2003-01-31 00:58  alan_k
+
+	* Flexy.php, package.xml, Flexy/Test.php, Flexy/Token.php,
+	  Flexy/Tokenizer.lex, Flexy/Tokenizer.php,
+	  Flexy/Filter/SimpleTags.php: more work on tokenized template
+	  engine - support for <tr foreach='rows,row'> and some of the
+	  modifiers
+
+2003-01-26 12:29  alan_k
+
+	* Flexy.php: add Hooks for new tokenizer
+
+2003-01-26 11:58  alan_k
+
+	* Flexy/: Tokenizer.lex, Tokenizer.php: cosmetic fixups .. - phpLex
+	  now generates reasonable PEAR CS compatible code
+
+2003-01-26 03:09  alan_k
+
+	* Flexy/Token.php: fix [] in field names
+
+2003-01-26 03:02  alan_k
+
+	* Flexy/: Test.php, Token.php, Tokenizer.lex, Tokenizer.php: Adding
+	  new tokenizer engine code - requires phpLex to generate
+	  Tokenizer.php - still working out what to do about that
+
+2003-01-04 19:55  mj
+
+	* Flexy.php, Flexy/Filter/BodyOnly.php, Flexy/Filter/Mail.php,
+	  Flexy/Filter/Math.php, Flexy/Filter/Php.php,
+	  Flexy/Filter/RtfSimpleTags.php, Flexy/Filter/SimpleTags.php,
+	  Flexy/Filter/Xml.php: * Update copyright year to 2003.
+
+2002-09-13 17:43  alan_k
+
+	* Flexy.php: fix case issue - thx to blues
+
+2002-09-07 13:47  alan_k
+
+	* package.xml: actually the grammar was ok :)
+
+2002-09-07 13:43  alan_k
+
+	* package.xml: slightly better grammer
+
+2002-09-07 13:40  alan_k
+
+	* package.xml: prepping for first release
+
+2002-08-31 15:42  sebastian
+
+	* Flexy.php: PHP may not be case-sensitive, but I am :-)
+
+2002-08-29 10:55  alan_k
+
+	* package.xml: slight typo on the summary
+
+2002-08-29 10:53  alan_k
+
+	* Flexy.php, package.xml, Flexy/Filter/SimpleTags.php:
+	   - Removed getTemplateDir method (legacy/unused)
+		- Added multilanguage support options[locale] - in theory a
+	  i18n filter could be added.
+		  Othewise it just checks to see if a template/compiled
+	  template with ????.{locale}.???
+		  exists
+		- added staticQuickTemplate($template,$object) for quickly
+	  including subtemplates.
+		- added {q_include(#aaaaa.html#)} to simpletags to support
+	  quicktemplate.
+		- changed to DIRECTORY_SEPERATOR and removed base directory
+	  check in windows.
+
+2002-08-24 13:32  alan_k
+
+	* Flexy/Filter/Xml.php: fix php nice habit of stripping CR
+
+2002-08-24 13:26  alan_k
+
+	* Flexy/Filter/Php.php: fix php filter - to stuff the right way
+	  round
+
+2002-08-24 08:36  alan_k
+
+	* Flexy/Filter/SimpleTags.php: fixed bug caused by removing
+	  setoption stuff
+
+2002-08-24 08:19  alan_k
+
+	* package.xml: remove old tag file
+
+2002-08-24 08:19  alan_k
+
+	* Flexy.php: fixed bug caused by removing setoption stuff
+
+2002-08-23 15:02  alan_k
+
+	* Flexy/Filter/Tags.php: removed Tags.php, not much point in
+	  keeping this - not maintained
+
+2002-08-23 14:55  alan_k
+
+	* Flexy.php, package.xml, Flexy/example.ini,
+	  Flexy/Filter/BodyOnly.php, Flexy/Filter/Mail.php,
+	  Flexy/Filter/Math.php, Flexy/Filter/Php.php,
+	  Flexy/Filter/RtfSimpleTags.php, Flexy/Filter/SimpleTags.php,
+	  Flexy/Filter/Tags.php, Flexy/Filter/Xml.php: Adding
+	  HTML_Template_Flexy, as discussed quite a few weeks ago
+

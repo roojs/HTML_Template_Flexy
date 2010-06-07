@@ -1,0 +1,1373 @@
+html_template_flexy_token Object
+(
+    [token] => 
+    [value] => 
+    [line] => 
+    [charPos] => 
+    [close] => html_template_flexy_token Object
+        (
+            [token] => 
+            [value] => 
+            [line] => 
+            [charPos] => 
+            [close] => 
+            [children] => Array
+                (
+                )
+
+            [ignoreChildren] => 
+            [id] => 64
+        )
+
+    [children] => Array
+        (
+            [0] => 
+            [1] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 0
+                    [charPos] => 0
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 2
+                )
+
+            [2] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 1
+                    [charPos] => 4
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 1
+                            [charPos] => 17
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /H2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 5
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => GLOBALS:
+                                    [line] => 1
+                                    [charPos] => 5
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 4
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => H2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 3
+                )
+
+            [3] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 1
+                    [charPos] => 18
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 6
+                )
+
+            [4] => html_template_flexy_token_var Object
+                (
+                    [token] => Var
+                    [value] => _SESSION[hello]
+                    [line] => 2
+                    [charPos] => 19
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [id] => 7
+                )
+
+            [5] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 2
+                    [charPos] => 36
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 8
+                )
+
+            [6] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 2
+                    [charPos] => 40
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 9
+                )
+
+            [7] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 2
+                    [charPos] => 41
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 10
+                )
+
+            [8] => html_template_flexy_token_var Object
+                (
+                    [token] => Var
+                    [value] => _GET[fred]
+                    [line] => 3
+                    [charPos] => 42
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [id] => 11
+                )
+
+            [9] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 3
+                    [charPos] => 54
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 12
+                )
+
+            [10] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 3
+                    [charPos] => 58
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 13
+                )
+
+            [11] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 3
+                    [charPos] => 59
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 14
+                )
+
+            [12] => html_template_flexy_token_var Object
+                (
+                    [token] => Var
+                    [value] => GLOBALS[abc]
+                    [line] => 4
+                    [charPos] => 60
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [id] => 15
+                )
+
+            [13] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 4
+                    [charPos] => 74
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 16
+                )
+
+            [14] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 4
+                    [charPos] => 78
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 17
+                )
+
+            [15] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+                    [line] => 4
+                    [charPos] => 79
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 18
+                )
+
+            [16] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 7
+                    [charPos] => 85
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 7
+                            [charPos] => 99
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /H2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 21
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Privates:
+                                    [line] => 7
+                                    [charPos] => 86
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 20
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => H2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 19
+                )
+
+            [17] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 7
+                    [charPos] => 100
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 22
+                )
+
+            [18] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 8
+                    [charPos] => 114
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => _somemethod
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                        )
+
+                    [id] => 23
+                )
+
+            [19] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 8
+                    [charPos] => 116
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 24
+                )
+
+            [20] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 8
+                    [charPos] => 120
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 25
+                )
+
+            [21] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 8
+                    [charPos] => 121
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 26
+                )
+
+            [22] => html_template_flexy_token_var Object
+                (
+                    [token] => Var
+                    [value] => _somevar
+                    [line] => 9
+                    [charPos] => 122
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [id] => 27
+                )
+
+            [23] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 9
+                    [charPos] => 132
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 28
+                )
+
+            [24] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 9
+                    [charPos] => 136
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 29
+                )
+
+            [25] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+
+
+                    [line] => 9
+                    [charPos] => 137
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 30
+                )
+
+            [26] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 13
+                    [charPos] => 144
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 13
+                            [charPos] => 164
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /H2
+                            [oTag] => /H2
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 33
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => Global methods 
+                                    [line] => 13
+                                    [charPos] => 145
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 32
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => H2
+                    [oTag] => H2
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 31
+                )
+
+            [27] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 13
+                    [charPos] => 165
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 34
+                )
+
+            [28] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 15
+                    [charPos] => 188
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => GLOBALS.date
+                    [isConditional] => 
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => #d/m/y#
+                        )
+
+                    [id] => 35
+                )
+
+            [29] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>    
+                    [line] => 15
+                    [charPos] => 190
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 36
+                )
+
+            [30] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 15
+                    [charPos] => 196
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 37
+                )
+
+            [31] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 15
+                    [charPos] => 197
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 38
+                )
+
+            [32] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 17
+                    [charPos] => 220
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => GLOBALS.is_array
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => test
+                        )
+
+                    [id] => 39
+                )
+
+            [33] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 17
+                    [charPos] => 226
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 40
+                )
+
+            [34] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 17
+                    [charPos] => 230
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 41
+                )
+
+            [35] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 17
+                    [charPos] => 231
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 42
+                )
+
+            [36] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 18
+                    [charPos] => 232
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 43
+                )
+
+            [37] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 18
+                    [charPos] => 238
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 44
+                )
+
+            [38] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 18
+                    [charPos] => 242
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 45
+                )
+
+            [39] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 18
+                    [charPos] => 243
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 46
+                )
+
+            [40] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 19
+                    [charPos] => 247
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 47
+                )
+
+            [41] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 19
+                    [charPos] => 248
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 48
+                )
+
+            [42] => html_template_flexy_token_foreach Object
+                (
+                    [token] => Foreach
+                    [value] => v
+                    [line] => 21
+                    [charPos] => 250
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [loopOn] => atest
+                    [key] => k
+                    [id] => 49
+                )
+
+            [43] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 21
+                    [charPos] => 269
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 50
+                )
+
+            [44] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 21
+                    [charPos] => 273
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 51
+                )
+
+            [45] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 21
+                    [charPos] => 274
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 52
+                )
+
+            [46] => html_template_flexy_token_method Object
+                (
+                    [token] => Method
+                    [value] => 
+                    [line] => 22
+                    [charPos] => 296
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [modifier] => 
+                    [method] => GLOBALS.is_array
+                    [isConditional] => 1
+                    [isNegative] => 
+                    [args] => Array
+                        (
+                            [0] => v
+                        )
+
+                    [id] => 53
+                )
+
+            [47] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 22
+                    [charPos] => 299
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 54
+                )
+
+            [48] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 22
+                    [charPos] => 303
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 55
+                )
+
+            [49] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 22
+                    [charPos] => 304
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 56
+                )
+
+            [50] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 23
+                    [charPos] => 305
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 57
+                )
+
+            [51] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 23
+                    [charPos] => 311
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 58
+                )
+
+            [52] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 23
+                    [charPos] => 315
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 59
+                )
+
+            [53] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 23
+                    [charPos] => 316
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 60
+                )
+
+            [54] => html_template_flexy_token_end Object
+                (
+                    [token] => End
+                    [value] => 
+                    [line] => 24
+                    [charPos] => 317
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [id] => 61
+                )
+
+            [55] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] =>  
+                    [line] => 24
+                    [charPos] => 323
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 62
+                )
+
+            [56] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 24
+                    [charPos] => 327
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => BR
+                    [oTag] => BR
+                    [attributes] => Array
+                        (
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 63
+                )
+
+        )
+
+    [ignoreChildren] => 
+    [id] => 0
+)

@@ -1,0 +1,94 @@
+
+NOTE:: this is part of the smarty distribution - and presumably licenced under LGPL
+- it should not be distributed as part of Flexy - it is here only to test the flexy smarty emulator.
+
+
+
+{plugin(#smartyConfigLoad#,#test.conf#,#setup#)}
+{plugin(#smartyInclude#,#header.tpl#)}
+
+<PRE>
+
+{if:bold}<b>{end:}
+
+Title: {configVars.title}<!-- UNSUPPORTED MODIFIERS: capitalize -->
+{if:bold}</b>{end:}
+
+
+{if:configVars.bold}<b>{end:}
+
+Title: {configVars.title}<!-- UNSUPPORTED MODIFIERS: capitalize -->
+{if:configVars.bold}</b>{end:}
+
+The current date and time is {plugin(#smartyModifiers#,smarty[now],#date_format:"%Y-%m-%d %H:%M:%S"#):h}
+
+Tooltip example: Move your mouse over the <A HREF="" <!--   UNSUPPORTED TAG: popup sticky=true caption="Smarty pop-up text" delay=400 text="This is an example of a tooltip. Tooltips are handy for context sensitive information, and extremely easy to add to your templates with Smarty and the integration of <a href='http://www.bosrup.com/web/overlib/'>overLIB</a> by Erik Bosrup" FOUND --> onclick="return false;">Help</A> link to see an example of a tooltip using Smarty's popup function.
+
+The value of global assigned variable $SCRIPT_NAME is {SCRIPT_NAME}
+
+Example of accessing server environment variable SERVER_NAME: {smarty[server][SERVER_NAME]}
+
+The value of {$Name} is <b>{Name}</b>
+
+variable modifier example of {$Name|upper}
+
+<b>{plugin(#smartyModifiers#,Name,#upper#):h}</b>
+
+
+An example of a section loop:
+
+<!--   UNSUPPORTED TAG: section name=outer loop=$FirstName FOUND -->
+<!--   UNSUPPORTED TAG: if %outer.index% is odd by 2 FOUND -->
+	<!-- what is this? %outer.rownum% --> . {FirstName[outer]} {LastName[outer]}
+<!--   UNSUPPORTED TAG: else FOUND -->
+	<!-- what is this? %outer.rownum% --> * {FirstName[outer]} {LastName[outer]}
+<!--   UNSUPPORTED TAG: /if FOUND -->
+<!--   UNSUPPORTED TAG: sectionelse FOUND -->
+	none
+<!--   UNSUPPORTED TAG: /section FOUND -->
+
+An example of section looped key values:
+
+<!--   UNSUPPORTED TAG: section name=sec1 loop=$contacts FOUND -->
+	phone: {contacts[sec1][phone]}<br>
+	fax: {contacts[sec1][fax]}<br>
+	cell: {contacts[sec1][cell]}<br>
+<!--   UNSUPPORTED TAG: /section FOUND -->
+<p>
+
+testing strip tags
+<!--   UNSUPPORTED TAG: strip FOUND -->
+<table border=0>
+	<tr>
+		<td>
+			<A HREF="{SCRIPT_NAME}">
+			<font color="red">This is a  test     </font>
+			</A>
+		</td>
+	</tr>
+</table>
+<!--   UNSUPPORTED TAG: /strip FOUND -->
+
+</PRE>
+
+This is an example of the html_select_date function:
+
+<form>
+<!--   UNSUPPORTED TAG: html_select_date start_year=1998 end_year=2010 FOUND -->
+</form>
+
+This is an example of the html_select_time function:
+
+<form>
+<!--   UNSUPPORTED TAG: html_select_time use_24_hours=false FOUND -->
+</form>
+
+This is an example of the html_options function:
+
+<form>
+<select name=states>
+<!--   UNSUPPORTED TAG: html_options values=$option_values selected=$option_selected output=$option_output FOUND -->
+</select>
+</form>
+
+{plugin(#smartyInclude#,#footer.tpl#)}

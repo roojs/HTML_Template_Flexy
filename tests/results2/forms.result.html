@@ -1,0 +1,52 @@
+
+<h2>Form Not Parsed</h2>
+
+<form name="test">
+    <input name=test123>
+    <select name="aaa">
+        <option>bb</option>
+    </select>
+</form>
+
+<h2>Parsed</h2>
+
+
+<form name="test">    Input<input name="test123">    Checkbox <input name="test123a" id="test123ab" type="checkbox" checked>    Hidden <input name="test123ab" type="hidden" value="123">    <textarea name="fred">some text</textarea>    <select name="aaa1">
+        <option>aa</option>
+	<option selected>bb</option>
+        <option>cc</option>
+    </select>    <select name="aaa2">
+        <option>aa</option>
+	<option selected>bb</option>
+        <option>cc</option>
+
+    </select>
+    <select name="aaa3">
+        <option>aa</option>
+	<option selected>bb</option>
+        <option>cc</option>
+
+    </select>    
+    
+    
+    
+    <select name="List">
+        <option value="2000">2000</option>
+        <option value="2001" selected>2001</option>
+        <option value="2002">2002</option>
+    </select>    <input type="submit" name="_submit[4]" value="Next &gt;&gt;">    <input type="submit" name="_submit[5]" value="Next &gt;&gt;">    
+    <input type="file" name="testupload"></form>
+
+<img name="picture" id="picture" width="400" height="400" src="any.gif">
+<h2>Bug 1120:</h2>
+<form action="test">
+<input name="testing" value="test"><input type="submit" value="x" name="_submit[2]"></form>
+
+<form action="">
+<input name="testing2" value=""><input type="submit" name="_submit[1]"></form>
+
+<H2> Bug 1275 XHTML output </H2>
+<input type="checkbox" name="testingxhtml" checked="checked"><select name="xhtmllisttest"><option value="0">--select something--</option><option value="bbb" selected="selected">somevalue</option></select>
+
+
+<form name="test_mix" action=""><input name="testing5" value=""><input type="submit" name="_submit[3]"></form>

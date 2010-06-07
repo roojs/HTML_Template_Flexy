@@ -1,0 +1,3085 @@
+html_template_flexy_token Object
+(
+    [token] => 
+    [value] => 
+    [line] => 
+    [charPos] => 
+    [close] => html_template_flexy_token Object
+        (
+            [token] => 
+            [value] => 
+            [line] => 
+            [charPos] => 
+            [close] => 
+            [children] => Array
+                (
+                )
+
+            [ignoreChildren] => 
+            [id] => 117
+        )
+
+    [children] => Array
+        (
+            [0] => 
+            [1] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 0
+                    [charPos] => 19
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => ?XML
+                    [oTag] => ?xml
+                    [attributes] => Array
+                        (
+                            [version] => "1.0"
+                            [?] => 1
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [VERSION] => "1.0"
+                            [?] => 1
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 2
+                )
+
+            [2] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 0
+                    [charPos] => 21
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 3
+                )
+
+            [3] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 1
+                    [charPos] => 83
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => ?XML-STYLESHEET
+                    [oTag] => ?xml-stylesheet
+                    [attributes] => Array
+                        (
+                            [href] => "chrome://global/skin/"
+                            [type] => "text/css"
+                            [?] => 1
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [HREF] => "chrome://global/skin/"
+                            [TYPE] => "text/css"
+                            [?] => 1
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 4
+                )
+
+            [4] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+                    [line] => 1
+                    [charPos] => 85
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 5
+                )
+
+            [5] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 2
+                    [charPos] => 145
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => ?XML-STYLESHEET
+                    [oTag] => ?xml-stylesheet
+                    [attributes] => Array
+                        (
+                            [href] => "images/css/test.css"
+                            [type] => "text/css"
+                            [?] => 1
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [HREF] => "images/css/test.css"
+                            [TYPE] => "text/css"
+                            [?] => 1
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 6
+                )
+
+            [6] => html_template_flexy_token_text Object
+                (
+                    [token] => Text
+                    [value] => 
+
+
+                    [line] => 2
+                    [charPos] => 147
+                    [close] => 
+                    [children] => Array
+                        (
+                        )
+
+                    [ignoreChildren] => 
+                    [argTokens] => Array
+                        (
+                        )
+
+                    [id] => 7
+                )
+
+            [7] => html_template_flexy_token_tag Object
+                (
+                    [token] => Tag
+                    [value] => 
+                    [line] => 8
+                    [charPos] => 419
+                    [close] => html_template_flexy_token_endtag Object
+                        (
+                            [token] => EndTag
+                            [value] => 
+                            [line] => 67
+                            [charPos] => 3056
+                            [close] => 
+                            [children] => Array
+                                (
+                                )
+
+                            [ignoreChildren] => 
+                            [tag] => /WINDOW
+                            [oTag] => /window
+                            [attributes] => Array
+                                (
+                                )
+
+                            [ucAttributes] => Array
+                                (
+                                )
+
+                            [postfix] => 
+                            [prefix] => 
+                            [id] => 116
+                        )
+
+                    [children] => Array
+                        (
+                            [0] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+ 
+        
+                                    [line] => 8
+                                    [charPos] => 420
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 9
+                                )
+
+                            [1] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 10
+                                    [charPos] => 549
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 25
+                                            [charPos] => 1382
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /TREE
+                                            [oTag] => /tree
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 40
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+                
+                                                    [line] => 10
+                                                    [charPos] => 550
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 11
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 11
+                                                    [charPos] => 576
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 15
+                                                            [charPos] => 890
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /TREECOLS
+                                                            [oTag] => /treecols
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 20
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                        
+                                                                    [line] => 11
+                                                                    [charPos] => 577
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 13
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 12
+                                                                    [charPos] => 691
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => TREECOL
+                                                                    [oTag] => treecol
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [flex] => "2"
+                                                                            [id] => "trcName"
+                                                                            [label] => "Name"
+                                                                            [primary] => "true"
+                                                                            [persist] => "width ordinal hidden"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [FLEX] => "2"
+                                                                            [ID] => "trcName"
+                                                                            [LABEL] => "Name"
+                                                                            [PRIMARY] => "true"
+                                                                            [PERSIST] => "width ordinal hidden"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 14
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                        
+                                                                    [line] => 12
+                                                                    [charPos] => 693
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 15
+                                                                )
+
+                                                            [3] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 13
+                                                                    [charPos] => 749
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => SPLITTER
+                                                                    [oTag] => splitter
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [class] => "tree-splitter"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [CLASS] => "tree-splitter"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 16
+                                                                )
+
+                                                            [4] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                        
+                                                                    [line] => 13
+                                                                    [charPos] => 751
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 17
+                                                                )
+
+                                                            [5] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 14
+                                                                    [charPos] => 861
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => TREECOL
+                                                                    [oTag] => treecol
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [flex] => "1"
+                                                                            [id] => "trcGroupName"
+                                                                            [label] => "Group Name"
+                                                                            [persist] => "width ordinal hidden"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [FLEX] => "1"
+                                                                            [ID] => "trcGroupName"
+                                                                            [LABEL] => "Group Name"
+                                                                            [PERSIST] => "width ordinal hidden"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 18
+                                                                )
+
+                                                            [6] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                
+                                                                    [line] => 14
+                                                                    [charPos] => 863
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 19
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => TREECOLS
+                                                    [oTag] => treecols
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 12
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+                
+                                                    [line] => 15
+                                                    [charPos] => 891
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 21
+                                                )
+
+                                            [3] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 16
+                                                    [charPos] => 921
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 24
+                                                            [charPos] => 1366
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /TREECHILDREN
+                                                            [oTag] => /treechildren
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 38
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                        
+                                                                    [line] => 16
+                                                                    [charPos] => 922
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 23
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 17
+                                                                    [charPos] => 988
+                                                                    [close] => html_template_flexy_token_endtag Object
+                                                                        (
+                                                                            [token] => EndTag
+                                                                            [value] => 
+                                                                            [line] => 23
+                                                                            [charPos] => 1334
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [tag] => /TREEITEM
+                                                                            [oTag] => /treeitem
+                                                                            [attributes] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ucAttributes] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [postfix] => 
+                                                                            [prefix] => 
+                                                                            [id] => 36
+                                                                        )
+
+                                                                    [children] => Array
+                                                                        (
+                                                                            [0] => html_template_flexy_token_text Object
+                                                                                (
+                                                                                    [token] => Text
+                                                                                    [value] => 
+                                
+                                                                                    [line] => 17
+                                                                                    [charPos] => 989
+                                                                                    [close] => 
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [argTokens] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [id] => 25
+                                                                                )
+
+                                                                            [1] => html_template_flexy_token_tag Object
+                                                                                (
+                                                                                    [token] => Tag
+                                                                                    [value] => 
+                                                                                    [line] => 18
+                                                                                    [charPos] => 1030
+                                                                                    [close] => html_template_flexy_token_endtag Object
+                                                                                        (
+                                                                                            [token] => EndTag
+                                                                                            [value] => 
+                                                                                            [line] => 22
+                                                                                            [charPos] => 1298
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [tag] => /TREEROW
+                                                                                            [oTag] => /treerow
+                                                                                            [attributes] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ucAttributes] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [postfix] => 
+                                                                                            [prefix] => 
+                                                                                            [id] => 34
+                                                                                        )
+
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                            [0] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                                        
+                                                                                                    [line] => 18
+                                                                                                    [charPos] => 1031
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 27
+                                                                                                )
+
+                                                                                            [1] => html_template_flexy_token_tag Object
+                                                                                                (
+                                                                                                    [token] => Tag
+                                                                                                    [value] => 
+                                                                                                    [line] => 19
+                                                                                                    [charPos] => 1101
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [tag] => TREECELL
+                                                                                                    [oTag] => treecell
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                            [label] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.name
+                                                                                                                            [line] => 19
+                                                                                                                            [charPos] => 1089
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [ucAttributes] => Array
+                                                                                                        (
+                                                                                                            [LABEL] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.name
+                                                                                                                            [line] => 19
+                                                                                                                            [charPos] => 1089
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [postfix] => 
+                                                                                                    [prefix] => 
+                                                                                                    [id] => 28
+                                                                                                )
+
+                                                                                            [2] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                                        
+                                                                                                    [line] => 19
+                                                                                                    [charPos] => 1103
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 29
+                                                                                                )
+
+                                                                                            [3] => html_template_flexy_token_tag Object
+                                                                                                (
+                                                                                                    [token] => Tag
+                                                                                                    [value] => 
+                                                                                                    [line] => 20
+                                                                                                    [charPos] => 1179
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [tag] => TREECELL
+                                                                                                    [oTag] => treecell
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                            [label] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.group_name
+                                                                                                                            [line] => 20
+                                                                                                                            [charPos] => 1161
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [ucAttributes] => Array
+                                                                                                        (
+                                                                                                            [LABEL] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.group_name
+                                                                                                                            [line] => 20
+                                                                                                                            [charPos] => 1161
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [postfix] => 
+                                                                                                    [prefix] => 
+                                                                                                    [id] => 30
+                                                                                                )
+
+                                                                                            [4] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                                        
+                                                                                                    [line] => 20
+                                                                                                    [charPos] => 1181
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 31
+                                                                                                )
+
+                                                                                            [5] => html_template_flexy_token_tag Object
+                                                                                                (
+                                                                                                    [token] => Tag
+                                                                                                    [value] => 
+                                                                                                    [line] => 21
+                                                                                                    [charPos] => 1254
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [tag] => TREECELL
+                                                                                                    [oTag] => treecell
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                            [label] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.user_id
+                                                                                                                            [line] => 21
+                                                                                                                            [charPos] => 1239
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [ucAttributes] => Array
+                                                                                                        (
+                                                                                                            [LABEL] => Array
+                                                                                                                (
+                                                                                                                    [0] => "
+                                                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                                                        (
+                                                                                                                            [token] => Var
+                                                                                                                            [value] => data.user_id
+                                                                                                                            [line] => 21
+                                                                                                                            [charPos] => 1239
+                                                                                                                            [close] => 
+                                                                                                                            [children] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [ignoreChildren] => 
+                                                                                                                            [modifier] => 
+                                                                                                                        )
+
+                                                                                                                    [2] => "
+                                                                                                                )
+
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [postfix] => 
+                                                                                                    [prefix] => 
+                                                                                                    [id] => 32
+                                                                                                )
+
+                                                                                            [6] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                                
+                                                                                                    [line] => 21
+                                                                                                    [charPos] => 1256
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 33
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [tag] => TREEROW
+                                                                                    [oTag] => treerow
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ucAttributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [postfix] => 
+                                                                                    [prefix] => 
+                                                                                    [id] => 26
+                                                                                )
+
+                                                                            [2] => html_template_flexy_token_text Object
+                                                                                (
+                                                                                    [token] => Text
+                                                                                    [value] => 
+                        
+                                                                                    [line] => 22
+                                                                                    [charPos] => 1299
+                                                                                    [close] => 
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [argTokens] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [id] => 35
+                                                                                )
+
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => TREEITEM
+                                                                    [oTag] => treeitem
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [flexy:foreach] => "sresult,id,data"
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [FLEXY:FOREACH] => "sresult,id,data"
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 24
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                
+                                                                    [line] => 23
+                                                                    [charPos] => 1335
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 37
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => TREECHILDREN
+                                                    [oTag] => treechildren
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 22
+                                                )
+
+                                            [4] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 24
+                                                    [charPos] => 1367
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 39
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => TREE
+                                    [oTag] => tree
+                                    [attributes] => Array
+                                        (
+                                            [id] => "userSearchResults"
+                                            [flex] => "1"
+                                            [height] => "300"
+                                            [enableColumnDrag] => "true"
+                                            [ondblclick] => "parent.parent.userEditPopup();"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [ID] => "userSearchResults"
+                                            [FLEX] => "1"
+                                            [HEIGHT] => "300"
+                                            [ENABLECOLUMNDRAG] => "true"
+                                            [ONDBLCLICK] => "parent.parent.userEditPopup();"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 10
+                                )
+
+                            [2] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+                                    [line] => 25
+                                    [charPos] => 1383
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 41
+                                )
+
+                            [3] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 26
+                                    [charPos] => 1414
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 35
+                                            [charPos] => 1728
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /HTML:FORM
+                                            [oTag] => /html:form
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 60
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 26
+                                                    [charPos] => 1415
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 43
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 27
+                                                    [charPos] => 1452
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => HTML:INPUT
+                                                    [oTag] => html:input
+                                                    [attributes] => Array
+                                                        (
+                                                            [name] => "test2"
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                            [NAME] => "test2"
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 44
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 27
+                                                    [charPos] => 1453
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 45
+                                                )
+
+                                            [3] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 28
+                                                    [charPos] => 1477
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 34
+                                                            [charPos] => 1707
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /HTML:TABLE
+                                                            [oTag] => /html:table
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 58
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+              
+                                                                    [line] => 28
+                                                                    [charPos] => 1478
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 47
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 29
+                                                                    [charPos] => 1501
+                                                                    [close] => html_template_flexy_token_endtag Object
+                                                                        (
+                                                                            [token] => EndTag
+                                                                            [value] => 
+                                                                            [line] => 33
+                                                                            [charPos] => 1681
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [tag] => /HTML:TR
+                                                                            [oTag] => /html:tr
+                                                                            [attributes] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ucAttributes] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [postfix] => 
+                                                                            [prefix] => 
+                                                                            [id] => 56
+                                                                        )
+
+                                                                    [children] => Array
+                                                                        (
+                                                                            [0] => html_template_flexy_token_text Object
+                                                                                (
+                                                                                    [token] => Text
+                                                                                    [value] => 
+                
+                                                                                    [line] => 29
+                                                                                    [charPos] => 1502
+                                                                                    [close] => 
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [argTokens] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [id] => 49
+                                                                                )
+
+                                                                            [1] => html_template_flexy_token_tag Object
+                                                                                (
+                                                                                    [token] => Tag
+                                                                                    [value] => 
+                                                                                    [line] => 30
+                                                                                    [charPos] => 1527
+                                                                                    [close] => html_template_flexy_token_endtag Object
+                                                                                        (
+                                                                                            [token] => EndTag
+                                                                                            [value] => 
+                                                                                            [line] => 32
+                                                                                            [charPos] => 1657
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [tag] => /HTML:TD
+                                                                                            [oTag] => /html:td
+                                                                                            [attributes] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ucAttributes] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [postfix] => 
+                                                                                            [prefix] => 
+                                                                                            [id] => 54
+                                                                                        )
+
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                            [0] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                  
+                                                                                                    [line] => 30
+                                                                                                    [charPos] => 1528
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 51
+                                                                                                )
+
+                                                                                            [1] => html_template_flexy_token_tag Object
+                                                                                                (
+                                                                                                    [token] => Tag
+                                                                                                    [value] => 
+                                                                                                    [line] => 31
+                                                                                                    [charPos] => 1629
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [tag] => LABEL
+                                                                                                    [oTag] => label
+                                                                                                    [attributes] => Array
+                                                                                                        (
+                                                                                                            [style] => "text-align: left;"
+                                                                                                            [control] => "listItemSubCat"
+                                                                                                            [value] => "Item Subcategory"
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [ucAttributes] => Array
+                                                                                                        (
+                                                                                                            [STYLE] => "text-align: left;"
+                                                                                                            [CONTROL] => "listItemSubCat"
+                                                                                                            [VALUE] => "Item Subcategory"
+                                                                                                            [/] => 1
+                                                                                                        )
+
+                                                                                                    [postfix] => 
+                                                                                                    [prefix] => 
+                                                                                                    [id] => 52
+                                                                                                )
+
+                                                                                            [2] => html_template_flexy_token_text Object
+                                                                                                (
+                                                                                                    [token] => Text
+                                                                                                    [value] => 
+                
+                                                                                                    [line] => 31
+                                                                                                    [charPos] => 1631
+                                                                                                    [close] => 
+                                                                                                    [children] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [ignoreChildren] => 
+                                                                                                    [argTokens] => Array
+                                                                                                        (
+                                                                                                        )
+
+                                                                                                    [id] => 53
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [tag] => HTML:TD
+                                                                                    [oTag] => html:td
+                                                                                    [attributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ucAttributes] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [postfix] => 
+                                                                                    [prefix] => 
+                                                                                    [id] => 50
+                                                                                )
+
+                                                                            [2] => html_template_flexy_token_text Object
+                                                                                (
+                                                                                    [token] => Text
+                                                                                    [value] => 
+             
+                                                                                    [line] => 32
+                                                                                    [charPos] => 1658
+                                                                                    [close] => 
+                                                                                    [children] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [ignoreChildren] => 
+                                                                                    [argTokens] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [id] => 55
+                                                                                )
+
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => HTML:TR
+                                                                    [oTag] => html:tr
+                                                                    [attributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 48
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+            
+                                                                    [line] => 33
+                                                                    [charPos] => 1682
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 57
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => HTML:TABLE
+                                                    [oTag] => html:table
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 46
+                                                )
+
+                                            [4] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 34
+                                                    [charPos] => 1708
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 59
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => HTML:FORM
+                                    [oTag] => html:form
+                                    [attributes] => Array
+                                        (
+                                            [name] => "test"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [NAME] => "test"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 42
+                                )
+
+                            [4] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+                                    [line] => 35
+                                    [charPos] => 1729
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 61
+                                )
+
+                            [5] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 36
+                                    [charPos] => 1763
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 39
+                                            [charPos] => 1945
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /HTML:SELECT
+                                            [oTag] => /html:select
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 68
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 36
+                                                    [charPos] => 1764
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 63
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 38
+                                                    [charPos] => 1897
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 38
+                                                            [charPos] => 1922
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /HTML:OPTION
+                                                            [oTag] => /html:option
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 66
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_var Object
+                                                                (
+                                                                    [token] => Var
+                                                                    [value] => data.name
+                                                                    [line] => 38
+                                                                    [charPos] => 1898
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [modifier] => 
+                                                                    [id] => 65
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => HTML:OPTION
+                                                    [oTag] => html:option
+                                                    [attributes] => Array
+                                                        (
+                                                            [flexy:foreach] => "categories,data"
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => "
+                                                                    [1] => html_template_flexy_token_var Object
+                                                                        (
+                                                                            [token] => Var
+                                                                            [value] => data.value
+                                                                            [line] => 37
+                                                                            [charPos] => 1829
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [modifier] => 
+                                                                        )
+
+                                                                    [2] => "
+                                                                )
+
+                                                            [onselect] => "parent.onSelect_ProdCat();"
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                            [FLEXY:FOREACH] => "categories,data"
+                                                            [VALUE] => Array
+                                                                (
+                                                                    [0] => "
+                                                                    [1] => html_template_flexy_token_var Object
+                                                                        (
+                                                                            [token] => Var
+                                                                            [value] => data.value
+                                                                            [line] => 37
+                                                                            [charPos] => 1829
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [modifier] => 
+                                                                        )
+
+                                                                    [2] => "
+                                                                )
+
+                                                            [ONSELECT] => "parent.onSelect_ProdCat();"
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 64
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 38
+                                                    [charPos] => 1923
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 67
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => HTML:SELECT
+                                    [oTag] => html:select
+                                    [attributes] => Array
+                                        (
+                                            [name] => "atest"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [NAME] => "atest"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 62
+                                )
+
+                            [6] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+                                    [line] => 39
+                                    [charPos] => 1946
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 69
+                                )
+
+                            [7] => html_template_flexy_token Object
+                                (
+                                    [token] => Comment
+                                    [value] => <!-- example of how to make the above work correctly.. -->
+                                    [line] => 40
+                                    [charPos] => 1959
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [id] => 70
+                                )
+
+                            [8] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+                                    [line] => 40
+                                    [charPos] => 2013
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 71
+                                )
+
+                            [9] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 41
+                                    [charPos] => 2066
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 44
+                                            [charPos] => 2248
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /HTML:SELECT
+                                            [oTag] => /html:select
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 78
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 41
+                                                    [charPos] => 2067
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 73
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 43
+                                                    [charPos] => 2200
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 43
+                                                            [charPos] => 2225
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /HTML:OPTION
+                                                            [oTag] => /html:option
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 76
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_var Object
+                                                                (
+                                                                    [token] => Var
+                                                                    [value] => data.name
+                                                                    [line] => 43
+                                                                    [charPos] => 2201
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [modifier] => 
+                                                                    [id] => 75
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => HTML:OPTION
+                                                    [oTag] => html:option
+                                                    [attributes] => Array
+                                                        (
+                                                            [flexy:foreach] => "categories,data"
+                                                            [value] => Array
+                                                                (
+                                                                    [0] => "
+                                                                    [1] => html_template_flexy_token_var Object
+                                                                        (
+                                                                            [token] => Var
+                                                                            [value] => data.value
+                                                                            [line] => 42
+                                                                            [charPos] => 2132
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [modifier] => 
+                                                                        )
+
+                                                                    [2] => "
+                                                                )
+
+                                                            [onselect] => "parent.onSelect_ProdCat();"
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                            [FLEXY:FOREACH] => "categories,data"
+                                                            [VALUE] => Array
+                                                                (
+                                                                    [0] => "
+                                                                    [1] => html_template_flexy_token_var Object
+                                                                        (
+                                                                            [token] => Var
+                                                                            [value] => data.value
+                                                                            [line] => 42
+                                                                            [charPos] => 2132
+                                                                            [close] => 
+                                                                            [children] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [ignoreChildren] => 
+                                                                            [modifier] => 
+                                                                        )
+
+                                                                    [2] => "
+                                                                )
+
+                                                            [ONSELECT] => "parent.onSelect_ProdCat();"
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 74
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 43
+                                                    [charPos] => 2226
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 77
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => HTML:SELECT
+                                    [oTag] => html:select
+                                    [attributes] => Array
+                                        (
+                                            [name] => "atest"
+                                            [flexy:ignore] => "yes"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [NAME] => "atest"
+                                            [FLEXY:IGNORE] => "yes"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 72
+                                )
+
+                            [10] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+        
+                                    [line] => 44
+                                    [charPos] => 2249
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 79
+                                )
+
+                            [11] => html_template_flexy_token Object
+                                (
+                                    [token] => Comment
+                                    [value] => <!-- test toElement  -->
+                                    [line] => 46
+                                    [charPos] => 2271
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [id] => 80
+                                )
+
+                            [12] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+         
+                                    [line] => 46
+                                    [charPos] => 2291
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 81
+                                )
+
+                            [13] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 47
+                                    [charPos] => 2327
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 51
+                                            [charPos] => 2478
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /MENULIST
+                                            [oTag] => /menulist
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 90
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 47
+                                                    [charPos] => 2328
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 83
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 48
+                                                    [charPos] => 2351
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 50
+                                                            [charPos] => 2458
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /MENUPOPUP
+                                                            [oTag] => /menupopup
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 88
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                    
+                                                                    [line] => 48
+                                                                    [charPos] => 2352
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 85
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 49
+                                                                    [charPos] => 2432
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => MENUITEM
+                                                                    [oTag] => menuitem
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [id] => "itemSubCatAll"
+                                                                            [label] => "-- Select --"
+                                                                            [value] => "0"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [ID] => "itemSubCatAll"
+                                                                            [LABEL] => "-- Select --"
+                                                                            [VALUE] => "0"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 86
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+            
+                                                                    [line] => 49
+                                                                    [charPos] => 2434
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 87
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => MENUPOPUP
+                                                    [oTag] => menupopup
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 84
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 50
+                                                    [charPos] => 2459
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 89
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => MENULIST
+                                    [oTag] => menulist
+                                    [attributes] => Array
+                                        (
+                                            [id] => "supplier_id"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [ID] => "supplier_id"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 82
+                                )
+
+                            [14] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+        
+                                    [line] => 51
+                                    [charPos] => 2479
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 91
+                                )
+
+                            [15] => html_template_flexy_token Object
+                                (
+                                    [token] => Comment
+                                    [value] => <!-- test using flexy stuff -->
+                                    [line] => 53
+                                    [charPos] => 2501
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [id] => 92
+                                )
+
+                            [16] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+                                    [line] => 53
+                                    [charPos] => 2528
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 93
+                                )
+
+                            [17] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 54
+                                    [charPos] => 2564
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 58
+                                            [charPos] => 2739
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /MENULIST
+                                            [oTag] => /menulist
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 102
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 54
+                                                    [charPos] => 2565
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 95
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 55
+                                                    [charPos] => 2588
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 57
+                                                            [charPos] => 2719
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /MENUPOPUP
+                                                            [oTag] => /menupopup
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 100
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                    
+                                                                    [line] => 55
+                                                                    [charPos] => 2589
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 97
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 56
+                                                                    [charPos] => 2693
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => MENUITEM
+                                                                    [oTag] => menuitem
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [flexy:foreach] => "x,y"
+                                                                            [id] => "itemSubCatAll"
+                                                                            [label] => Array
+                                                                                (
+                                                                                    [0] => "
+                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                        (
+                                                                                            [token] => Var
+                                                                                            [value] => y.name
+                                                                                            [line] => 56
+                                                                                            [charPos] => 2666
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [modifier] => 
+                                                                                        )
+
+                                                                                    [2] => "
+                                                                                )
+
+                                                                            [value] => Array
+                                                                                (
+                                                                                    [0] => "
+                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                        (
+                                                                                            [token] => Var
+                                                                                            [value] => y.value
+                                                                                            [line] => 56
+                                                                                            [charPos] => 2683
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [modifier] => 
+                                                                                        )
+
+                                                                                    [2] => "
+                                                                                )
+
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [FLEXY:FOREACH] => "x,y"
+                                                                            [ID] => "itemSubCatAll"
+                                                                            [LABEL] => Array
+                                                                                (
+                                                                                    [0] => "
+                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                        (
+                                                                                            [token] => Var
+                                                                                            [value] => y.name
+                                                                                            [line] => 56
+                                                                                            [charPos] => 2666
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [modifier] => 
+                                                                                        )
+
+                                                                                    [2] => "
+                                                                                )
+
+                                                                            [VALUE] => Array
+                                                                                (
+                                                                                    [0] => "
+                                                                                    [1] => html_template_flexy_token_var Object
+                                                                                        (
+                                                                                            [token] => Var
+                                                                                            [value] => y.value
+                                                                                            [line] => 56
+                                                                                            [charPos] => 2683
+                                                                                            [close] => 
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [ignoreChildren] => 
+                                                                                            [modifier] => 
+                                                                                        )
+
+                                                                                    [2] => "
+                                                                                )
+
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 98
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+            
+                                                                    [line] => 56
+                                                                    [charPos] => 2695
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 99
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => MENUPOPUP
+                                                    [oTag] => menupopup
+                                                    [attributes] => Array
+                                                        (
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 96
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 57
+                                                    [charPos] => 2720
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 101
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => MENULIST
+                                    [oTag] => menulist
+                                    [attributes] => Array
+                                        (
+                                            [id] => "supplier_id2"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [ID] => "supplier_id2"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 94
+                                )
+
+                            [18] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+        
+                                    [line] => 58
+                                    [charPos] => 2740
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 103
+                                )
+
+                            [19] => html_template_flexy_token Object
+                                (
+                                    [token] => Comment
+                                    [value] => <!-- test args on menupopup -->
+                                    [line] => 60
+                                    [charPos] => 2762
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [id] => 104
+                                )
+
+                            [20] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+           
+                                    [line] => 60
+                                    [charPos] => 2789
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 105
+                                )
+
+                            [21] => html_template_flexy_token_tag Object
+                                (
+                                    [token] => Tag
+                                    [value] => 
+                                    [line] => 61
+                                    [charPos] => 2832
+                                    [close] => html_template_flexy_token_endtag Object
+                                        (
+                                            [token] => EndTag
+                                            [value] => 
+                                            [line] => 65
+                                            [charPos] => 3037
+                                            [close] => 
+                                            [children] => Array
+                                                (
+                                                )
+
+                                            [ignoreChildren] => 
+                                            [tag] => /MENULIST
+                                            [oTag] => /menulist
+                                            [attributes] => Array
+                                                (
+                                                )
+
+                                            [ucAttributes] => Array
+                                                (
+                                                )
+
+                                            [postfix] => 
+                                            [prefix] => 
+                                            [id] => 114
+                                        )
+
+                                    [children] => Array
+                                        (
+                                            [0] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+            
+                                                    [line] => 61
+                                                    [charPos] => 2833
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 107
+                                                )
+
+                                            [1] => html_template_flexy_token_tag Object
+                                                (
+                                                    [token] => Tag
+                                                    [value] => 
+                                                    [line] => 62
+                                                    [charPos] => 2919
+                                                    [close] => html_template_flexy_token_endtag Object
+                                                        (
+                                                            [token] => EndTag
+                                                            [value] => 
+                                                            [line] => 64
+                                                            [charPos] => 3017
+                                                            [close] => 
+                                                            [children] => Array
+                                                                (
+                                                                )
+
+                                                            [ignoreChildren] => 
+                                                            [tag] => /MENUPOPUP
+                                                            [oTag] => /menupopup
+                                                            [attributes] => Array
+                                                                (
+                                                                )
+
+                                                            [ucAttributes] => Array
+                                                                (
+                                                                )
+
+                                                            [postfix] => 
+                                                            [prefix] => 
+                                                            [id] => 112
+                                                        )
+
+                                                    [children] => Array
+                                                        (
+                                                            [0] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+                
+                                                                    [line] => 62
+                                                                    [charPos] => 2920
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 109
+                                                                )
+
+                                                            [1] => html_template_flexy_token_tag Object
+                                                                (
+                                                                    [token] => Tag
+                                                                    [value] => 
+                                                                    [line] => 63
+                                                                    [charPos] => 2991
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [tag] => MENUITEM
+                                                                    [oTag] => menuitem
+                                                                    [attributes] => Array
+                                                                        (
+                                                                            [id] => "prodCatAll"
+                                                                            [label] => "-- All --"
+                                                                            [value] => "0"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [ucAttributes] => Array
+                                                                        (
+                                                                            [ID] => "prodCatAll"
+                                                                            [LABEL] => "-- All --"
+                                                                            [VALUE] => "0"
+                                                                            [/] => 1
+                                                                        )
+
+                                                                    [postfix] => 
+                                                                    [prefix] => 
+                                                                    [id] => 110
+                                                                )
+
+                                                            [2] => html_template_flexy_token_text Object
+                                                                (
+                                                                    [token] => Text
+                                                                    [value] => 
+            
+                                                                    [line] => 63
+                                                                    [charPos] => 2993
+                                                                    [close] => 
+                                                                    [children] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [ignoreChildren] => 
+                                                                    [argTokens] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [id] => 111
+                                                                )
+
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [tag] => MENUPOPUP
+                                                    [oTag] => menupopup
+                                                    [attributes] => Array
+                                                        (
+                                                            [onpopuphiding] => "cTree.categorySelect(this.parentNode.value,1);"
+                                                        )
+
+                                                    [ucAttributes] => Array
+                                                        (
+                                                            [ONPOPUPHIDING] => "cTree.categorySelect(this.parentNode.value,1);"
+                                                        )
+
+                                                    [postfix] => 
+                                                    [prefix] => 
+                                                    [id] => 108
+                                                )
+
+                                            [2] => html_template_flexy_token_text Object
+                                                (
+                                                    [token] => Text
+                                                    [value] => 
+        
+                                                    [line] => 64
+                                                    [charPos] => 3018
+                                                    [close] => 
+                                                    [children] => Array
+                                                        (
+                                                        )
+
+                                                    [ignoreChildren] => 
+                                                    [argTokens] => Array
+                                                        (
+                                                        )
+
+                                                    [id] => 113
+                                                )
+
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [tag] => MENULIST
+                                    [oTag] => menulist
+                                    [attributes] => Array
+                                        (
+                                            [id] => "product_category"
+                                        )
+
+                                    [ucAttributes] => Array
+                                        (
+                                            [ID] => "product_category"
+                                        )
+
+                                    [postfix] => 
+                                    [prefix] => 
+                                    [id] => 106
+                                )
+
+                            [22] => html_template_flexy_token_text Object
+                                (
+                                    [token] => Text
+                                    [value] => 
+        
+
+                                    [line] => 65
+                                    [charPos] => 3038
+                                    [close] => 
+                                    [children] => Array
+                                        (
+                                        )
+
+                                    [ignoreChildren] => 
+                                    [argTokens] => Array
+                                        (
+                                        )
+
+                                    [id] => 115
+                                )
+
+                        )
+
+                    [ignoreChildren] => 
+                    [tag] => WINDOW
+                    [oTag] => window
+                    [attributes] => Array
+                        (
+                            [id] => "wndUserResults"
+                            [title] => "User Search Results"
+                            [persist] => "screenX screenY width height"
+                            [xmlns] => "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+                            [xmlns:html] => "http://www.w3.org/1999/xhtml"
+                        )
+
+                    [ucAttributes] => Array
+                        (
+                            [ID] => "wndUserResults"
+                            [TITLE] => "User Search Results"
+                            [PERSIST] => "screenX screenY width height"
+                            [XMLNS] => "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+                            [XMLNS:HTML] => "http://www.w3.org/1999/xhtml"
+                        )
+
+                    [postfix] => 
+                    [prefix] => 
+                    [id] => 8
+                )
+
+        )
+
+    [ignoreChildren] => 
+    [id] => 0
+)
