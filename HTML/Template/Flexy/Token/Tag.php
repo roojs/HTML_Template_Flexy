@@ -142,10 +142,14 @@ class HTML_Template_Flexy_Token_Tag extends HTML_Template_Flexy_Token {
         //var_dump($this->attributes);
         
         // this is weird case isset() returns false on this being null!
-        
-        if (@$this->ucAttributes[$key] === true) {
+        //smata:
+        if (array_key_exists($key, $this->ucAttributes) && $this->ucAttributes[$key] === true) {
             return true;
         }
+//
+//        if (@$this->ucAttributes[$key] === true) {
+//            return true;
+//        }
         
         if (!isset($this->ucAttributes[$key])) {
             return false;

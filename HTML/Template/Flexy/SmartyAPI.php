@@ -161,8 +161,12 @@ class HTML_Template_Flexy_SmartyAPI {
         // some standard stuff available to a smarty template..
         $this->vars['SCRIPT_NAME'] =  $_SERVER['SCRIPT_NAME'];
         
-        
-        $o = PEAR::getStaticProperty('HTML_Template_Flexy','options');
+        if (class_exists('PEAR5',false)) {
+            $o = PEAR5::getStaticProperty('HTML_Template_Flexy','options');
+        }
+        else {
+            $o = PEAR::getStaticProperty('HTML_Template_Flexy','options');
+        }
          
         require_once 'HTML/Template/Flexy.php';
         $t = new HTML_Template_Flexy;

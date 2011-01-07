@@ -37,8 +37,12 @@ if (!@$_SERVER['argv'][1]) {
 }
 
 $config = parse_ini_file($_SERVER['argv'][1], true);
-
-$options = &PEAR::getStaticProperty('HTML_Template_Flexy','options');
+if (class_exists('PEAR5',false)) {
+    $options = &PEAR5::getStaticProperty('HTML_Template_Flexy','options');
+}
+else {
+    $options = &PEAR::getStaticProperty('HTML_Template_Flexy','options');
+}
 $options = $config['HTML_Template_Flexy'];
 
 if (!$options) {

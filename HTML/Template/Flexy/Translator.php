@@ -107,7 +107,12 @@ class HTML_Template_Flexy_Translator {
         if (!in_array($this->options['baseLang'], $this->options['targetLangs'])) {
             $this->options['targetLangs'][] = $this->options['baseLang'];
         }
-        $o = PEAR::getStaticProperty('HTML_Template_Flexy','options');
+        if (class_exists('PEAR5',false)) {
+            $o = PEAR5::getStaticProperty('HTML_Template_Flexy','options');
+        }
+        else {
+            $o = PEAR::getStaticProperty('HTML_Template_Flexy','options');
+        }
         if (!strlen($this->options['templateDir'])) {
             $this->options['templateDir'] = $o['templateDir'];
         }
