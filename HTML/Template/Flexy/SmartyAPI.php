@@ -16,7 +16,7 @@
 // | Authors:  Alan Knowles <alan@akbkhome.com>                           |
 // +----------------------------------------------------------------------+
 //
-// $Id$
+// $Id: SmartyAPI.php 310198 2011-04-13 09:30:18Z alan_k $
 //
 //  Description this class emulates the Smarty API to attempt to enable 
 //  upgrading to flexy. (eg. for use with flexy templates (that have been
@@ -70,7 +70,7 @@ _* (all the privates)
 * - provides only basic support for variables
 * - uses flexy templates (that have been converted previosly with the converor)
 *  
-* @version    $Id$
+* @version    $Id: SmartyAPI.php 310198 2011-04-13 09:30:18Z alan_k $
 */
 
 class HTML_Template_Flexy_SmartyAPI {
@@ -164,7 +164,7 @@ class HTML_Template_Flexy_SmartyAPI {
         if (class_exists('PEAR5',false)) {
             $o = PEAR5::getStaticProperty('HTML_Template_Flexy','options');
         }
-        else {
+        if (empty($o)) {
             $o = PEAR::getStaticProperty('HTML_Template_Flexy','options');
         }
          

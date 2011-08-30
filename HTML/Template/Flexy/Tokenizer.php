@@ -16,7 +16,7 @@
 // | Authors:  Alan Knowles <alan@akbkhome.com>                           |
 // +----------------------------------------------------------------------+
 //
-// $Id$
+// $Id: Tokenizer.php 293390 2010-01-11 06:48:22Z alan_k $
 //
 //  The Source Lex file. (Tokenizer.lex) and the Generated one (Tokenizer.php)
 // You should always work with the .lex file and generate by

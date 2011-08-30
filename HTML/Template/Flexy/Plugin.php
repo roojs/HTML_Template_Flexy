@@ -16,7 +16,7 @@
 // | Authors:  nobody <nobody@localhost>                                  |
 // +----------------------------------------------------------------------+
 //
-// $Id$
+// $Id: Plugin.php 315533 2011-08-26 02:39:02Z alan_k $
 //
 // Plugin API provides support for  < ? = $this->plugin(".....",.....); ? >
 //  or {this.plugin(#xxxxx#,#xxxx#):h}
@@ -58,7 +58,7 @@ class HTML_Template_Flexy_Plugin
         // attempt to load the plugin on-the-fly
         $class = $this->_loadPlugins($method);
          
-        if (is_a($class,'PEAR_Error')) {
+        if (is_object($class) && is_a($class,'PEAR_Error')) {
             //echo $class->toString();
             return $class->toString();
         }

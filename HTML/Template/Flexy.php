@@ -37,7 +37,7 @@ $GLOBALS['_HTML_TEMPLATE_FLEXY'] = array();
 function HTML_Template_Flexy_is_a($obj, $class)  // which f***wit depreciated is_a....
 {
     if (version_compare(phpversion(),"5","<")) {
-       return is_a($obj, $class);
+       return is_object($obj) &&  is_a($obj, $class);
        
     } 
     $test=false; 
@@ -79,7 +79,7 @@ define('HTML_TEMPLATE_FLEXY_ERROR_DIE',8);  // FATAL DEATH
 *
 *
 *
-* @version    $Id$
+* @version    $Id: Flexy.php 315533 2011-08-26 02:39:02Z alan_k $
 */
 
 
@@ -150,8 +150,12 @@ class HTML_Template_Flexy
                                         // set to:
                                         //  'Translation2' => array(
                                         //         'driver' => 'dataobjectsimple',
+                                        //         'CommonPageID' => 'page.id'    
                                         //         'options' => array()
                                         //  );
+                                        //
+                                        // Note: CommonPageID : to use a single page id for all templates
+                                        //
                                         // or the slower way.. 
                                         //   = as it requires loading the code..
                                         //
@@ -232,8 +236,7 @@ class HTML_Template_Flexy
         if (class_exists('PEAR5',false)) {
             $baseoptions = &PEAR5::getStaticProperty('HTML_Template_Flexy','options');
         }
-        else 
-        if (class_exists('PEAR')) {
+        if (empty($baseoptions) && class_exists('PEAR')) {
             $baseoptions = &PEAR::getStaticProperty('HTML_Template_Flexy','options');
         }
         if ($baseoptions ) {
