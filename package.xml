@@ -43,7 +43,7 @@ Features:
 - support for urlencoded braces {} in HTML attributes.  
 - documentation in the pear manual
 
-- examples at http://cvs.php.net/cvs.php/pear/HTML_Template_Flexy/tests/</description>
+- examples at http://svn.php.net/pear/packages/HTML_Template_Flexy/trunk/tests/</description>
  <lead>
   <name>Alan Knowles</name>
   <user>alan_k</user>
@@ -51,6 +51,226 @@ Features:
   <active>yes</active>
  </lead>
 
+
+ 	<date>2011-08-29</date>
+ 	 <version>
+	  <release>1.3.12</release>
+	  <api>1.3.0</api>
+	 </version>
+	 <stability>
+	  <release>stable</release>
+	  <api>stable</api>
+	 </stability>
+	
+	 <license uri="http://www.php.net/license">PHP License</license>
+	 <notes>
+Minor fixes and feature release
+
+Bug Fixes	
+    
+   #18763 - Fix is_a() for 5.3.7+ due to php-core stupidity
+   #----- - Support for new PEAR5 class.
+   
+Features
+   #----- - support for CommonPageID when using Translation2
+
+	 </notes>
+
+
+
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/"  name="examples/EMPTY_FOLDERS_NOTHING_IN_HERE" role="doc" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Assign.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/compileAll.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Element.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/example.ini" role="data" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Factory.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Plugin.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/SmartyAPI.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Test.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Tokenizer.lex" role="data" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Tokenizer.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Translator.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Tree.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Flexy.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/SmartyConvertor.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Standard.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Flexy/CustomFlexyAttributes.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Flexy/Flexy.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Flexy/Tag.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/BodyOnly.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/Mail.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/Math.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/Php.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/RtfSimpleTags.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/SimpleTags.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Regex/Xml.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Standard/Flexy.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Compiler/Standard/Tag.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Element/Xul.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Plugin/Savant.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/templates/translator.html" role="doc" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Cdata.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Else.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/End.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/EndTag.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Foreach.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/If.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Method.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Processing.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Tag.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Text.php" role="php" />
+   <file baseinstalldir="/"  name="HTML/Template/Flexy/Token/Var.php" role="php" />
+   <file baseinstalldir="/"  name="tests/make_tests.php" role="test" />
+   <file baseinstalldir="/"  name="tests/test.php" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/testsuite.php" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_blocks.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_bug_2959.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_conditions.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_error_foreach.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_flexy_tojavascript.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_forms.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_function.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_globals.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_image_view.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_include.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_javascript.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_looping.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_methods.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_namespaces.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_plugin_modifiers.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_raw_php.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_raw_text.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/test_style.html.phpt" role="test" />
+   <file baseinstalldir="/"   name="tests/test_usesname.html.phpt" role="test" />
+   <file baseinstalldir="HTML/Template"   name="tests/test_variables.html.phpt" role="test" />
+   <file baseinstalldir="/"  name="tests/treeTest.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/blocks.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/blocks.html.en.php#block1" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/blocks.html.en.php#block2" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/blocks.html.gettext.serial" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/forms.html.elements.serial" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/forms.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/forms.html.gettext.serial" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/forms.result.html" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/function.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/function.html.gettext.serial" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/function.result.html" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/globals.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/globals.html.gettext.serial" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/namespaces.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/results2/raw_php.html.en.php" role="test" />
+   <file baseinstalldir="/"  name="tests/smarty/index.tpl" role="test" />
+   <file baseinstalldir="/"  name="tests/smarty/index.tpl.html" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/smarty/smartytest.php" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/templates/blocks.html" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/templates/bug_2959.html" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/templates/conditions.html" role="test" />
+   <file baseinstalldir="HTML/Template"  name="tests/templates/error_foreach.html" role="test" />
+   <file baseinstalldir="/"   name="tests/templates/flexy_raw_with_element.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/flexy_tojavascript.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/forms.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/function.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/globals.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/image_view.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/include.html" role="test" />
+   <file baseinstalldir="/" name="tests/templates/includes.html" role="test" />
+   <file baseinstalldir="/" name="tests/templates/include_block.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/javascript.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/looping.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/methods.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/namespaces.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/plugin_modifiers.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/raw_php.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/raw_text.html" role="test" />
+   <file baseinstalldir="HTML/Template" name="tests/templates/style.html" role="test" />
+   <file baseinstalldir="/"   name="tests/templates/usesname.html" role="test" />
+   <file baseinstalldir="HTML/Template"   name="tests/templates/variables.html" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/blocks.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/conditions.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/error_foreach.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/flexy_tojavascript.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/forms.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/function.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/globals.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/image_view.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/includes.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/javascript.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/looping.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/methods.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/namespaces.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/plugin_modifiers.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/raw_php.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/raw_text.html.tree" role="test" />
+   <file baseinstalldir="/"  name="tests/trees/variables.html.tree" role="test" />
+   <file baseinstalldir="/"  name="ChangeLog" role="data" />
+   <file baseinstalldir="/"  name="TODO" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>HTML_Javascript</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>File_Gettext</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.0</min>
+   </package>
+   <package>
+    <name>Translation2</name>
+    <channel>pear.php.net</channel>
+    <min>0.0.1</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+
+ 
+ 
+  <release>
+ 
+ 	<date>2011-01-11</date>
+ 	 <version>
+	  <release>1.3.11</release>
+	  <api>1.3.0</api>
+	 </version>
+	 <stability>
+	  <release>stable</release>
+	  <api>stable</api>
+	 </stability>
+	
+	 <license uri="http://www.php.net/license">PHP License</license>
+	 <notes>
+Minor fixes and feature release
+
+Bug Fixes	
+
+   #----- - PHP5 E_STRICT warnings removed
+ 
+	 </notes>
+
+ 
+  </release>
+ 
+ 
+  <release>
 
  	<date>2010-06-07</date>
  	 <version>
@@ -85,173 +305,10 @@ New Features/Changes
   #----- - SVN layout changed. (clockwerx)
 	 </notes>
 
+ 
+ </release>
 
-
- <contents>
-  <dir baseinstalldir="/" name="/">
-   <file baseinstalldir="/" md5sum="60b08ae3889ed2f7557141cb7e1dde5a" name="examples/EMPTY_FOLDERS_NOTHING_IN_HERE" role="doc" />
-   <file baseinstalldir="/" md5sum="3be206f93d3e3056bb24e975d7f76212" name="HTML/Template/Flexy.php" role="php" />
-   <file baseinstalldir="/" md5sum="75c5c883512d3512ee7d88b8288a0545" name="HTML/Template/Flexy/Assign.php" role="php" />
-   <file baseinstalldir="/" md5sum="5e052b2665f783df551011861082449c" name="HTML/Template/Flexy/compileAll.php" role="php" />
-   <file baseinstalldir="/" md5sum="165b9e5167ca5fdd85af8b68a85d9821" name="HTML/Template/Flexy/Compiler.php" role="php" />
-   <file baseinstalldir="/" md5sum="ab9b5176c7fbaf10a86acb858ac665dd" name="HTML/Template/Flexy/Element.php" role="php" />
-   <file baseinstalldir="/" md5sum="dd43c12cb25c8039e27e2bcb5a614c8f" name="HTML/Template/Flexy/example.ini" role="data" />
-   <file baseinstalldir="/" md5sum="5063ff5f551230a1d2f9b65a51877dae" name="HTML/Template/Flexy/Factory.php" role="php" />
-   <file baseinstalldir="/" md5sum="7412be5d6ea175345293f89f47fa24e7" name="HTML/Template/Flexy/Plugin.php" role="php" />
-   <file baseinstalldir="/" md5sum="5397513e06f841c59309f95e15b62ff4" name="HTML/Template/Flexy/SmartyAPI.php" role="php" />
-   <file baseinstalldir="/" md5sum="ca57f890ee4fce9fc5fe890031d00d2c" name="HTML/Template/Flexy/Test.php" role="php" />
-   <file baseinstalldir="/" md5sum="7d54b8b18d36eaa82256e021b8796d4c" name="HTML/Template/Flexy/Token.php" role="php" />
-   <file baseinstalldir="/" md5sum="430bdcebc490dfe0f69db2e2a2e30229" name="HTML/Template/Flexy/Tokenizer.lex" role="data" />
-   <file baseinstalldir="/" md5sum="6c145bad7b53dddbc601496ef0596747" name="HTML/Template/Flexy/Tokenizer.php" role="php" />
-   <file baseinstalldir="/" md5sum="343370b594c103ab577b063b5973cd61" name="HTML/Template/Flexy/Translator.php" role="php" />
-   <file baseinstalldir="/" md5sum="a824a4ac708fa9971b53b49652667527" name="HTML/Template/Flexy/Tree.php" role="php" />
-   <file baseinstalldir="/" md5sum="2cfc786433dd3e2383be3e4778f1f06b" name="HTML/Template/Flexy/Compiler/Flexy.php" role="php" />
-   <file baseinstalldir="/" md5sum="1cf7a9aed8af07e1d15392e0871f1a14" name="HTML/Template/Flexy/Compiler/Regex.php" role="php" />
-   <file baseinstalldir="/" md5sum="98c69733f0865d5cd4078b4123fb6094" name="HTML/Template/Flexy/Compiler/SmartyConvertor.php" role="php" />
-   <file baseinstalldir="/" md5sum="5c13ef949f6364895c70e2c35bf32465" name="HTML/Template/Flexy/Compiler/Standard.php" role="php" />
-   <file baseinstalldir="/" md5sum="7982de17a1bcd1d44af2730d0459a98c" name="HTML/Template/Flexy/Compiler/Flexy/CustomFlexyAttributes.php" role="php" />
-   <file baseinstalldir="/" md5sum="6f952e7441b5795eb2a88cc603cfefa3" name="HTML/Template/Flexy/Compiler/Flexy/Flexy.php" role="php" />
-   <file baseinstalldir="/" md5sum="3a989531b85ef3fa8c0623faf9bcc42e" name="HTML/Template/Flexy/Compiler/Flexy/Tag.php" role="php" />
-   <file baseinstalldir="/" md5sum="30cac8b8abf24937d0759e2850cfbb4f" name="HTML/Template/Flexy/Compiler/Regex/BodyOnly.php" role="php" />
-   <file baseinstalldir="/" md5sum="d05999a6884effde2e947f94459ed043" name="HTML/Template/Flexy/Compiler/Regex/Mail.php" role="php" />
-   <file baseinstalldir="/" md5sum="492a652c4dc8a33ada2b9e5924635cf3" name="HTML/Template/Flexy/Compiler/Regex/Math.php" role="php" />
-   <file baseinstalldir="/" md5sum="7bc27b436d1553069caa3ba4d64801d3" name="HTML/Template/Flexy/Compiler/Regex/Php.php" role="php" />
-   <file baseinstalldir="/" md5sum="a9af7814afd1f6f743ac0eb991659f53" name="HTML/Template/Flexy/Compiler/Regex/RtfSimpleTags.php" role="php" />
-   <file baseinstalldir="/" md5sum="87ca718a3ffc2025534bcdc8c55d89d7" name="HTML/Template/Flexy/Compiler/Regex/SimpleTags.php" role="php" />
-   <file baseinstalldir="/" md5sum="fede405c7de3bc48ca894c699d8bdcfe" name="HTML/Template/Flexy/Compiler/Regex/Xml.php" role="php" />
-   <file baseinstalldir="/" md5sum="b2f836bfcd47b7dbb626ebfc6bdc3ee0" name="HTML/Template/Flexy/Compiler/Standard/Flexy.php" role="php" />
-   <file baseinstalldir="/" md5sum="67de933160d4446f89f7f682bbd07b08" name="HTML/Template/Flexy/Compiler/Standard/Tag.php" role="php" />
-   <file baseinstalldir="/" md5sum="662ff0bf0d7e49ad1600b18fd65ff7b1" name="HTML/Template/Flexy/Element/Xul.php" role="php" />
-   <file baseinstalldir="/" md5sum="abe6f4a5c5e361409dc55fa14f97c5bc" name="HTML/Template/Flexy/Plugin/Savant.php" role="php" />
-   <file baseinstalldir="/" md5sum="a8d15bad15b5ce2bdfa53bf8cf758691" name="HTML/Template/Flexy/templates/translator.html" role="doc" />
-   <file baseinstalldir="/" md5sum="e101872a2beb0ea6d67029547327361d" name="HTML/Template/Flexy/Token/Cdata.php" role="php" />
-   <file baseinstalldir="/" md5sum="95256d89c9fb83d522f5754361cc18a4" name="HTML/Template/Flexy/Token/Else.php" role="php" />
-   <file baseinstalldir="/" md5sum="142846645627af0736d4798454729569" name="HTML/Template/Flexy/Token/End.php" role="php" />
-   <file baseinstalldir="/" md5sum="4e23a89f2631f3fdc8871b7e230bfbab" name="HTML/Template/Flexy/Token/EndTag.php" role="php" />
-   <file baseinstalldir="/" md5sum="b4d9598b8a87dddc0b7ed7d74148ba08" name="HTML/Template/Flexy/Token/Foreach.php" role="php" />
-   <file baseinstalldir="/" md5sum="193620165c50b8fa975a5d419c775058" name="HTML/Template/Flexy/Token/If.php" role="php" />
-   <file baseinstalldir="/" md5sum="4c63aa196f6f3ca38aac3706087385be" name="HTML/Template/Flexy/Token/Method.php" role="php" />
-   <file baseinstalldir="/" md5sum="e4187b120e8bdbd01b453de9a117859e" name="HTML/Template/Flexy/Token/Processing.php" role="php" />
-   <file baseinstalldir="/" md5sum="53a62fc5154d3572585af699b1381052" name="HTML/Template/Flexy/Token/Tag.php" role="php" />
-   <file baseinstalldir="/" md5sum="ff24a450971b7615b15d9c207631d232" name="HTML/Template/Flexy/Token/Text.php" role="php" />
-   <file baseinstalldir="/" md5sum="2bdcf21d999a9dc4ea75a4dd2275f083" name="HTML/Template/Flexy/Token/Var.php" role="php" />
-   <file baseinstalldir="/" md5sum="95e732d6f391559f2e42f2df0df60458" name="tests/make_tests.php" role="test" />
-   <file baseinstalldir="/" md5sum="d38c69b2202611ffc2e783dc1f1ccfd7" name="tests/test.php" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="a7fcd459c0629b633e514cc1f5db4621" name="tests/testsuite.php" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="8405bf282646beed16f1ece661333ef2" name="tests/test_blocks.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="1aefd3ac141baad0490505deff26bed6" name="tests/test_bug_2959.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="83d3940589030dcf8d0bc645bcb97d38" name="tests/test_conditions.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="c4dd3cefa59e8ae33964d86966f44e07" name="tests/test_error_foreach.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="d7c533e5cb51129fb84671e805f9b0f2" name="tests/test_flexy_tojavascript.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="616fea2313cf1f58e69bf10e1eaf4711" name="tests/test_forms.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="66d8a9d41ba613c7aa5c4f20397dda78" name="tests/test_function.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="3dc4f7de8025d82bea253d4b7fd7cdbb" name="tests/test_globals.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="0d6b1c4e3a64f74a3b0d287fdf7b9dc5" name="tests/test_image_view.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="70cc84c7d2112fa0d170ea711b20fe72" name="tests/test_include.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="86dfbf4979e162b388252e32ecc05f5b" name="tests/test_javascript.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="7305d21dc99e391afb11303886f9f777" name="tests/test_looping.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="b70c7ecbd8333235657df8c66801f1ba" name="tests/test_methods.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="836b1c4f03b0c9b2a82a04c59c74d926" name="tests/test_namespaces.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="f2be8f60813967fb8c74609ccc0476fe" name="tests/test_plugin_modifiers.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="a964d46123bb92e88c7eb09c8b2df9f1" name="tests/test_raw_php.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="2bb5cf1dfc5aa8f24005e05a1895dd3e" name="tests/test_raw_text.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="dc5b58990e6f41e1004fb4a24df692a4" name="tests/test_style.html.phpt" role="test" />
-   <file baseinstalldir="/" md5sum="649055fd1011b880c251b19d7d4ee4bf" name="tests/test_usesname.html.phpt" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="9b639ed1f980f5a8fea9afd729ad6eb9" name="tests/test_variables.html.phpt" role="test" />
-   <file baseinstalldir="/" md5sum="b14b6fa83a00b386d4f2963f754aeba6" name="tests/treeTest.php" role="test" />
-   <file baseinstalldir="/" md5sum="4f80e0cdb81281761f3c5130e2ced776" name="tests/results2/blocks.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="4f80e0cdb81281761f3c5130e2ced776" name="tests/results2/blocks.html.en.php#block1" role="test" />
-   <file baseinstalldir="/" md5sum="4f80e0cdb81281761f3c5130e2ced776" name="tests/results2/blocks.html.en.php#block2" role="test" />
-   <file baseinstalldir="/" md5sum="c2548393d6d96cbcd763d6d1944f3614" name="tests/results2/blocks.html.gettext.serial" role="test" />
-   <file baseinstalldir="/" md5sum="ed18866665da46c9515667f3f823a3e9" name="tests/results2/forms.html.elements.serial" role="test" />
-   <file baseinstalldir="/" md5sum="a1d0828891c800aafaa25840c330119a" name="tests/results2/forms.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="423fa9978f4b7bc27235682db399c0df" name="tests/results2/forms.html.gettext.serial" role="test" />
-   <file baseinstalldir="/" md5sum="e843af37786c4debb716473211a827f5" name="tests/results2/forms.result.html" role="test" />
-   <file baseinstalldir="/" md5sum="a2c0b966369828790c7c603cfabd6b37" name="tests/results2/function.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="09f20b7aac9757418d6ccd84d088db96" name="tests/results2/function.html.gettext.serial" role="test" />
-   <file baseinstalldir="/" md5sum="b6074c33d82d4801090ac042118d3ec0" name="tests/results2/function.result.html" role="test" />
-   <file baseinstalldir="/" md5sum="a2a3094ffb4b0734aa7123fcd0e0cc58" name="tests/results2/globals.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="ae5ed1a39ee851e0cf028e0ca78fe1ae" name="tests/results2/globals.html.gettext.serial" role="test" />
-   <file baseinstalldir="/" md5sum="5e607017864fd0d77b895653ec05fb03" name="tests/results2/namespaces.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="f7b5926edaff18ff4f066385e8c7deea" name="tests/results2/raw_php.html.en.php" role="test" />
-   <file baseinstalldir="/" md5sum="fb3a8ccc4563ec6937b5fd89fd706c5c" name="tests/smarty/index.tpl" role="test" />
-   <file baseinstalldir="/" md5sum="18fd51ee5be0f38ae42d8c7ba3cd8e16" name="tests/smarty/index.tpl.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="c505e31de61feb380d28cbe7c65a8e67" name="tests/smarty/smartytest.php" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="4f80e0cdb81281761f3c5130e2ced776" name="tests/templates/blocks.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="e7f1452b2ecb62da79abd3beb2251dc9" name="tests/templates/bug_2959.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="81ee81b063aa80c7c3c260890062d8ef" name="tests/templates/conditions.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="0e73a3cc036cfe642864ad99389fe7bc" name="tests/templates/error_foreach.html" role="test" />
-   <file baseinstalldir="/" md5sum="8ec80c0adae9e7f731621c7ec6f06a7a" name="tests/templates/flexy_raw_with_element.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="e20e9f7fd9a158aa04446ef6455597cc" name="tests/templates/flexy_tojavascript.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="cee302bec0773eebce87b1c3b8387c57" name="tests/templates/forms.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="f53fcbdc2e60e86ae9c09b3d47552e9e" name="tests/templates/function.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="d5549630ff4925144d2ec11153f42633" name="tests/templates/globals.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="10356fc4cb8b93c2cec419ebe696b311" name="tests/templates/image_view.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="3b5489226e98342b55f06232089e153b" name="tests/templates/include.html" role="test" />
-   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="tests/templates/includes.html" role="test" />
-   <file baseinstalldir="/" md5sum="bb6725eebb00e58bc6f9418a0da01763" name="tests/templates/include_block.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="14dd2860d9162c94d85d12e94850fbb0" name="tests/templates/javascript.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="7d50701ddf298716d2ac6a30fdad08a6" name="tests/templates/looping.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="ad89e9544ec1ee3cc44a7884443cef6f" name="tests/templates/methods.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="09e49ee9a27e2c185c69f4bdc8bd62da" name="tests/templates/namespaces.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="cb0c0b9b3d59b67bb4feb4f3e37236be" name="tests/templates/plugin_modifiers.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="df9832fcf8a6bc2fa7a9484cb465e0e9" name="tests/templates/raw_php.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="9563ca4a75facc01473be07f8e7353b8" name="tests/templates/raw_text.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="1ef5d8a84ba87dfd5e9bfe399b2b77be" name="tests/templates/style.html" role="test" />
-   <file baseinstalldir="/" md5sum="e20e9eab3d2e8cae01f954e20663abf1" name="tests/templates/usesname.html" role="test" />
-   <file baseinstalldir="HTML/Template" md5sum="86537dab7da0b63459d3ab33314ae3a7" name="tests/templates/variables.html" role="test" />
-   <file baseinstalldir="/" md5sum="4e05eb295c4e6a893ef61bfcac4be9a5" name="tests/trees/blocks.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="fa5b66ca85e37cea119b1acc35c32755" name="tests/trees/conditions.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="605d3a8d1bc4c6f15480ea657bcbea38" name="tests/trees/error_foreach.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="a9fda3335081499da81eaca54b1b0307" name="tests/trees/flexy_tojavascript.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="c17300ea3837dece6d832b8d8a099ae2" name="tests/trees/forms.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="baa2ebddfeb4662a55db18b856a3c359" name="tests/trees/function.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="9608a9594d6327933c2785336641e150" name="tests/trees/globals.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="6f3cdfa80ffda2b61efb03463f8720da" name="tests/trees/image_view.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="0380528ec6823a72d4e8074119f3bf74" name="tests/trees/includes.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="a0b2c6278aec526973bb51dcee066c91" name="tests/trees/javascript.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="ad851ddcedefea657905e5841b10a96c" name="tests/trees/looping.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="9182b44274a7ed8ff64789fa6b07a4e6" name="tests/trees/methods.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="3dc86a16f00b241f24b19009c9f74f3e" name="tests/trees/namespaces.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="678da8a0332281835d3f20e50311b20b" name="tests/trees/plugin_modifiers.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="e3aa1fbdcf5c5be50c1f46a3f3df9b56" name="tests/trees/raw_php.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="a70ffb82509919abc681c91ef63b2303" name="tests/trees/raw_text.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="c5b8100cdd25dbe8c1958f5e957d6307" name="tests/trees/variables.html.tree" role="test" />
-   <file baseinstalldir="/" md5sum="7d87400ab24c7e66fb20fe5887368d1d" name="ChangeLog" role="data" />
-   <file baseinstalldir="/" md5sum="5ea89afc50341dbbd8217e8d281a3300" name="TODO" role="data" />
-  </dir>
- </contents>
- <dependencies>
-  <required>
-   <php>
-    <min>4.3</min>
-   </php>
-   <pearinstaller>
-    <min>1.4.0b1</min>
-   </pearinstaller>
-  </required>
-  <optional>
-   <package>
-    <name>HTML_Javascript</name>
-    <channel>pear.php.net</channel>
-    <min>1.1.0</min>
-   </package>
-   <package>
-    <name>File_Gettext</name>
-    <channel>pear.php.net</channel>
-    <min>0.2.0</min>
-   </package>
-   <package>
-    <name>Translation2</name>
-    <channel>pear.php.net</channel>
-    <min>0.0.1</min>
-   </package>
-  </optional>
- </dependencies>
- <phprelease />
- <changelog>
-
-
+ 
  
 
 <!-- these are all in the wrong order now!!! -->
